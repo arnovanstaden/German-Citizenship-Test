@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import questionData from '../data/all.json';
+import questionData from '../data/de.json';
 import Question from '../components/Question/Question';
 
 const QuestionRoute: React.FC = () => {
