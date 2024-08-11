@@ -7,6 +7,6 @@ export interface Question {
     c: string,
     d: string
   },
-  answer: 'a' | 'b' | 'c' | 'd',
-  images: false
+  answer: string,
+  images: boolean
 }

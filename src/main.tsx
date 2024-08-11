@@ -4,13 +4,19 @@ import Root from "./routes/layout";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './error-page';
 import './global.css';
+import QuestionRoute from './routes/question';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
-    children: [],
+    children: [
+      {
+        path: "questions/:id",
+        element: <QuestionRoute />,
+      },
+    ],
   },
 ]);
 
