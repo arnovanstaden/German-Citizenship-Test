@@ -1,4 +1,4 @@
-const Component: React.FC = () => {
+const Root: React.FC = () => {
   return (
     <div>
       <h1>Hello</h1>
@@ -6,4 +6,4 @@ const Component: React.FC = () => {
   );
 };
 
-export default Component;
+export default Root;
