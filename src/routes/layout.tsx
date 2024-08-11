@@ -1,17 +1,21 @@
+import { ThemeProvider } from '@emotion/react';
 import { Outlet } from "react-router-dom";
+import theme from '../theme';
+import { CssBaseline } from '@mui/material';
+import Header from '../components/layout/Header/Header';
+import Footer from '../components/layout/Footer/Footer';
 
 const Root: React.FC = () => {
   return (
     <>
-      <header>
-        <h2>Header</h2>
-      </header>
-      <main>
-        <Outlet />
-      </main>
-      <footer>
-        <h2>Footer</h2>
-      </footer>
+      <ThemeProvider theme={theme}>
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+        <CssBaseline />
+      </ThemeProvider>
     </>
   );
 };
