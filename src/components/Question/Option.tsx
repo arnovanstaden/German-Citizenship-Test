@@ -9,6 +9,7 @@ interface Props {
 }
 
 const Option: React.FC<Props> = (props) => {
+  const showHover = !props.checked && !props.disabled
   return (
     <Paper
       onClick={props.onSelect}
@@ -18,6 +19,11 @@ const Option: React.FC<Props> = (props) => {
         display: 'flex',
         alignItems: 'center',
         cursor: 'pointer',
+        border: '1px solid transparent',
+        transition: 'border-color 0.3s ease-in-out',
+        '&:hover': {
+          borderColor: showHover ? 'warning.main' : undefined,
+        },
       }}
     >
       <Radio

@@ -58,7 +58,7 @@ const Timer: React.FC<Props> = ({ start, seconds, onDone }) => {
     }
   }, [start]);
 
-  return <LinearProgress variant="determinate" value={progress} />;
+  return <LinearProgress variant="determinate" value={progress} color="warning" />;
 };
 
 export default Timer;

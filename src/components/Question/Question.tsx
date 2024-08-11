@@ -37,15 +37,15 @@ const Question: React.FC<Question> = (question) => {
           <Grid item xs={12} key={option}>
             <Option
               onSelect={() => handleChoose(option)}
-              disabled={!!answer && answer !== option}
-              checked={answer === option}
-              label={`${option}. ${question.options[option as keyof typeof question.options]}`}
+              disabled={!!answer && option !== correctAnswer && answer !== option}
+              checked={answer === option || (option === correctAnswer && !!answer)}
+              label={question.options[option as keyof typeof question.options]}
               correct={!!answer && correctAnswer === option}
             />
           </Grid>
         ))}
       </Grid>
-      {answer && <Timer start={!!answer} seconds={2} onDone={onFinishWait} />}
+      {answer && <Timer start={!!answer} seconds={1.75} onDone={onFinishWait} />}
     </Container>
   );
 };
