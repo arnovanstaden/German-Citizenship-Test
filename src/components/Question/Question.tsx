@@ -1,21 +1,18 @@
 import { Container, Grid, Typography } from '@mui/material';
 import type { Question } from '../../types';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Option from './Option';
 import { useNavigate } from 'react-router-dom';
+import Timer from '../Timer/Timer';
 
 const Question: React.FC<Question> = (question) => {
   const [answer, setAnswer] = useState<string | undefined>(undefined);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (!answer) return;
-
-    setTimeout(() => {
-      navigate(`/questions/${question.id + 1}`);
-      setAnswer(undefined);
-    }, 2000);
-  }, [answer]);
+  const onFinishWait = () => {
+    navigate(`/questions/${question.id + 1}`);
+    setAnswer(undefined);
+  }
 
   const correctAnswer = question.answer;
 
@@ -25,9 +22,17 @@ const Question: React.FC<Question> = (question) => {
   };
 
   return (
-    <Container maxWidth="md">
+    <Container
+      maxWidth="md"
+      sx={{
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+      }}
+    >
       <Typography variant="h5">{question.question}</Typography>
-      <Grid container spacing={2} paddingTop={5}>
+      <Grid container spacing={2} paddingTop={5} marginBottom={2}>
         {Object.keys(question.options).map((option) => (
           <Grid item xs={12} key={option}>
             <Option
@@ -40,6 +45,7 @@ const Question: React.FC<Question> = (question) => {
           </Grid>
         ))}
       </Grid>
+      {answer && <Timer start={!!answer} seconds={2} onDone={onFinishWait} />}
     </Container>
   );
 };

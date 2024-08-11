@@ -1,20 +1,29 @@
 import { ThemeProvider } from '@emotion/react';
 import { Outlet } from "react-router-dom";
 import theme from '../theme';
-import { Container, CssBaseline } from '@mui/material';
+import { Container, CssBaseline, Grid } from '@mui/material';
 import Header from '../components/layout/Header/Header';
-import Footer from '../components/layout/Footer/Footer';
 
 const Root: React.FC = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
         <Container maxWidth="xl">
-          <Header />
-          <main>
-            <Outlet />
-          </main>
-          <Footer />
+          <Grid
+            container
+            spacing={2}
+            direction="column"
+            justifyContent="center"
+          >
+            <Grid item xs={12}>
+              <Header />
+            </Grid>
+            <Grid item xs={12}>
+              <main>
+                <Outlet />
+              </main>
+            </Grid>
+          </Grid>
         </Container>
         <CssBaseline />
       </ThemeProvider>
