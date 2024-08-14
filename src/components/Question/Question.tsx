@@ -33,13 +33,13 @@ const Question: React.FC<Question> = (question) => {
     >
       <Typography variant="h5">{question.question}</Typography>
       <Grid container spacing={2} paddingTop={5} marginBottom={2}>
-        {Object.keys(question.options).map((option) => (
+        {question.options.map((option) => (
           <Grid item xs={12} key={option}>
             <Option
               onSelect={() => handleChoose(option)}
               disabled={!!answer && option !== correctAnswer && answer !== option}
               checked={answer === option || (option === correctAnswer && !!answer)}
-              label={question.options[option as keyof typeof question.options]}
+              label={option}
               correct={!!answer && correctAnswer === option}
             />
           </Grid>

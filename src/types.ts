@@ -1,12 +1,8 @@
 export interface Question {
   id: number,
   question: string,
-  options: {
-    a: string,
-    b: string,
-    c: string,
-    d: string
-  },
+  options: string[],
   answer: string,
-  images: boolean
+  images: boolean;
+  questionImage?: string;
 }

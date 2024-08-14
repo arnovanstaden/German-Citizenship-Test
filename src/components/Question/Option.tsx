@@ -19,7 +19,9 @@ const Option: React.FC<Props> = (props) => {
         display: 'flex',
         alignItems: 'center',
         cursor: 'pointer',
-        border: '1px solid transparent',
+        borderStyle: 'solid',
+        borderWidth: 1,
+        borderColor: props.correct ? 'success.main' : 'transparent',
         transition: 'border-color 0.3s ease-in-out',
         '&:hover': {
           borderColor: showHover ? 'warning.main' : undefined,

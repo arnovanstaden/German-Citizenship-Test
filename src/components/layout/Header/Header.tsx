@@ -1,9 +1,21 @@
 import { Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
     <header>
-      <Typography variant="h4" fontWeight={600} padding={2}>ET</Typography>
+      <Link
+        to="/"
+        style={{
+          color: 'unset',
+          textDecoration: 'none',
+        }}
+      >
+        <Typography variant="h5" fontWeight={600} padding={2}>
+          <span>🇩🇪 {' '}</span>
+          Einbürgerungstest
+        </Typography>
+      </Link>
     </header>
   );
 };
