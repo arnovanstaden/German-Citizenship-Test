@@ -31,7 +31,9 @@ const Question: React.FC<Question> = (question) => {
         justifyContent: 'center',
       }}
     >
-      <Typography variant="h5">{question.question}</Typography>
+      <Typography variant="h5">
+        {`${question.id}. ${question.question}`}
+      </Typography>
       <Grid container spacing={2} paddingTop={5} marginBottom={2}>
         {question.options.map((option) => (
           <Grid item xs={12} key={option}>

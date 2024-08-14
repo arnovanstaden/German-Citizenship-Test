@@ -2,7 +2,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import questionData from '../data/de.json';
 import Question from '../components/Question/Question';
 
-const QuestionRoute: React.FC = () => {
+const QuizRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
 
@@ -21,4 +21,4 @@ const QuestionRoute: React.FC = () => {
   return <Question {...question} />
 };
 
-export default QuestionRoute;
+export default QuizRoute;

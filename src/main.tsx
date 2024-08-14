@@ -4,7 +4,8 @@ import Root from "./routes/layout";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './error-page';
 import './global.css';
-import QuestionRoute from './routes/question';
+import QuizRoute from './routes/quiz';
+import AllQuestionsRoute from './routes/all';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "questions/:id",
-        element: <QuestionRoute />,
+        path: "quiz/:id",
+        element: <QuizRoute />,
+      },
+      {
+        path: "all",
+        element: <AllQuestionsRoute />,
       },
     ],
   },
