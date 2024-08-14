@@ -1,13 +1,17 @@
-import { Box, Container, Grid, Typography } from '@mui/material';
+import { Box, Container, Grid, IconButton, Tooltip, Typography } from '@mui/material';
 import type { Question } from '../../types';
 import { useState } from 'react';
 import Option from './Option';
 import { useNavigate } from 'react-router-dom';
-import Timer from '../Timer/Timer';
+import NextQuestionTimer from '../NextQuestionTimer/NextQuestionTimer';
+import BookmarkAddOutlinedIcon from '@mui/icons-material/BookmarkAddOutlined';
+import BookmarkRemoveIcon from '@mui/icons-material/BookmarkRemove';
+import { useBookmarks } from '../../hooks/bookmarks';
 
 const Question: React.FC<Question> = (question) => {
   const [answer, setAnswer] = useState<string | undefined>(undefined);
   const navigate = useNavigate();
+  const { isBookmarked, handleAddBookmark, handleRemoveBookmark } = useBookmarks();
 
   const onFinishWait = () => {
     navigate(`/quiz/${question.id + 1}`);
@@ -31,6 +35,29 @@ const Question: React.FC<Question> = (question) => {
         justifyContent: 'center',
       }}
     >
+
+      <Box
+        display="flex"
+        alignItems="flex-start"
+        justifyContent="flex-end"
+        marginBottom={2}
+      >
+        {isBookmarked(question.id)
+          ? (
+            <Tooltip title="Lesezeichen entfernen">
+              <IconButton onClick={() => handleRemoveBookmark(question.id)}>
+                <BookmarkRemoveIcon />
+              </IconButton>
+            </Tooltip>
+          )
+          : (
+            <Tooltip title="Zu Lesezeichen speichern">
+              <IconButton onClick={() => handleAddBookmark(question.id)}>
+                <BookmarkAddOutlinedIcon />
+              </IconButton>
+            </Tooltip>
+          )}
+      </Box>
       <Typography variant="h5">
         {`${question.id}. ${question.question}`}
       </Typography>
@@ -64,7 +91,7 @@ const Question: React.FC<Question> = (question) => {
           </Grid>
         ))}
       </Grid>
-      {answer && <Timer start={!!answer} seconds={1.75} onDone={onFinishWait} />}
+      {answer && <NextQuestionTimer start={!!answer} seconds={1.75} onDone={onFinishWait} />}
     </Container>
   );
 };

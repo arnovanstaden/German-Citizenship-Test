@@ -1431,7 +1431,7 @@
   },
   {
     "id": 120,
-    "question": "Was bedeutet „Volkssouveränität“?",
+    "question": "Was bedeutet „Volkssouveränität\"?",
     "options": [
       "Der König/die Königin herrscht über das Volk.",
       "Das Bundesverfassungsgericht steht über der Verfassung.",
@@ -1587,7 +1587,7 @@
   },
   {
     "id": 133,
-    "question": "Was bedeutet „Volkssouveränität“?",
+    "question": "Was bedeutet „Volkssouveränität\"?",
     "options": [
       "Der König/die Königin herrscht über das Volk.",
       "Das Bundesverfassungsgericht steht über der Verfassung.",
@@ -1599,7 +1599,7 @@
   },
   {
     "id": 134,
-    "question": "Was bedeutet „Volkssouveränität“?",
+    "question": "Was bedeutet „Volkssouveränität\"?",
     "options": [
       "Der König/die Königin herrscht über das Volk.",
       "Das Bundesverfassungsgericht steht über der Verfassung.",
@@ -1611,7 +1611,7 @@
   },
   {
     "id": 135,
-    "question": "Was bedeutet „Volkssouveränität“?",
+    "question": "Was bedeutet „Volkssouveränität\"?",
     "options": [
       "Der König/die Königin herrscht über das Volk.",
       "Das Bundesverfassungsgericht steht über der Verfassung.",
@@ -2223,12 +2223,12 @@
   },
   {
     "id": 186,
-    "question": "Was war im Zweiten Weltkrieg ein Zeichen der Nazis für die „Vernichtung von Menschen“?",
+    "question": "Was war im Zweiten Weltkrieg ein Zeichen der Nazis für die \"Vernichtung von Menschen\"?",
     "options": [
-      "Der „Davidstern“, das „Hakenkreuz“, das „SS-Zeichen“, das „Reichsadler“",
-      "Die „Hakenkreuzfahne“, das „Kriegsverdienstkreuz“, die „SS-Uniform“, die „Reichsadlerfahne“",
-      "Der „Davidstern“, das „Hakenkreuz“, das „SS-Zeichen“, das „Kriegsverdienstkreuz“",
-      "Der „Davidstern“, das „Hakenkreuz“, die „SS-Uniform“, das „Reichsadlerzeichen“"
+      "Der \"Davidstern\", das \"Hakenkreuz\", das „SS-Zeichen\", das \"Reichsadler\"",
+      "Die \"Hakenkreuzfahne\", das \"Kriegsverdienstkreuz\", die \"SS-Uniform\", die \"Reichsadlerfahne\"",
+      "Der \"Davidstern\", das \"Hakenkreuz\", das „SS-Zeichen\", das \"Kriegsverdienstkreuz\"",
+      "Der\"„Davidstern\", das \"Hakenkreuz\", die „SS-Uniform\", das \"Reichsadlerzeichen\""
     ],
     "answer": "",
     "images": false
@@ -2397,6 +2397,1191 @@
       "Berlin",
       "Dresden",
       "Frankfurt/Oder"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 201,
+    "question": "Welche der folgenden Auflistungen enthält nur Bundesländer, die zum Gebiet der früheren DDR gehörten?",
+    "options": [
+      "Niedersachsen, Nordrhein-Westfalen, Hessen, Schleswig-Holstein, Brandenburg",
+      "Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen",
+      "Bayern, Baden-Württemberg, Rheinland-Pfalz, Thüringen, Sachsen",
+      "Sachsen, Thüringen, Hessen, Niedersachsen, Brandenburg"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 202,
+    "question": "Zu wem gehörte die DDR im 'Kalten Krieg'?",
+    "options": [
+      "zu den Westmächten",
+      "zum Warschauer Pakt",
+      "zur NATO",
+      "zu den blockfreien Staaten"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 203,
+    "question": "Wie hieß das Wirtschaftssystem der DDR?",
+    "options": [
+      "Marktwirtschaft",
+      "Planwirtschaft",
+      "Angebot und Nachfrage",
+      "Kapitalismus"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 204,
+    "question": "Wie wurden die Bundesrepublik Deutschland und die DDR zu einem Staat?",
+    "options": [
+      "Die Bundesrepublik hat die DDR besetzt.",
+      "Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten.",
+      "Die westlichen Bundesländer sind der DDR beigetreten.",
+      "Die DDR hat die Bundesrepublik Deutschland besetzt."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 205,
+    "question": "Mit dem Beitritt der DDR zur Bundesrepublik Deutschland gehören die neuen Bundesländer nun auch …",
+    "options": [
+      "zur Europäischen Union.",
+      "zum Warschauer Pakt.",
+      "zur OPEC.",
+      "zur Europäischen Verteidigungsgemeinschaft."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 206,
+    "question": "Woran erinnern die sogenannten \"Stolpersteine\" in Deutschland?",
+    "options": [
+      "an berühmte deutsche Politikerinnen und Politiker",
+      "an die Opfer des Nationalsozialismus",
+      "an Verkehrstote",
+      "an bekannte jüdische Musiker"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 207,
+    "question": "In welchem Militärbündnis war die DDR Mitglied?",
+    "options": [
+      "in der NATO",
+      "im Rheinbund",
+      "im Warschauer Pakt",
+      "im Europabündnis"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 208,
+    "question": "Was war die 'Stasi'?",
+    "options": [
+      "der Geheimdienst im 'Dritten Reich'",
+      "eine berühmte deutsche Gedenkstätte",
+      "der Geheimdienst der DDR",
+      "ein deutscher Sportverein während des Zweiten Weltkrieges"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 209,
+    "question": "Welches war das Wappen der Deutschen Demokratischen Republik?",
+    "options": [],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 210,
+    "question": "Was ereignete sich am 17. Juni 1953 in der DDR?",
+    "options": [
+      "der feierliche Beitritt zum Warschauer Pakt",
+      "landesweite Streiks und ein Volksaufstand",
+      "der 1. SED-Parteitag",
+      "der erste Besuch Fidel Castros"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 211,
+    "question": "Welcher Politiker steht für die 'Ostverträge'?",
+    "options": [
+      "Helmut Kohl",
+      "Willy Brandt",
+      "Michail Gorbatschow",
+      "Ludwig Erhard"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 212,
+    "question": "Wie heißt Deutschland mit vollem Namen?",
+    "options": [
+      "Bundesstaat Deutschland",
+      "Bundesländer Deutschland",
+      "Bundesrepublik Deutschland",
+      "Bundesbezirk Deutschland"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 213,
+    "question": "Wie viele Einwohner hat Deutschland?",
+    "options": [
+      "70 Millionen",
+      "78 Millionen",
+      "84 Millionen",
+      "90 Millionen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 214,
+    "question": "Welche Farben hat die deutsche Flagge?",
+    "options": [
+      "schwarz-rot-gold",
+      "rot-weiß-schwarz",
+      "schwarz-rot-grün",
+      "schwarz-gelb-rot"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 215,
+    "question": "Wer wird als 'Kanzler der Deutschen Einheit' bezeichnet?",
+    "options": [
+      "Gerhard Schröder",
+      "Helmut Kohl",
+      "Konrad Adenauer",
+      "Helmut Schmidt"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 216,
+    "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
+    "options": [],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 217,
+    "question": "In welchem Zeitraum gab es die Deutsche Demokratische Republik (DDR)?",
+    "options": [
+      "1919 bis 1927",
+      "1933 bis 1945",
+      "1945 bis 1961",
+      "1949 bis 1990"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 218,
+    "question": "Wie viele Bundesländer kamen bei der Wiedervereinigung 1990 zur Bundesrepublik Deutschland hinzu?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 219,
+    "question": "Die Bundesrepublik Deutschland hat die Grenzen von heute seit …",
+    "options": [
+      "1933",
+      "1949",
+      "1971",
+      "1990"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 220,
+    "question": "Der 27. Januar ist in Deutschland ein offizieller Gedenktag. Woran erinnert dieser Tag?",
+    "options": [
+      "an das Ende des Zweiten Weltkrieges",
+      "an die Verabschiedung des Grundgesetzes",
+      "an die Wiedervereinigung Deutschlands",
+      "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 221,
+    "question": "Deutschland ist Mitglied des Schengener Abkommens. Was bedeutet das?",
+    "options": [
+      "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
+      "Alle Menschen können ohne Personenkontrolle in Deutschland einreisen.",
+      "Deutsche können ohne Passkontrolle in jedes Land reisen.",
+      "Deutsche können in jedem Land mit dem Euro bezahlen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 222,
+    "question": "Welches Land ist ein Nachbarland von Deutschland?",
+    "options": [
+      "Ungarn",
+      "Portugal",
+      "Spanien",
+      "Schweiz"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 223,
+    "question": "Welches Land ist ein Nachbarland von Deutschland?",
+    "options": [
+      "Rumänien",
+      "Bulgarien",
+      "Polen",
+      "Griechenland"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 224,
+    "question": "Was bedeutet die Abkürzung EU?",
+    "options": [
+      "Europäische Unternehmen",
+      "Europäische Union",
+      "Einheitliche Union",
+      "Euro Union"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 225,
+    "question": "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
+    "options": [
+      "Tschechien",
+      "Norwegen",
+      "Spanien",
+      "Österreich"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 226,
+    "question": "Welche ist die Flagge der Europäischen Union?",
+    "options": [],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 227,
+    "question": "Welches Land ist ein Nachbarland von Deutschland?",
+    "options": [
+      "Finnland",
+      "Dänemark",
+      "Norwegen",
+      "Schweden"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 228,
+    "question": "Wie wird der Beitritt der DDR zur Bundesrepublik Deutschland im Jahr 1990 allgemein genannt?",
+    "options": [
+      "NATO-Osterweiterung",
+      "EU-Osterweiterung",
+      "Deutsche Wiedervereinigung",
+      "Europäische Gemeinschaft"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 229,
+    "question": "Welches Land ist ein Nachbarland von Deutschland?",
+    "options": [
+      "Spanien",
+      "Bulgarien",
+      "Norwegen",
+      "Luxemburg"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 230,
+    "question": "Das Europäische Parlament wird regelmäßig gewählt, nämlich alle …",
+    "options": [
+      "5 Jahre.",
+      "6 Jahre.",
+      "7 Jahre.",
+      "8 Jahre."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 231,
+    "question": "Was bedeutet der Begriff ‘europäische Integration’?",
+    "options": [
+      "Damit sind amerikanische Einwanderinnen und Einwanderer in Europa gemeint.",
+      "Der Begriff meint den Einwanderungsstopp nach Europa.",
+      "Damit sind europäische Auswanderinnen und Auswanderer in den USA gemeint.",
+      "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 232,
+    "question": "Wer wird bei der Europawahl gewählt?",
+    "options": [
+      "die Europäische Kommission",
+      "die Länder, die in die EU eintreten dürfen",
+      "die Abgeordneten des Europäischen Parlaments",
+      "die europäische Verfassung"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 233,
+    "question": "Welches Land ist ein Nachbarland von Deutschland?",
+    "options": [
+      "Tschechien",
+      "Bulgarien",
+      "Griechenland",
+      "Portugal"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 234,
+    "question": "Wo ist der Sitz des Europäischen Parlaments?",
+    "options": [
+      "London",
+      "Paris",
+      "Berlin",
+      "Straßburg"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 235,
+    "question": "Der damalige französische Staatspräsident François Mitterrand und der damalige deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
+    "options": [
+      "Freundschaft zwischen England und Deutschland",
+      "Reisefreiheit in alle Länder der EU",
+      "Frieden und Sicherheit in den Ländern der EU",
+      "einheitliche Feiertage in den Ländern der EU"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 236,
+    "question": "Wie viele Mitgliedstaaten hat die EU heute?",
+    "options": [
+      "21",
+      "23",
+      "25",
+      "27"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 237,
+    "question": "2007 wurde das 50-jährige Jubiläum der ‘Römischen Verträge’ gefeiert. Was war der Inhalt der Verträge?",
+    "options": [
+      "Beitritt Deutschlands zur NATO",
+      "Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)",
+      "Verpflichtung Deutschlands zu Reparationsleistungen",
+      "Festlegung der Oder-Neiße-Linie als Ostgrenze"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 238,
+    "question": "An welchen Orten arbeitet das Europäische Parlament?",
+    "options": [
+      "Paris, London und Den Haag",
+      "Straßburg, Luxemburg und Brüssel",
+      "Rom, Bern und Wien",
+      "Bonn, Zürich und Mailand"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 239,
+    "question": "Durch welche Verträge schloss sich die Bundesrepublik Deutschland mit anderen Staaten zur Europäischen Wirtschaftsgemeinschaft zusammen?",
+    "options": [
+      "durch die ‘Hamburger Verträge’",
+      "durch die ‘Römischen Verträge’",
+      "durch die ‘Pariser Verträge’",
+      "durch die ‘Londoner Verträge’"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 240,
+    "question": "Seit wann bezahlt man in Deutschland mit dem Euro in bar?",
+    "options": [
+      "1995",
+      "1998",
+      "2002",
+      "2005"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 241,
+    "question": "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
+    "options": [
+      "Sie muss an ihre Krankenkasse schreiben.",
+      "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+      "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
+      "Sie muss das Arbeitsamt um Erlaubnis bitten."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 242,
+    "question": "Wer entscheidet, ob ein Kind in Deutschland in den Kindergarten geht?",
+    "options": [
+      "der Staat",
+      "die Bundesländer",
+      "die Eltern/die Erziehungsberechtigten",
+      "die Schulen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 243,
+    "question": "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
+    "options": [
+      "Sie müssen die Demonstration anmelden.",
+      "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
+      "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
+      "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 244,
+    "question": "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland ein Studium zu beginnen?",
+    "options": [
+      "das Abitur",
+      "ein Diplom",
+      "die Prokura",
+      "eine Gesellenprüfung"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 245,
+    "question": "Wer darf in Deutschland nicht als Paar zusammenleben?",
+    "options": [
+      "Hans (20 Jahre) und Marie (19 Jahre)",
+      "Tom (20 Jahre) und Klaus (45 Jahre)",
+      "Sofie (35 Jahre) und Lisa (40 Jahre)",
+      "Anne (13 Jahre) und Tim (25 Jahre)"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 246,
+    "question": "Ab welchem Alter ist man in Deutschland volljährig?",
+    "options": [
+      "16",
+      "18",
+      "19",
+      "21"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 247,
+    "question": "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
+    "options": [
+      "Elternzeit",
+      "Mutterschutz",
+      "Geburtsvorbereitung",
+      "Wochenbett"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 248,
+    "question": "Die Erziehung der Kinder ist in Deutschland ist vor allem Aufgabe …",
+    "options": [
+      "des Staates.",
+      "der Eltern.",
+      "der Großeltern.",
+      "der Schulen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 249,
+    "question": "Wer ist in Deutschland hauptsächlich verantwortlich für die Kindererziehung?",
+    "options": [
+      "der Staat",
+      "die Eltern",
+      "die Verwandten",
+      "die Schulen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 250,
+    "question": "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
+    "options": [
+      "katholisch ist.",
+      "gut ausgebildet ist.",
+      "eine Frau ist.",
+      "Mitglied einer Partei ist."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 251,
+    "question": "Wenn man in Deutschland ein Kind schlägt, …",
+    "options": [
+      "geht das niemanden etwas an.",
+      "geht das nur die Familie etwas an.",
+      "kann man dafür nicht bestraft werden.",
+      "kann man dafür bestraft werden."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 252,
+    "question": "In Deutschland …",
+    "options": [
+      "darf man zur gleichen Zeit nur mit einer Partnerin/einem Partner verheiratet sein.",
+      "kann man mehrere Ehepartnerinnen/Ehepartner gleichzeitig haben.",
+      "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
+      "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 253,
+    "question": "Wo müssen Sie sich anmelden, wenn Sie in Deutschland umziehen?",
+    "options": [
+      "beim Einwohnermeldeamt",
+      "beim Standesamt",
+      "beim Ordnungsamt",
+      "beim Gewerbeamt"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 254,
+    "question": "In Deutschland dürfen Ehepaare sich scheiden lassen. Meistens müssen sie dazu das 'Trennungsjahr' einhalten. Was bedeutet das?",
+    "options": [
+      "Der Scheidungsprozess dauert ein Jahr.",
+      "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung möglich.",
+      "Das Besuchsrecht für die Kinder gilt ein Jahr.",
+      "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 255,
+    "question": "Bei Erziehungsproblemen können Eltern in Deutschland Hilfe erhalten vom …",
+    "options": [
+      "Ordnungsamt.",
+      "Schulamt.",
+      "Jugendamt.",
+      "Gesundheitsamt."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 256,
+    "question": "Ein Ehepaar möchte in Deutschland ein Restaurant eröffnen. Was braucht es dazu unbedingt?",
+    "options": [
+      "eine Erlaubnis der Polizei",
+      "eine Genehmigung einer Partei",
+      "eine Genehmigung des Einwohnermeldeamts",
+      "eine Gaststättenerlaubnis von der zuständigen Behörde"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 257,
+    "question": "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Das kann sie an …",
+    "options": [
+      "einer Hochschule.",
+      "einem Abendgymnasium.",
+      "einer Hauptschule.",
+      "einer Privatuniversität."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 258,
+    "question": "Was darf das Jugendamt in Deutschland?",
+    "options": [
+      "Es entscheidet, welche Schule das Kind besucht.",
+      "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
+      "Es bezahlt das Kindergeld an die Eltern.",
+      "Es kontrolliert, ob das Kind einen Kindergarten besucht."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 259,
+    "question": "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
+    "options": [
+      "Rentenberechnung.",
+      "Lehrstellensuche.",
+      "Steuererklärung.",
+      "Krankenversicherung."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 260,
+    "question": "In Deutschland hat ein Kind in der Schule …",
+    "options": [
+      "Recht auf unbegrenzte Freizeit.",
+      "Wahlfreiheit für alle Fächer.",
+      "Anspruch auf Schulgeld.",
+      "Anwesenheitspflicht."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 261,
+    "question": "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun? An …",
+    "options": [
+      "einer Hochschule.",
+      "einem Abendgymnasium.",
+      "einer Hauptschule.",
+      "einer Privatuniversität."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 262,
+    "question": "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
+    "options": [
+      "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
+      "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
+      "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
+      "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 263,
+    "question": "In Deutschland sind Jugendliche ab 14 Jahren strafmündig. Das bedeutet: Jugendliche, die 14 Jahre und älter sind und gegen Strafgesetze verstoßen, …",
+    "options": [
+      "werden bestraft.",
+      "werden wie Erwachsene behandelt.",
+      "teilen die Strafe mit ihren Eltern.",
+      "werden nicht bestraft."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 264,
+    "question": "Zu welchem Fest tragen Menschen in Deutschland bunte Kostüme und Masken?",
+    "options": [
+      "am Rosenmontag",
+      "am Maifeiertag",
+      "beim Oktoberfest",
+      "an Pfingsten"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 265,
+    "question": "Wohin muss man in Deutschland zuerst gehen, wenn man heiraten möchte?",
+    "options": [
+      "zum Einwohnermeldeamt",
+      "zum Ordnungsamt",
+      "zur Agentur für Arbeit",
+      "zum Standesamt"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 266,
+    "question": "Wann beginnt die gesetzliche Nachtruhe in Deutschland?",
+    "options": [
+      "wenn die Sonne untergeht",
+      "wenn die Nachbarn schlafen gehen",
+      "um 0 Uhr, Mitternacht",
+      "um 22 Uhr"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 267,
+    "question": "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
+    "options": [
+      "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
+      "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
+      "Sie können zur Polizei gehen und die Tochter anzeigen.",
+      "Sie suchen einen anderen Mann für die Tochter."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 268,
+    "question": "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache nicht Deutsch ist. Was ist richtig?",
+    "options": [
+      "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
+      "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
+      "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
+      "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 269,
+    "question": "In Deutschland haben Kinder ab dem Alter von drei Jahren bis zur Ersteinschulung einen Anspruch auf …",
+    "options": [
+      "monatliches Taschengeld.",
+      "einen Platz in einem Sportverein.",
+      "einen Kindergartenplatz.",
+      "einen Ferienpass."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 270,
+    "question": "Die Volkshochschule in Deutschland ist eine Einrichtung …",
+    "options": [
+      "für den Religionsunterricht.",
+      "nur für Jugendliche.",
+      "zur Weiterbildung.",
+      "nur für Rentnerinnen und Rentner."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 271,
+    "question": "Was ist in Deutschland ein Brauch zu Weihnachten?",
+    "options": [
+      "bunte Eier verstecken",
+      "einen Tannenbaum schmücken",
+      "sich mit Masken und Kostümen verkleiden",
+      "Kürbisse vor die Tür stellen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 272,
+    "question": "Welche Lebensform ist in Deutschland nicht erlaubt?",
+    "options": [
+      "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
+      "Zwei Frauen leben zusammen.",
+      "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
+      "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 273,
+    "question": "Bei Erziehungsproblemen gehen Sie in Deutschland …",
+    "options": [
+      "zur Ärztin/zum Arzt.",
+      "zum Gesundheitsamt.",
+      "zum Einwohnermeldeamt.",
+      "zum Jugendamt."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 274,
+    "question": "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
+    "options": [
+      "das Schweigerecht",
+      "das Briefgeheimnis",
+      "die Schweigepflicht",
+      "die Meinungsfreiheit"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 275,
+    "question": "Was braucht man in Deutschland für eine Ehescheidung?",
+    "options": [
+      "die Einwilligung der Eltern",
+      "ein Attest einer Ärztin/eines Arztes",
+      "die Einwilligung der Kinder",
+      "die Unterstützung einer Anwältin/eines Anwalts"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 276,
+    "question": "Was sollten Sie tun, wenn Sie von Ihrer Ansprechpartnerin/Ihrem Ansprechpartner in einer deutschen Behörde schlecht behandelt werden?",
+    "options": [
+      "Ich kann nichts tun.",
+      "Ich muss mir diese Behandlung gefallen lassen.",
+      "Ich drohe der Person.",
+      "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 277,
+    "question": "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
+    "options": [
+      "kein Englisch spricht.",
+      "zu hohe Gehaltsvorstellungen hat.",
+      "keine Erfahrungen in diesem Beruf hat.",
+      "Mutter ist."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 278,
+    "question": "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
+    "options": [
+      "im Rollstuhl sitzt.",
+      "keine Erfahrung hat.",
+      "zu hohe Gehaltsvorstellungen hat.",
+      "kein Englisch spricht."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 279,
+    "question": "In den meisten Mietshäusern in Deutschland gibt es eine ‘Hausordnung’. Was steht in einer solchen ‘Hausordnung’? Sie nennt …",
+    "options": [
+      "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
+      "alle Mieterinnen und Mieter im Haus.",
+      "Regeln, an die sich alle Bewohnerinnen und Bewohner halten müssen.",
+      "die Adresse des nächsten Ordnungsamtes."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 280,
+    "question": "Wenn Sie sich in Deutschland gegen einen falschen Steuerbescheid wehren wollen, müssen Sie …",
+    "options": [
+      "nichts machen.",
+      "den Bescheid wegwerfen.",
+      "Einspruch einlegen.",
+      "warten, bis ein anderer Bescheid kommt."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 281,
+    "question": "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
+    "options": [
+      "Meinungsfreiheit",
+      "Gleichbehandlung",
+      "Versammlungsfreiheit",
+      "Freizügigkeit"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 282,
+    "question": "Welches Ehrenamt müssen deutsche Staatsbürgerinnen und Staatsbürger übernehmen, wenn sie dazu aufgefordert werden?",
+    "options": [
+      "Vereinstrainerin/Vereinstrainer",
+      "Wahlhelferin/Wahlhelfer",
+      "Bibliotheksaufsicht",
+      "Lehrerin/Lehrer"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 283,
+    "question": "Was tun Sie, wenn Sie eine falsche Rechnung von einer deutschen Behörde bekommen?",
+    "options": [
+      "Ich lasse die Rechnung liegen.",
+      "Ich lege Widerspruch bei der Behörde ein.",
+      "Ich schicke die Rechnung an die Behörde zurück.",
+      "Ich gehe mit der Rechnung zum Finanzamt."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 284,
+    "question": "Was man für die Arbeit können muss, ändert sich in Zukunft sehr schnell. Was kann man tun?",
+    "options": [
+      "Es ist egal, was man lernt.",
+      "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
+      "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
+      "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 285,
+    "question": "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
+    "options": [
+      "Lohnsteuer",
+      "Beiträge zur Arbeitslosenversicherung",
+      "Beiträge zur Renten- und Krankenversicherung",
+      "Umsatzsteuer"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 286,
+    "question": "Welche Organisation in einer Firma hilft den Arbeitnehmerinnen und Arbeitnehmern bei Problemen mit der Arbeitgeberin/dem Arbeitgeber?",
+    "options": [
+      "der Betriebsrat",
+      "die Betriebsprüferin/der Betriebsprüfer",
+      "die Betriebsgruppe",
+      "das Betriebsmanagement"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 287,
+    "question": "Sie möchten bei einer Firma in Deutschland ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
+    "options": [
+      "die Gehaltszahlungen",
+      "die Arbeitszeit",
+      "die Kündigungsfrist",
+      "die Versicherungspflicht"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 288,
+    "question": "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
+    "options": [
+      "aus der Mitgliedschaft in der Europäischen Union (EU)",
+      "aus den nationalsozialistischen Verbrechen gegen Juden",
+      "aus dem Grundgesetz der Bundesrepublik Deutschland",
+      "aus der christlichen Tradition"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 289,
+    "question": "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
+    "options": [
+      "seine Deutschkenntnisse zu gering sind.",
+      "er zu hohe Gehaltsvorstellungen hat.",
+      "er eine dunkle Haut hat.",
+      "er keine Erfahrungen im Beruf hat."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 290,
+    "question": "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
+    "options": [
+      "eine Anzeige schreiben",
+      "den Fernseher reklamieren",
+      "das Gerät ungefragt austauschen",
+      "die Garantie verlängern"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 291,
+    "question": "Warum muss man in Deutschland bei der Steuererklärung aufschreiben, ob man zu einer Kirche gehört oder nicht? Weil …",
+    "options": [
+      "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft ist.",
+      "das für die Statistik in Deutschland wichtig ist.",
+      "man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche gehört.",
+      "die Kirche für die Steuererklärung verantwortlich ist."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 292,
+    "question": "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
+    "options": [
+      "Es dürfen keine Moscheen gebaut werden.",
+      "Alle Menschen glauben an Gott.",
+      "Jeder kann glauben, was er möchte.",
+      "Der Staatentscheidet, an welchen Gott die Menschen glauben."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 293,
+    "question": "Was ist in Deutschland ein Brauch zu Ostern?",
+    "options": [
+      "Kürbisse vor die Tür stellen",
+      "einen Tannenbaum schmücken",
+      "Eier bemalen",
+      "Raketen in die Luft schießen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 294,
+    "question": "Pfingsten ist ein …",
+    "options": [
+      "christlicher Feiertag.",
+      "deutscher Gedenktag.",
+      "internationaler Trauertag.",
+      "bayerischer Brauch."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 295,
+    "question": "Welche Religion hat die europäische und deutsche Kultur geprägt?",
+    "options": [
+      "der Hinduismus",
+      "das Christentum",
+      "der Buddhismus",
+      "der Islam"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 296,
+    "question": "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
+    "options": [
+      "den Buß- und Bettag.",
+      "das Erntedankfest.",
+      "die Adventszeit.",
+      "Allerheiligen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 297,
+    "question": "Aus welchem Land sind die meisten Migrantinnen und Migranten nach Deutschland gekommen?",
+    "options": [
+      "Italien",
+      "Polen",
+      "Marokko",
+      "Türkei"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 298,
+    "question": "In der DDR lebten vor allem Migrantinnen und Migranten aus …",
+    "options": [
+      "Vietnam, Polen, Mosambik.",
+      "Frankreich, Rumänien, Somalia.",
+      "Chile, Ungarn, Simbabwe.",
+      "Nordkorea, Mexiko, Ägypten."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 299,
+    "question": "Ausländische Arbeitnehmerinnen und Arbeitnehmer, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
+    "options": [
+      "Schwarzarbeiterinnen/Schwarzarbeiter.",
+      "Gastarbeiterinnen/Gastarbeiter.",
+      "Zeitarbeiterinnen/Zeitarbeiter.",
+      "Schichtarbeiterinnen/Schichtarbeiter."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 300,
+    "question": "Aus welchem Land kamen die ersten Gastarbeiterinnen und Gastarbeiter nach Bundesrepublik Deutschland?",
+    "options": [
+      "Italien",
+      "Spanien",
+      "Portugal",
+      "Türkei"
     ],
     "answer": "",
     "images": false

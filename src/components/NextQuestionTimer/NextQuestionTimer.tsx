@@ -7,7 +7,7 @@ interface Props {
   onDone: () => void;
 }
 
-const Timer: React.FC<Props> = ({ start, seconds, onDone }) => {
+const NextQuestionTimer: React.FC<Props> = ({ start, seconds, onDone }) => {
   const [progress, setProgress] = useState(0);
   const startTimeRef = useRef<number | null>(null);
   const animationFrameRef = useRef<number | null>(null);
@@ -61,4 +61,4 @@ const Timer: React.FC<Props> = ({ start, seconds, onDone }) => {
   return <LinearProgress variant="determinate" value={progress} color="warning" />;
 };
 
-export default Timer;
+export default NextQuestionTimer;
