@@ -1323,42 +1323,114 @@
   },
   {
     "id": 111,
-    "question": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
+    "question": "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
     "options": [
-      "die Bürgerinnen und Bürger zu zwingen, ihre Stimme abzugeben.",
-      "nach dem Willen der Wählermehrheit das Parlament zusammenzusetzen.",
-      "im Land bestehende Gesetze beizubehalten.",
-      "den Armen mehr Macht zu geben."
+      "die Politik Israels öffentlich kritisieren",
+      "das Aufhängen einer israelischen Flagge auf dem Privatgrundstück",
+      "eine Diskussion über die Politik Israels",
+      "der öffentliche Aufruf zur Vernichtung Israels"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 112,
-    "question": "Was regelt das Wahlrecht in Deutschland?",
+    "question": "Die Wahlen in Deutschland sind …",
     "options": [
-      "Wer wählen darf, muss wählen.",
-      "Alle Menschen müssen wählen.",
-      "Wer nicht wählt, verliert das Wahlrecht.",
-      "Wer wählen darf, kann wählen."
+      "speziell.",
+      "geheim.",
+      "berufsbezogen.",
+      "geschlechtsabhängig."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 113,
-    "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+    "question": "Wahlen in Deutschland gewinnt die Partei, die …",
     "options": [
-      "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
-      "Alle wahlberechtigten Personen müssen wählen.",
-      "Die Wählerinnen und Wähler wählen heimlich.",
-      "Man darf nicht an der Wahl teilnehmen."
+      "die meisten Stimmen bekommt.",
+      "die meisten Männer mehrheitlich gewählt haben.",
+      "die meisten Stimmen bei den Arbeiterinnen/Arbeitern bekommen hat.",
+      "die meisten Erststimmen für ihre Kanzlerkandidatin/ihren Kanzlerkandidaten erhalten hat."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 114,
+    "question": "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
+    "options": [
+      "eine Pflicht.",
+      "ein Recht.",
+      "ein Zwang.",
+      "eine Last."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 115,
+    "question": "Was bedeutet \"aktives Wahlrecht\" in Deutschland?",
+    "options": [
+      "Man kann gewählt werden.",
+      "Man muss wählen gehen.",
+      "Man kann wählen.",
+      "Man muss zur Auszählung der Stimmen gehen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 116,
+    "question": "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
+    "options": [
+      "aktive Wahlkampagne.",
+      "aktives Wahlverfahren.",
+      "aktiver Wahlkampf.",
+      "aktives Wahlrecht."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 117,
+    "question": "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
+    "options": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 118,
+    "question": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+    "options": [
+      "nur Deutsche",
+      "nur Israelis",
+      "nur religiöse Menschen",
+      "alle Menschen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 119,
+    "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+    "options": [
+      "Alle verurteilten Straftäterinnen/Straftäter dürfen nicht wählen.",
+      "Wenn ich wählen gehen möchte, muss meine Arbeitgeberin/mein Arbeitgeber mir frei geben.",
+      "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+      "Ich kann frei entscheiden, wo ich wählen gehen möchte."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 120,
     "question": "Das Wahlsystem in Deutschland ist ein …",
     "options": [
       "Zensuswahlrecht.",
@@ -1370,287 +1442,59 @@
     "images": false
   },
   {
-    "id": 115,
-    "question": "Was gilt für die meisten Kinder in Deutschland?",
-    "options": [
-      "Wahlpflicht",
-      "Schulpflicht",
-      "Schweigepflicht",
-      "Religionspflicht"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 116,
-    "question": "Was muss jeder deutsche Staatsbürger und jede deutsche Staatsbürgerin ab dem 16. Lebensjahr besitzen?",
-    "options": [
-      "einen Reisepass",
-      "einen Personalausweis",
-      "einen Sozialversicherungsausweis",
-      "einen Führerschein"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 117,
-    "question": "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
-    "options": [
-      "Sozialversicherung",
-      "Sozialhilfe",
-      "Kindergeld",
-      "Wohngeld"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 118,
-    "question": "Was hat jedes deutsche Kind nach dem Schulabschluss?",
-    "options": [
-      "Anrecht auf Arbeitslosengeld",
-      "Anrecht auf Schuldenfreiheit",
-      "Anrecht auf einen Ausbildungsplatz",
-      "Anrecht auf Kindergartenbesuch"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 119,
-    "question": "Wen vertreten die Gewerkschaften in Deutschland?",
-    "options": [
-      "kleine Unternehmen",
-      "große Unternehmen",
-      "selbstständige Handwerker",
-      "Arbeitnehmer und Arbeitnehmerinnen"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 120,
-    "question": "Was bedeutet „Volkssouveränität\"?",
-    "options": [
-      "Der König/die Königin herrscht über das Volk.",
-      "Das Bundesverfassungsgericht steht über der Verfassung.",
-      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
-      "Die Staatsgewalt geht vom Volke aus."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
     "id": 121,
-    "question": "Was ist eine Aufgabe der Gewerkschaften in Deutschland?",
+    "question": "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
     "options": [
-      "Wahlen zu organisieren",
-      "Schulen zu beaufsichtigen",
-      "Arbeitsbedingungen zu regeln",
-      "Reisen für Mitglieder zu organisieren"
+      "5%-Hürde.",
+      "Zulassungsgrenze.",
+      "Basiswert.",
+      "Richtlinie."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 122,
-    "question": "In Deutschland ist ein Bürgermeister / eine Bürgermeisterin …",
+    "question": "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
     "options": [
-      "der Leiter / die Leiterin einer Schule.",
-      "der Chef / die Chefin einer Bank.",
-      "das Oberhaupt einer Stadt oder Gemeinde.",
-      "der/die Vorsitzende einer Partei."
+      "frei, gleich, geheim.",
+      "offen, sicher, frei.",
+      "geschlossen, gleich, sicher.",
+      "sicher, offen, freiwillig."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 123,
-    "question": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+    "question": "Was ist in Deutschland die \"5%-Hürde\"?",
     "options": [
-      "Sie arbeiten als Soldaten.",
-      "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
-      "Sie arbeiten in der Regierung und bekommen Geld dafür.",
-      "Sie arbeiten in einem Krankenhaus und bekommen Geld dafür."
+      "Abstimmungsregelung im Bundestag für kleine Parteien",
+      "Anwesenheitskontrolle im Bundestag für Abstimmungen",
+      "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
+      "Anwesenheitskontrolle im Bundesrat für Abstimmungen"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 124,
-    "question": "Was gehört in Deutschland nicht zur Exekutive?",
+    "question": "Die Bundestagswahl in Deutschland ist die Wahl …",
     "options": [
-      "die Polizei",
-      "die Gerichte",
-      "das Finanzamt",
-      "die Ministerien"
+      "der Bundeskanzlerin/des Bundeskanzlers.",
+      "der Parlamente der Länder.",
+      "des Parlaments für Deutschland.",
+      "der Bundespräsidentin/des Bundespräsidenten."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 125,
-    "question": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
-    "options": [
-      "vier Besatzungszonen.",
-      "einen Oststaat und einen Weststaat.",
-      "16 Kantone.",
-      "Bund, Länder und Kommunen."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 126,
-    "question": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
-    "options": [
-      "Gesetze zu entwerfen.",
-      "die Bundesregierung zu kontrollieren.",
-      "den Bundeskanzler / die Bundeskanzlerin zu wählen.",
-      "das Bundeskabinett zu bilden."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 127,
-    "question": "Wer bestimmt in Deutschland die Schulpolitik?",
-    "options": [
-      "die Lehrer und Lehrerinnen",
-      "die Bundesländer",
-      "das Familienministerium",
-      "die Universitäten"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 128,
-    "question": "Die Bundesrepublik Deutschland ist ein demokratischer und sozialer …",
-    "options": [
-      "Staatenverbund.",
-      "Bundesstaat.",
-      "Staatenbund.",
-      "Zentralstaat."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 129,
-    "question": "Was steht nicht im Grundgesetz von Deutschland?",
-    "options": [
-      "Der Staat schützt die Würde des Menschen.",
-      "Alle sollen gleich viel Geld haben.",
-      "Jeder Mensch darf seine Meinung sagen.",
-      "Die Presse ist frei."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 130,
-    "question": "Warum gibt es in einer Demokratie mehr als eine Partei?",
-    "options": [
-      "weil sonst keine Opposition möglich ist",
-      "damit Bestechung in der Politik begrenzt wird",
-      "um politische Demonstrationen zu verhindern",
-      "um wirtschaftlichen Wettbewerb anzuregen"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 131,
-    "question": "Wer beschließt in Deutschland ein neues Gesetz?",
-    "options": [
-      "das Parlament",
-      "die Regierung",
-      "die Gerichte",
-      "die Polizei"
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 132,
-    "question": "In Deutschland gehört die Legislative zur …",
-    "options": [
-      "Regierung.",
-      "Partei.",
-      "verfassungsgebenden Gewalt.",
-      "gesetzgebenden Gewalt."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 133,
-    "question": "Was bedeutet „Volkssouveränität\"?",
-    "options": [
-      "Der König/die Königin herrscht über das Volk.",
-      "Das Bundesverfassungsgericht steht über der Verfassung.",
-      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
-      "Die Staatsgewalt geht vom Volke aus."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 134,
-    "question": "Was bedeutet „Volkssouveränität\"?",
-    "options": [
-      "Der König/die Königin herrscht über das Volk.",
-      "Das Bundesverfassungsgericht steht über der Verfassung.",
-      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
-      "Die Staatsgewalt geht vom Volke aus."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 135,
-    "question": "Was bedeutet „Volkssouveränität\"?",
-    "options": [
-      "Der König/die Königin herrscht über das Volk.",
-      "Das Bundesverfassungsgericht steht über der Verfassung.",
-      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
-      "Die Staatsgewalt geht vom Volke aus."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 136,
-    "question": "In Deutschland gehört die Legislative zur …",
-    "options": [
-      "Regierung.",
-      "Partei.",
-      "verfassungsgebenden Gewalt.",
-      "gesetzgebenden Gewalt."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 137,
-    "question": "Was steht nicht im Grundgesetz von Deutschland?",
-    "options": [
-      "Der Staat schützt die Würde des Menschen.",
-      "Alle sollen gleich viel Geld haben.",
-      "Jeder Mensch darf seine Meinung sagen.",
-      "Die Presse ist frei."
-    ],
-    "answer": "",
-    "images": false
-  },
-  {
-    "id": 138,
     "question": "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
     "options": [
       "die Bürgerinnen und Bürger zu zwingen, ihre Stimme abzugeben.",
-      "nach dem Willen der Wählermehrheit das Parlament zusammenzusetzen.",
+      "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
       "im Land bestehende Gesetze beizubehalten.",
       "den Armen mehr Macht zu geben."
     ],
@@ -1658,157 +1502,314 @@
     "images": false
   },
   {
-    "id": 139,
-    "question": "Was regelt das Wahlrecht in Deutschland?",
+    "id": 126,
+    "question": "Was bekommen wahlberechtigte Bürgerinnen und Bürger in Deutschland vor einer Wahl?",
     "options": [
-      "Wer wählen darf, muss wählen.",
-      "Alle Menschen müssen wählen.",
-      "Wer nicht wählt, verliert das Wahlrecht.",
-      "Wer wählen darf, kann wählen."
+      "eine Wahlbenachrichtigung von der Gemeinde",
+      "eine Wahlerlaubnis von der Bundespräsidentin/von dem Bundespräsidenten",
+      "eine Benachrichtigung von der Bundesversammlung",
+      "eine Benachrichtigung vom Pfarramt"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 127,
+    "question": "Warum gibt es die 5%-Hürde im Wahlgesetz der Bundesrepublik Deutschland? Es gibt sie, weil …",
+    "options": [
+      "die Programme von vielen kleinen Parteien viele Gemeinsamkeiten haben.",
+      "die Bürgerinnen und Bürger bei vielen kleinen Parteien die Orientierung verlieren können.",
+      "viele kleine Parteien die Regierungsbildung erschweren.",
+      "die kleinen Parteien nicht so viel Geld haben, um die Politikerinnen und Politiker zu bezahlen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 128,
+    "question": "Parlamentsmitglieder, die von den Bürgerinnen und Bürgern gewählt werden, nennt man …",
+    "options": [
+      "Abgeordnete.",
+      "Kanzlerinnen/Kanzler.",
+      "Botschafterinnen/Botschafter.",
+      "Ministerpräsidentinnen/Ministerpräsidenten."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 129,
+    "question": "Vom Volk gewählt wird in Deutschland …",
+    "options": [
+      "die Bundeskanzlerin/der Bundeskanzler.",
+      "die Ministerpräsidentin/der Ministerpräsident eines Bundeslandes.",
+      "der Bundestag.",
+      "die Bundespräsidentin/der Bundespräsident."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 130,
+    "question": "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "",
+    "images": false,
+    "questionImage": true
+  },
+  {
+    "id": 131,
+    "question": "In Deutschland ist eine Bürgermeisterin/ein Bürgermeister …",
+    "options": [
+      "die Leiterin/der Leiter einer Schule.",
+      "die Chefin/der Chef einer Bank.",
+      "das Oberhaupt einer Gemeinde.",
+      "die/der Vorsitzende einer Partei."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 132,
+    "question": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+    "options": [
+      "Sie arbeiten als Soldatinnen/Soldaten.",
+      "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
+      "Sie arbeiten in der Bundesregierung.",
+      "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 133,
+    "question": "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
+    "options": [
+      "Der Ehemann wählt für seine Frau mit.",
+      "Man kann durch Briefwahl seine Stimme abgeben.",
+      "Man kann am Wahltag telefonisch seine Stimme abgeben.",
+      "Kinder ab dem Alter von 14 Jahren dürfen wählen."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 134,
+    "question": "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
+    "options": [
+      "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
+      "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
+      "Ich wende mich an das Finanzamt, weil ich als Steuerzahlerin/Steuerzahler ein Recht auf die Buslinie habe.",
+      "Ich schreibe einen Brief an das Forstamt der Gemeinde."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 135,
+    "question": "Wen vertreten die Gewerkschaften in Deutschland?",
+    "options": [
+      "große Unternehmen",
+      "kleine Unternehmen",
+      "Selbstständige",
+      "Arbeitnehmerinnen und Arbeitnehmer"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 136,
+    "question": "Sie gehen in Deutschland zum Arbeitsgericht bei …",
+    "options": [
+      "falscher Nebenkostenabrechnung.",
+      "ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef.",
+      "Problemen mit den Nachbarinnen/Nachbarn.",
+      "Schwierigkeiten nach einem Verkehrsunfall."
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 137,
+    "question": "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
+    "options": [
+      "das Familiengericht",
+      "das Strafgericht",
+      "das Arbeitsgericht",
+      "das Amtsgericht"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 138,
+    "question": "Was kann ich in Deutschland machen, wenn mir meine Arbeitgeberin/mein Arbeitgeber zu Unrecht gekündigt hat?",
+    "options": [
+      "weiterarbeiten und freundlich zur Chefin/zum Chef sein",
+      "ein Mahnverfahren gegen die Arbeitgeberin/den Arbeitgeber führen",
+      "Kündigungsschutzklage erheben",
+      "die Arbeitgeberin/den Arbeitgeber bei der Polizei anzeigen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 139,
+    "question": "Wann kommt es in Deutschland zu einem Prozess vor Gericht? Wenn jemand …",
+    "options": [
+      "zu einer anderen Religion übertritt.",
+      "eine Straftat begangen hat und angeklagt wird.",
+      "eine andere Meinung als die der Regierung vertritt.",
+      "sein Auto falsch geparkt hat und es abgeschleppt wird."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 140,
-    "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+    "question": "Was macht eine Schöffin/ein Schöffe in Deutschland? Sie/Er …",
     "options": [
-      "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
-      "Alle wahlberechtigten Personen müssen wählen.",
-      "Die Wählerinnen und Wähler wählen heimlich.",
-      "Man darf nicht an der Wahl teilnehmen."
+      "entscheidet mit Richterinnen/Richtern über Schuld und Strafe.",
+      "gibt Bürgerinnen/Bürgern rechtlichen Rat.",
+      "stellt Urkunden aus.",
+      "verteidigt die Angeklagte/den Angeklagten."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 141,
-    "question": "Das Wahlsystem in Deutschland ist ein …",
+    "question": "Wer berät in Deutschland Personen bei Rechtsfragen und vertritt sie vor Gericht?",
     "options": [
-      "Zensuswahlrecht.",
-      "Dreiklassenwahlrecht.",
-      "Mehrheits- und Verhältniswahlrecht.",
-      "allgemeines Männerwahlrecht."
+      "eine Rechtsanwältin/ein Rechtsanwalt",
+      "eine Richterin/ein Richter",
+      "eine Schöffin/ein Schöffe",
+      "eine Staatsanwältin/ein Staatsanwalt"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 142,
-    "question": "Was gilt für die meisten Kinder in Deutschland?",
+    "question": "Was ist die Hauptaufgabe einer Richterin/eines Richters in Deutschland? Eine Richterin/ein Richter …",
     "options": [
-      "Wahlpflicht",
-      "Schulpflicht",
-      "Schweigepflicht",
-      "Religionspflicht"
+      "vertritt Bürgerinnen und Bürger vor einem Gericht.",
+      "arbeitet an einem Gericht und spricht Urteile.",
+      "ändert Gesetze.",
+      "betreut Jugendliche vor Gericht."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 143,
-    "question": "Was muss jeder deutsche Staatsbürger und jede deutsche Staatsbürgerin ab dem 16. Lebensjahr besitzen?",
+    "question": "Eine Richterin/ein Richter in Deutschland gehört zur …",
     "options": [
-      "einen Reisepass",
-      "einen Personalausweis",
-      "einen Sozialversicherungsausweis",
-      "einen Führerschein"
+      "Judikative.",
+      "Exekutive.",
+      "Operative.",
+      "Legislative."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 144,
-    "question": "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
+    "question": "Eine Richterin/ein Richter gehört in Deutschland zur …",
     "options": [
-      "Sozialversicherung",
-      "Sozialhilfe",
-      "Kindergeld",
-      "Wohngeld"
+      "vollziehenden Gewalt.",
+      "rechtsprechenden Gewalt.",
+      "planenden Gewalt.",
+      "gesetzgebenden Gewalt."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 145,
-    "question": "Was hat jedes deutsche Kind nach dem Schulabschluss?",
+    "question": "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet eine Richterin/ein Richter? Für die …",
     "options": [
-      "Anrecht auf Arbeitslosengeld",
-      "Anrecht auf Schuldenfreiheit",
-      "Anrecht auf einen Ausbildungsplatz",
-      "Anrecht auf Kindergartenbesuch"
+      "Judikative",
+      "Exekutive",
+      "Presse",
+      "Legislative"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 146,
-    "question": "Wen vertreten die Gewerkschaften in Deutschland?",
+    "question": "Wie nennt man in Deutschland ein Verfahren vor einem Gericht?",
     "options": [
-      "kleine Unternehmen",
-      "große Unternehmen",
-      "selbstständige Handwerker",
-      "Arbeitnehmer und Arbeitnehmerinnen"
+      "Programm",
+      "Prozedur",
+      "Protokoll",
+      "Prozess"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 147,
-    "question": "In Deutschland ist ein Bürgermeister / eine Bürgermeisterin …",
+    "question": "Was ist die Arbeit einer Richterin/eines Richters in Deutschland?",
     "options": [
-      "der Leiter / die Leiterin einer Schule.",
-      "der Chef / die Chefin einer Bank.",
-      "das Oberhaupt einer Stadt oder Gemeinde.",
-      "der/die Vorsitzende einer Partei."
+      "Deutschland regieren",
+      "Recht sprechen",
+      "Pläne erstellen",
+      "Gesetze erlassen"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 148,
-    "question": "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+    "question": "Was ist eine Aufgabe der Polizei in Deutschland?",
     "options": [
-      "Sie arbeiten als Soldaten.",
-      "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
-      "Sie arbeiten in der Regierung und bekommen Geld dafür.",
-      "Sie arbeiten in einem Krankenhaus und bekommen Geld dafür."
+      "das Land zu verteidigen",
+      "die Bürgerinnen und Bürger abzuhören",
+      "die Gesetze zu beschließen",
+      "die Einhaltung von Gesetzen zu überwachen"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 149,
-    "question": "Was gehört in Deutschland nicht zur Exekutive?",
+    "question": "Was ist ein Beispiel für antisemitisches Verhalten?",
     "options": [
-      "die Polizei",
-      "die Gerichte",
-      "das Finanzamt",
-      "die Ministerien"
+      "ein jüdisches Fest besuchen",
+      "die israelische Regierung kritisieren",
+      "den Holocaust leugnen",
+      "gegen Juden Fußball spielen"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 150,
-    "question": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
+    "question": "Eine Gerichtsschöffin/ein Gerichtsschöffe in Deutschland ist …",
     "options": [
-      "vier Besatzungszonen.",
-      "einen Oststaat und einen Weststaat.",
-      "16 Kantone.",
-      "Bund, Länder und Kommunen."
+      "die Stellvertreterin/der Stellvertreter des Stadtoberhaupts.",
+      "eine ehrenamtliche Richterin/ein ehrenamtlicher Richter.",
+      "ein Mitglied eines Gemeinderats.",
+      "eine Person, die Jura studiert hat."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 151,
-    "question": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
+    "question": "Wer baute die Mauer in Berlin?",
     "options": [
-      "Gesetze zu entwerfen.",
-      "die Bundesregierung zu kontrollieren.",
-      "den Bundeskanzler / die Bundeskanzlerin zu wählen.",
-      "das Bundeskabinett zu bilden."
+      "Großbritannien",
+      "die DDR",
+      "die Bundesrepublik Deutschland",
+      "die USA"
     ],
     "answer": "",
     "images": false
