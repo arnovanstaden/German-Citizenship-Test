@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from '@mui/material';
+import { Box, Container, Grid, Typography } from '@mui/material';
 import type { Question } from '../../types';
 import { useState } from 'react';
 import Option from './Option';
@@ -10,7 +10,7 @@ const Question: React.FC<Question> = (question) => {
   const navigate = useNavigate();
 
   const onFinishWait = () => {
-    navigate(`/questions/${question.id + 1}`);
+    navigate(`/quiz/${question.id + 1}`);
     setAnswer(undefined);
   }
 
@@ -34,14 +34,31 @@ const Question: React.FC<Question> = (question) => {
       <Typography variant="h5">
         {`${question.id}. ${question.question}`}
       </Typography>
-      <Grid container spacing={2} paddingTop={5} marginBottom={2}>
+      {question.questionImage && (
+        <Box
+          sx={{
+            borderRadius: 2,
+            overflow: 'hidden',
+            display: 'flex',
+            justifyContent: 'center',
+            margin: '16px 0',
+          }}
+        >
+          <img
+            src={`/static/images/questions/${question.id}.png`}
+            style={{ width: '75%', height: 'auto' }}
+          />
+        </Box>
+      )}
+      <Grid container spacing={2} paddingTop={5} marginBottom={4}>
         {question.options.map((option) => (
-          <Grid item xs={12} key={option}>
+          <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
             <Option
               onSelect={() => handleChoose(option)}
               disabled={!!answer && option !== correctAnswer && answer !== option}
               checked={answer === option || (option === correctAnswer && !!answer)}
               label={option}
+              image={question.images}
               correct={!!answer && correctAnswer === option}
             />
           </Grid>

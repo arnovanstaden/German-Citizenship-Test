@@ -242,8 +242,13 @@
   {
     "id": 21,
     "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
-    "options": [],
-    "answer": "",
+    "options": [
+      "/static/images/options/21/a.png",
+      "/static/images/options/21/b.png",
+      "/static/images/options/21/c.png",
+      "/static/images/options/21/d.png"
+    ],
+    "answer": "/static/images/options/21/a.png",
     "images": true
   },
   {
@@ -645,9 +650,15 @@
   {
     "id": 55,
     "question": "Was zeigt dieses Bild?",
-    "options": [],
+    "options": [
+      "den Bundestagssitz in Berlin",
+      "das Bundesverfassungsgericht in Karlsruhe",
+      "das Bundesratsgebäude in Berlin",
+      "das Bundeskanzleramt in Berlin"
+    ],
     "answer": "",
-    "images": true
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 56,
@@ -820,9 +831,15 @@
   {
     "id": 70,
     "question": "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben der deutschen Bundespräsidentin/des deutschen Bundespräsidenten?",
-    "options": [],
+    "options": [
+      "Sie/Er führt die Regierungsgeschäfte.",
+      "Sie/Er kontrolliert die Regierungspartei.",
+      "Sie/Er wählt die Ministerinnen/Minister aus.",
+      "Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor."
+    ],
     "answer": "",
-    "images": true
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 71,

@@ -1,8 +1,9 @@
-import { Paper, Radio, Typography } from '@mui/material';
+import { Box, Paper, Radio, Typography } from '@mui/material';
 
 interface Props {
   onSelect: () => void;
   label: string;
+  image?: boolean
   checked: boolean;
   disabled: boolean;
   correct?: boolean;
@@ -33,9 +34,34 @@ const Option: React.FC<Props> = (props) => {
         disabled={props.disabled}
         color={props.correct ? 'success' : 'error'}
       />
-      <Typography>
-        {props.label}
-      </Typography>
+      {props.image
+        ? (
+          <Box
+            sx={{
+              borderRadius: 2,
+              overflow: 'hidden',
+              display: 'flex',
+              justifyContent: 'center',
+              margin: '16px 0',
+              width: '100%',
+            }}
+          >
+            <img
+              src={props.label}
+              style={{
+                width: '40%',
+                height: 'auto',
+                maxWidth: '200px',
+                maxHeight: '200px',
+              }}
+            />
+          </Box>
+        )
+        : (
+          <Typography>
+            {props.label}
+          </Typography>
+        )}
     </Paper>
   );
 };

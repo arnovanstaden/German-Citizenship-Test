@@ -6,6 +6,8 @@ import ErrorPage from './error-page';
 import './global.css';
 import QuizRoute from './routes/quiz';
 import AllQuestionsRoute from './routes/all';
+import BookmarkedRoute from './routes/bookmarked';
+import WrongRoute from './routes/wrong';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path: "all",
         element: <AllQuestionsRoute />,
+      },
+      {
+        path: "bookmarked",
+        element: <BookmarkedRoute />,
+      },
+      {
+        path: "wrong",
+        element: <WrongRoute />,
       },
     ],
   },
