@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { QuizSettings } from '../types';
 import allQuestionData from '../data/de.json';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { useWrongAnswers } from './wrong';
 
 const localStorageKey = 'DE_EBT_quizSettings';
 
@@ -23,6 +24,7 @@ const defaultQuizSettings: QuizSettings = {
 export const useQuiz = (): UseQuizSettings => {
   const navigate = useNavigate();
   const location = useLocation();
+  const { addToWrongAnswers } = useWrongAnswers();
 
   const initializeQuizSettings = (): QuizSettings => {
     const savedSettings = localStorage.getItem(localStorageKey);
@@ -30,6 +32,12 @@ export const useQuiz = (): UseQuizSettings => {
   };
 
   const [quizSettings, setQuizSettings] = useState<QuizSettings>(initializeQuizSettings());
+
+  const quizEnded = quizSettings.askedQuestions.length === quizSettings.questionCount;
+
+  const clearQuizSettings = () => {
+    setQuizSettings(defaultQuizSettings);
+  };
 
   useEffect(() => {
     if (quizSettings.currentQuestion) {
@@ -39,15 +47,20 @@ export const useQuiz = (): UseQuizSettings => {
 
   useEffect(() => {
     localStorage.setItem(localStorageKey, JSON.stringify(quizSettings));
-    // Navigate to /quiz settings if no id is provided
-    if (quizSettings.currentQuestion === 0 && location.pathname !== '/quiz') {
-      navigate('/quiz');
-    }
-  }, [quizSettings]);
 
-  const clearQuizSettings = () => {
-    setQuizSettings(defaultQuizSettings);
-  };
+    // Navigate to /quiz settings if no id is provided
+    if (quizSettings.currentQuestion === 0 && !['/quiz', '/quiz/score'].includes(location.pathname)) {
+      console.log('navigate to /quiz');
+      navigate('/quiz');
+      return;
+    }
+
+    if (quizEnded && location.pathname !== '/quiz/score') {
+      const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
+      addToWrongAnswers(wrongAnswers);
+      navigate('/quiz/score');
+    }
+  }, [addToWrongAnswers, location.pathname, navigate, quizEnded, quizSettings]);
 
   const startQuiz = (questionAmount: number) => {
     const sampleQuestionIds = allQuestionData.map((question) => question.id);
@@ -65,28 +78,19 @@ export const useQuiz = (): UseQuizSettings => {
     }));
   };
 
-  const handleQuizEnd = () => {
-    // add to wrong;
-
-  };
-
   // const handleQuizExit = () => {
-  //   // add to wrong;
+  //   const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
+  //   addToWrongAnswers(wrongAnswers);
   // };
 
   const handleNextQuestion = (currentCorrect: boolean) => {
-
     setQuizSettings((prev) => {
       const nextQuestion = prev.sampleQuestionIds.filter((id) => !prev.askedQuestions.includes(id) && id !== prev.currentQuestion)[0];
-      if (!nextQuestion) {
-        handleQuizEnd(); // fixme
-        return prev;
-      }
       return {
         ...prev,
         askedQuestions: [...new Set([...prev.askedQuestions, prev.currentQuestion])],
         correctAnswers: currentCorrect ? [...new Set([...prev.correctAnswers, prev.currentQuestion])] : prev.correctAnswers,
-        currentQuestion: nextQuestion,
+        currentQuestion: nextQuestion || 0,
       };
     });
   };

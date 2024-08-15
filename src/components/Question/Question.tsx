@@ -33,7 +33,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
       props.onChosen(question, isCorrect);
     }
     if (!isCorrect) {
-      addToWrongAnswers(question.id);
+      addToWrongAnswers([question.id]);
     };
   };
 

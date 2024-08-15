@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const localStorageKey = 'DE_EBT_wrongAnswers';
 
 interface UseWrongAnswers {
-  addToWrongAnswers: (id: number) => void;
+  addToWrongAnswers: (ids: number[]) => void;
   removeFromWrongAnswers: (id: number) => void;
   wrongAnswers: number[];
 }
@@ -18,10 +18,9 @@ export const useWrongAnswers = (): UseWrongAnswers => {
     }
   }, []);
 
-  const addToWrongAnswers = (id: number) => {
+  const addToWrongAnswers = (ids: number[]) => {
     setWrongAnswers((prev) => {
-      if (wrongAnswers.find((qId) => qId === id)) return prev;
-      const newWrongAnswers = [...prev, id];
+      const newWrongAnswers = [...new Set([...prev, ...ids])];
       localStorage.setItem(localStorageKey, JSON.stringify(newWrongAnswers));
       return newWrongAnswers;
     });
