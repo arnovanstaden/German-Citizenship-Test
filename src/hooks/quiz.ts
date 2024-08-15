@@ -41,12 +41,6 @@ export const useQuiz = (): UseQuizSettings => {
   const resetQuizSettings = () => setQuizSettings(defaultQuizSettings);
 
   useEffect(() => {
-    if (quizSettings.currentQuestion) {
-      navigate(`/quiz/${quizSettings.currentQuestion}`);
-    }
-  }, [quizSettings.currentQuestion, navigate]);
-
-  useEffect(() => {
     localStorage.setItem(localStorageKey, JSON.stringify(quizSettings));
 
     // Handle quiz end
@@ -57,6 +51,10 @@ export const useQuiz = (): UseQuizSettings => {
       return;
     }
 
+    if (!quizEnded && quizSettings.currentQuestion && location.pathname !== `/quiz/${quizSettings.currentQuestion}`) {
+      navigate(`/quiz/${quizSettings.currentQuestion}`);
+      return;
+    }
 
     // Navigate to /quiz settings if no id is provided
     if (!quizSettings.quizStarted && location.pathname !== '/quiz') {
