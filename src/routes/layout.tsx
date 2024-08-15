@@ -14,6 +14,7 @@ const Layout: React.FC = () => {
             spacing={2}
             direction="column"
             justifyContent="center"
+            paddingBottom={5}
           >
             <Grid item xs={12}>
               <Header />
