@@ -10,7 +10,9 @@ interface Props {
 }
 
 const Option: React.FC<Props> = (props) => {
-  const showHover = !props.checked && !props.disabled
+  const showHover = !props.checked && !props.disabled;
+  const isIncorrect = props.correct === false && props.checked === true;
+
   return (
     <Paper
       onClick={props.onSelect}
@@ -22,7 +24,7 @@ const Option: React.FC<Props> = (props) => {
         cursor: 'pointer',
         borderStyle: 'solid',
         borderWidth: 1,
-        borderColor: props.correct ? 'success.main' : 'transparent',
+        borderColor: props.correct ? 'success.main' : isIncorrect ? 'error.main' : 'transparent',
         transition: 'border-color 0.3s ease-in-out',
         '&:hover': {
           borderColor: showHover ? 'warning.main' : undefined,
