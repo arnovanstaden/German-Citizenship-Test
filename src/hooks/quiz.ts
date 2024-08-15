@@ -47,7 +47,6 @@ export const useQuiz = (): UseQuizSettings => {
 
   const clearQuizSettings = () => {
     setQuizSettings(defaultQuizSettings);
-    localStorage.removeItem(localStorageKey);
   };
 
   const startQuiz = (questionAmount: number) => {

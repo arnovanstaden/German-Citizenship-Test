@@ -8,7 +8,7 @@ const Layout: React.FC = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" sx={{ paddingBottom: 5 }}>
           <Header />
           <main>
             <Outlet />
