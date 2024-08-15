@@ -3,11 +3,12 @@ import { useQuiz } from '../../hooks/quiz';
 import { Button } from '@mui/material';
 
 const QuizScoreRoute: React.FC = () => {
-  const { quizSettings, resetQuizSettings } = useQuiz();
+  const { resetQuizSettings, quizEnded } = useQuiz();
   const navigate = useNavigate();
 
-  if (quizSettings.askedQuestions.length !== quizSettings.questionCount) {
+  if (quizEnded) {
     navigate('/quiz');
+    return null;
   }
 
   return (

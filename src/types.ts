@@ -47,10 +47,6 @@ export interface QuizSettings {
    */
   currentQuestion: number;
   /**
-   * Whether the quiz has ended
-   */
-  quizEnded: boolean;
-  /**
  * Whether the quiz has ended
  */
   quizStarted: boolean;

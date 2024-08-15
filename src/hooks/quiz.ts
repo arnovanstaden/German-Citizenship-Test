@@ -12,6 +12,7 @@ interface UseQuizSettings {
   startQuiz: (questionAmount: number) => void;
   handleNextQuestion: (currentCorrect: boolean) => void;
   exitQuiz: () => void;
+  quizEnded: boolean;
 }
 
 const defaultQuizSettings: QuizSettings = {
@@ -20,7 +21,6 @@ const defaultQuizSettings: QuizSettings = {
   sampleQuestionIds: [],
   askedQuestions: [],
   currentQuestion: 0,
-  quizEnded: false,
   quizStarted: false,
 };
 
@@ -36,6 +36,8 @@ export const useQuiz = (): UseQuizSettings => {
 
   const [quizSettings, setQuizSettings] = useState<QuizSettings>(initializeQuizSettings());
 
+  const quizEnded = quizSettings.askedQuestions.length === quizSettings.questionCount;
+
   const resetQuizSettings = () => setQuizSettings(defaultQuizSettings);
 
   useEffect(() => {
@@ -48,7 +50,7 @@ export const useQuiz = (): UseQuizSettings => {
     localStorage.setItem(localStorageKey, JSON.stringify(quizSettings));
 
     // Handle quiz end
-    if (quizSettings.quizEnded && location.pathname !== '/quiz/score') {
+    if (quizEnded && location.pathname !== '/quiz/score') {
       const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
       addToWrongAnswers(wrongAnswers);
       navigate('/quiz/score');
@@ -109,5 +111,6 @@ export const useQuiz = (): UseQuizSettings => {
     startQuiz,
     handleNextQuestion,
     exitQuiz,
+    quizEnded
   };
 };
