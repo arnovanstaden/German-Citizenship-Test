@@ -2,11 +2,11 @@ import { Button, Container, Divider, Grid, TextField, Typography } from '@mui/ma
 import { useQuizSettings } from '../../hooks/quizSettings';
 
 const QuizIndexRoute: React.FC = () => {
-  const { quizSettings, updateQuizSettings } = useQuizSettings()
+  const { quizSettings, updateQuizSettings } = useQuizSettings();
   const wrongAmount = quizSettings.questionCount < 1 || quizSettings.questionCount > 300;
 
   const handleUpdateAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
-    updateQuizSettings('questionCount', isNaN(parseInt(e.target.value)) ? '' as unknown as number : parseInt(e.target.value))
+    updateQuizSettings('questionCount', isNaN(parseInt(e.target.value)) ? '' as unknown as number : parseInt(e.target.value));
   };
 
   const handleStartQuiz = () => {

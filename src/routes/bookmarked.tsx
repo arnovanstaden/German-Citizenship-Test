@@ -29,7 +29,7 @@ const BookmarkedRoute: React.FC = () => {
           )}
       </Grid>
     </Container>
-  )
+  );
 };
 
 export default BookmarkedRoute;

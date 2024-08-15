@@ -22,5 +22,7 @@ export default tseslint.config({
       'warn',
       { allowConstantExport: true },
     ],
+    "quotes": ["error", "single"], // Enforce single quotes
+    "semi": ["error", "always"],   // Enforce semicolons
   },
 })

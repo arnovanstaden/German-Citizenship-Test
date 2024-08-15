@@ -20,7 +20,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
   useEffect(() => {
     return () => {
       setChosenOption(undefined);
-    }
+    };
   }, [question.id]);
 
   const correctAnswer = question.answer;
@@ -33,7 +33,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
       props.onChosen(question, isCorrect);
     }
     if (!isCorrect) {
-      addToWrongAnswers(question.id)
+      addToWrongAnswers(question.id);
     };
   };
 

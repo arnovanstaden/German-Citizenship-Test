@@ -16,7 +16,7 @@ const AllQuestionsRoute: React.FC = () => {
         ))}
       </Grid>
     </Container>
-  )
+  );
 };
 
 export default AllQuestionsRoute;

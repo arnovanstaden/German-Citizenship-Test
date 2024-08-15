@@ -12,10 +12,10 @@ const WrongRoute: React.FC = () => {
     if (correct) {
       // Remove the question from the wrong answers list
       setTimeout(() => {
-        removeFromWrongAnswers(question.id)
-      }, 3000)
+        removeFromWrongAnswers(question.id);
+      }, 3000);
     }
-  }
+  };
 
   return (
     <Container maxWidth="md">
@@ -34,7 +34,7 @@ const WrongRoute: React.FC = () => {
         }
       </Grid>
     </Container>
-  )
+  );
 };
 
 export default WrongRoute;

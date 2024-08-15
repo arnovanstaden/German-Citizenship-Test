@@ -44,7 +44,7 @@ const NextQuestionTimer: React.FC<Props> = ({ start, seconds, onDone }) => {
     if (progress === 100) {
       setTimeout(() => {
         onDone();
-      }, 500)
+      }, 500);
     }
   }, [progress, onDone]);
 

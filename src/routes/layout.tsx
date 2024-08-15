@@ -1,5 +1,5 @@
 import { ThemeProvider } from '@emotion/react';
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom';
 import theme from '../theme';
 import { Container, CssBaseline, Grid } from '@mui/material';
 import Header from '../components/layout/Header/Header';

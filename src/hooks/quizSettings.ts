@@ -37,11 +37,11 @@ export const useQuizSettings = (): UseQuizSettings => {
     setQuizSettings({
       questionCount: 300,
     });
-  }
+  };
 
   return {
     quizSettings,
     clearQuizSettings,
     updateQuizSettings
-  }
-}
+  };
+};

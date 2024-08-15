@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import questionData from '../../data/de.json';
-import Question from '../../components/Question/Question'
+import Question from '../../components/Question/Question';
 import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTimer';
 import { useState } from 'react';
 import { Container } from '@mui/material';
@@ -11,14 +11,14 @@ const QuizQuestionsRoute: React.FC = () => {
   const [chosen, setChosen] = useState(false);
 
   if (!id || isNaN(parseInt(id))) {
-    navigate('/404')
+    navigate('/404');
     return null;
   }
 
   const question = questionData.find((q) => q.id === parseInt(id));
 
   if (!question) {
-    navigate('/404')
+    navigate('/404');
     return null;
   };
 
@@ -45,7 +45,7 @@ const QuizQuestionsRoute: React.FC = () => {
         </Container>
       )}
     </>
-  )
+  );
 };
 
 export default QuizQuestionsRoute;

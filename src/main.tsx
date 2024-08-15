@@ -1,6 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import Layout from "./routes/layout";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import Layout from './routes/layout';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './error-page';
 import './global.css';
@@ -14,33 +14,33 @@ import QuizScoreRoute from './routes/quiz/score';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <IndexRoute /> },
       {
-        path: "quiz",
+        path: 'quiz',
         element: <QuizIndexRoute />,
       },
       {
-        path: "quiz/:id",
+        path: 'quiz/:id',
         element: <QuizQuestionsRoute />,
       },
       {
-        path: "quiz/score",
+        path: 'quiz/score',
         element: <QuizScoreRoute />,
       },
       {
-        path: "all",
+        path: 'all',
         element: <AllQuestionsRoute />,
       },
       {
-        path: "bookmarked",
+        path: 'bookmarked',
         element: <BookmarkedRoute />,
       },
       {
-        path: "wrong",
+        path: 'wrong',
         element: <WrongRoute />,
       },
     ],
@@ -51,4 +51,4 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>,
-)
+);

@@ -28,7 +28,7 @@ export const useBookmarks = (): UseBookmarks => {
       return newBookmarks;
     });
 
-  }
+  };
 
   const handleRemoveBookmark = (questionId: number) => {
     setBookmarks((prev) => {
@@ -36,12 +36,12 @@ export const useBookmarks = (): UseBookmarks => {
       localStorage.setItem('DE_EBT_bookmarks', JSON.stringify(newBookmarks));
       return newBookmarks;
     });
-  }
+  };
 
   return {
     bookmarks,
     isBookmarked: (questionId: number) => bookmarks.includes(questionId),
     handleAddBookmark,
     handleRemoveBookmark
-  }
+  };
 };

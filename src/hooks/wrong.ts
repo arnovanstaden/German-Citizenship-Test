@@ -39,5 +39,5 @@ export const useWrongAnswers = (): UseWrongAnswers => {
     addToWrongAnswers,
     removeFromWrongAnswers,
     wrongAnswers
-  }
-}
+  };
+};
