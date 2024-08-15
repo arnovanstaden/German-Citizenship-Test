@@ -2112,7 +2112,8 @@
       "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich"
     ],
     "answer": "",
-    "images": false
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 177,
@@ -2172,7 +2173,8 @@
       "Er sprach ein Gebet am Grab des Unbekannten Soldaten."
     ],
     "answer": "",
-    "images": false
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 182,
@@ -2244,7 +2246,8 @@
       "DDR"
     ],
     "answer": "",
-    "images": false
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 188,
@@ -2501,7 +2504,12 @@
   {
     "id": 209,
     "question": "Welches war das Wappen der Deutschen Demokratischen Republik?",
-    "options": [],
+    "options": [
+      "/static/images/options/209/a.png",
+      "/static/images/options/209/b.png",
+      "/static/images/options/209/c.png",
+      "/static/images/options/209/d.png"
+    ],
     "answer": "",
     "images": true
   },
@@ -2580,9 +2588,15 @@
   {
     "id": 216,
     "question": "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
-    "options": [],
+    "options": [
+      "der Bundesadler",
+      "die Fahne der Stadt Berlin",
+      "der Reichsadler",
+      "die Reichskrone"
+    ],
     "answer": "",
-    "images": true
+    "images": true,
+    "questionImage": true
   },
   {
     "id": 217,
@@ -2695,7 +2709,12 @@
   {
     "id": 226,
     "question": "Welche ist die Flagge der Europäischen Union?",
-    "options": [],
+    "options": [
+      "/static/images/options/226/a.png",
+      "/static/images/options/226/b.png",
+      "/static/images/options/226/c.png",
+      "/static/images/options/226/d.png"
+    ],
     "answer": "",
     "images": true
   },
@@ -2805,7 +2824,8 @@
       "einheitliche Feiertage in den Ländern der EU"
     ],
     "answer": "",
-    "images": false
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 236,

@@ -3,6 +3,8 @@ import Question from '../components/Question/Question';
 import { Container, Divider, Grid } from '@mui/material';
 
 const AllQuestionsRoute: React.FC = () => {
+  const emptyOptions = questionData.filter((question) => question.options.length === 0);
+  console.log('Empty options', emptyOptions);
   return (
     <Container maxWidth="md">
       <Grid container>
