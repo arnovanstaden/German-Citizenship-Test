@@ -8,7 +8,7 @@ interface UseBookmarks {
 }
 
 
-const localStorageKey = 'DE_EBT_bookmarks';
+const localStorageKey = 'DE_EBT_bookmarks_v1';
 
 export const useBookmarks = (): UseBookmarks => {
   const [bookmarks, setBookmarks] = useState<number[]>([]);

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const localStorageKey = 'DE_EBT_wrongAnswers';
+const localStorageKey = 'DE_EBT_wrongAnswers_v1';
 
 interface UseWrongAnswers {
   addToWrongAnswers: (ids: number[]) => void;

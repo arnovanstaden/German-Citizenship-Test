@@ -4,7 +4,7 @@ import allQuestionData from '../data/de.json';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useWrongAnswers } from './wrong';
 
-const localStorageKey = 'DE_EBT_quizSettings';
+const localStorageKey = 'DE_EBT_quizSettings_v1';
 
 interface UseQuizSettings {
   quizSettings: QuizSettings;
