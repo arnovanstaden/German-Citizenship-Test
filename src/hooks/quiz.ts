@@ -41,6 +41,10 @@ export const useQuiz = (): UseQuizSettings => {
   const resetQuizSettings = () => setQuizSettings(defaultQuizSettings);
 
   useEffect(() => {
+
+  }, []);
+
+  useEffect(() => {
     localStorage.setItem(localStorageKey, JSON.stringify(quizSettings));
 
     // Handle quiz end
@@ -52,14 +56,12 @@ export const useQuiz = (): UseQuizSettings => {
     }
 
     if (!quizEnded && quizSettings.currentQuestion && location.pathname !== `/quiz/${quizSettings.currentQuestion}`) {
-      alert('You are not allowed to navigate to other questions');
       navigate(`/quiz/${quizSettings.currentQuestion}`);
       return;
     }
 
     // Navigate to /quiz settings if no id is provided
     if (!quizSettings.quizStarted && location.pathname !== '/quiz') {
-      alert('You have not started the quiz yet');
       navigate('/quiz');
       return;
     }
