@@ -8,9 +8,10 @@ const localStorageKey = 'DE_EBT_quizSettings';
 
 interface UseQuizSettings {
   quizSettings: QuizSettings;
-  clearQuizSettings: () => void;
+  resetQuizSettings: () => void;
   startQuiz: (questionAmount: number) => void;
   handleNextQuestion: (currentCorrect: boolean) => void;
+  exitQuiz: () => void;
 }
 
 const defaultQuizSettings: QuizSettings = {
@@ -19,6 +20,8 @@ const defaultQuizSettings: QuizSettings = {
   sampleQuestionIds: [],
   askedQuestions: [],
   currentQuestion: 0,
+  quizEnded: false,
+  quizStarted: false,
 };
 
 export const useQuiz = (): UseQuizSettings => {
@@ -33,11 +36,7 @@ export const useQuiz = (): UseQuizSettings => {
 
   const [quizSettings, setQuizSettings] = useState<QuizSettings>(initializeQuizSettings());
 
-  const quizEnded = quizSettings.askedQuestions.length === quizSettings.questionCount;
-
-  const clearQuizSettings = () => {
-    setQuizSettings(defaultQuizSettings);
-  };
+  const resetQuizSettings = () => setQuizSettings(defaultQuizSettings);
 
   useEffect(() => {
     if (quizSettings.currentQuestion) {
@@ -48,19 +47,23 @@ export const useQuiz = (): UseQuizSettings => {
   useEffect(() => {
     localStorage.setItem(localStorageKey, JSON.stringify(quizSettings));
 
+    // Handle quiz end
+    if (quizSettings.quizEnded && location.pathname !== '/quiz/score') {
+      const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
+      addToWrongAnswers(wrongAnswers);
+      navigate('/quiz/score');
+      return;
+    }
+
+
     // Navigate to /quiz settings if no id is provided
-    if (quizSettings.currentQuestion === 0 && !['/quiz', '/quiz/score'].includes(location.pathname)) {
-      console.log('navigate to /quiz');
+    if (!quizSettings.quizStarted && location.pathname !== '/quiz') {
       navigate('/quiz');
       return;
     }
 
-    if (quizEnded && location.pathname !== '/quiz/score') {
-      const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
-      addToWrongAnswers(wrongAnswers);
-      navigate('/quiz/score');
-    }
-  }, [addToWrongAnswers, location.pathname, navigate, quizEnded, quizSettings]);
+
+  }, [addToWrongAnswers, location.pathname, navigate, quizSettings]);
 
   const startQuiz = (questionAmount: number) => {
     const sampleQuestionIds = allQuestionData.map((question) => question.id);
@@ -75,30 +78,36 @@ export const useQuiz = (): UseQuizSettings => {
       progress: 1,
       correctAnswers: [],
       currentQuestion: firstQuestion,
+      quizStarted: true,
     }));
   };
 
-  // const handleQuizExit = () => {
-  //   const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
-  //   addToWrongAnswers(wrongAnswers);
-  // };
+  const exitQuiz = () => {
+    const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
+    addToWrongAnswers(wrongAnswers);
+    resetQuizSettings();
+  };
 
   const handleNextQuestion = (currentCorrect: boolean) => {
     setQuizSettings((prev) => {
       const nextQuestion = prev.sampleQuestionIds.filter((id) => !prev.askedQuestions.includes(id) && id !== prev.currentQuestion)[0];
+      const quizEnded = !nextQuestion;
+
       return {
         ...prev,
         askedQuestions: [...new Set([...prev.askedQuestions, prev.currentQuestion])],
         correctAnswers: currentCorrect ? [...new Set([...prev.correctAnswers, prev.currentQuestion])] : prev.correctAnswers,
         currentQuestion: nextQuestion || 0,
+        quizEnded,
       };
     });
   };
 
   return {
     quizSettings,
-    clearQuizSettings,
+    resetQuizSettings,
     startQuiz,
-    handleNextQuestion
+    handleNextQuestion,
+    exitQuiz,
   };
 };

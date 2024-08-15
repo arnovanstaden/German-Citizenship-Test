@@ -10,6 +10,11 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
 input { 
   -webkit-appearance: none;
   -moz-appearance: textfield;

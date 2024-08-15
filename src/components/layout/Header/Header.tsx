@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           display: 'inline-block',
         }}
       >
-        <Typography variant="h5" fontWeight={600} padding={2}>
+        <Typography variant="h5" fontWeight={600} paddingY={2}>
           <span>🇩🇪 {' '}</span>
           Einbürgerungstest
         </Typography>

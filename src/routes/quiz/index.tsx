@@ -3,13 +3,20 @@ import { useQuiz } from '../../hooks/quiz';
 import { useState } from 'react';
 
 const QuizIndexRoute: React.FC = () => {
-  const [amount, setAmount] = useState<number>(300);
-  const { quizSettings, startQuiz } = useQuiz();
-  const wrongAmount = quizSettings.questionCount < 1 || quizSettings.questionCount > 300;
+  const [amount, setAmount] = useState<number | ''>(300);
+  const { startQuiz } = useQuiz();
+
 
   const handleUpdateAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setAmount(isNaN(parseInt(e.target.value)) ? 0 : parseInt(e.target.value));
+    let value = e.target.value;
+    if (value.startsWith('0')) {
+      value = value.substring(0);
+    };
+
+    setAmount(isNaN(parseInt(e.target.value)) ? '' : parseInt(e.target.value));
   };
+
+  const cannotProceed = !amount ? false : (amount < 1 || amount > 300);
 
   return (
     <>
@@ -29,7 +36,7 @@ const QuizIndexRoute: React.FC = () => {
           <TextField
             color="warning"
             fullWidth
-            error={wrongAmount}
+            error={cannotProceed}
             type="number"
             value={amount}
             onChange={handleUpdateAmount}
@@ -37,7 +44,7 @@ const QuizIndexRoute: React.FC = () => {
               min: 1,
               max: 300,
             }}
-            helperText={wrongAmount ? 'Die Anzahl der Fragen muss zwischen 1 und 300 liegen' : 'Ein Wert zwischen 1 und 300'}
+            helperText={cannotProceed ? 'Die Anzahl der Fragen muss zwischen 1 und 300 liegen' : 'Ein Wert zwischen 1 und 300'}
           />
         </Grid>
       </Grid>
@@ -53,8 +60,8 @@ const QuizIndexRoute: React.FC = () => {
         <Button
           variant="contained"
           color="warning"
-          disabled={wrongAmount}
-          onClick={() => startQuiz(amount)}
+          disabled={cannotProceed}
+          onClick={() => startQuiz(amount || 300)}
         >
           Quiz starten
         </Button>

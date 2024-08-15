@@ -3,16 +3,17 @@ import questionData from '../../data/de.json';
 import Question from '../../components/Question/Question';
 import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTimer';
 import { useState } from 'react';
-import { Container } from '@mui/material';
+import { Container, Grid, IconButton, Tooltip } from '@mui/material';
 import { useQuiz } from '../../hooks/quiz';
 import QuizProgress from '../../components/QuizProgress/QuizProgress';
+import { Close } from '@mui/icons-material';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [chosen, setChosen] = useState(false);
   const [chosenCorrect, setChosenCorrect] = useState(false);
-  const { handleNextQuestion, quizSettings } = useQuiz();
+  const { handleNextQuestion, quizSettings, exitQuiz } = useQuiz();
 
   if (!id || isNaN(parseInt(id))) {
     navigate('/404');
@@ -45,7 +46,18 @@ const QuizQuestionsRoute: React.FC = () => {
   return (
     <>
       <Container maxWidth="md" sx={{ marginBottom: 2 }}>
-        <QuizProgress {...progress} />
+        <Grid container spacing={2} alignItems="center">
+          <Grid item xs={10} sm={11}>
+            <QuizProgress {...progress} />
+          </Grid>
+          <Grid item xs={2} sm={1} justifyContent="flex-end" display="flex">
+            <Tooltip title="Quiz beenden">
+              <IconButton onClick={exitQuiz}>
+                <Close />
+              </IconButton>
+            </Tooltip>
+          </Grid>
+        </Grid>
       </Container>
       <Question
         question={question}
