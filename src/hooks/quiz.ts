@@ -52,18 +52,20 @@ export const useQuiz = (): UseQuizSettings => {
     }
 
     if (!quizEnded && quizSettings.currentQuestion && location.pathname !== `/quiz/${quizSettings.currentQuestion}`) {
+      alert('You are not allowed to navigate to other questions');
       navigate(`/quiz/${quizSettings.currentQuestion}`);
       return;
     }
 
     // Navigate to /quiz settings if no id is provided
     if (!quizSettings.quizStarted && location.pathname !== '/quiz') {
+      alert('You have not started the quiz yet');
       navigate('/quiz');
       return;
     }
 
 
-  }, [addToWrongAnswers, location.pathname, navigate, quizSettings]);
+  }, [addToWrongAnswers, location.pathname, navigate, quizSettings, quizEnded]);
 
   const startQuiz = (questionAmount: number) => {
     const sampleQuestionIds = allQuestionData.map((question) => question.id);

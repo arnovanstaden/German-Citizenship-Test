@@ -31,8 +31,8 @@ const IndexRoute: React.FC = () => {
       <Grid item xs={12} md={6}>
         <RootCard
           href='/wrong'
-          title='Oft Falsch Beantwortet'
-          description='Hier findest du alle Fragen, die du oft falsch beantwortet hast.'
+          title='Zuletzt Falsch Beantwortet'
+          description='Hier findest du alle Fragen, die du zuletzt falsch beantwortet hast.'
           image='/static/images/indexCards/4.webp'
         />
       </Grid>
