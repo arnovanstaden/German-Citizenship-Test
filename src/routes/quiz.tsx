@@ -31,7 +31,7 @@ const QuizRoute: React.FC = () => {
     <>
       <Question
         question={question}
-        onChoose={() => setChosen(true)}
+        onChosen={() => setChosen(true)}
       />
       {chosen && (
         <Container

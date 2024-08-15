@@ -4,9 +4,18 @@ import { useWrongAnswers } from '../hooks/wrong';
 import questionData from '../data/de.json';
 
 const WrongRoute: React.FC = () => {
-  const { wrongAnswers } = useWrongAnswers();
+  const { wrongAnswers, removeFromWrongAnswers } = useWrongAnswers();
   const sorted = wrongAnswers.sort((a, b) => a - b);
   const wrongQuestions = sorted.map((questionId) => questionData.find((q) => q.id === questionId)).filter((q) => q) as Question[];
+
+  const onChosen = (question: Question, correct: boolean) => {
+    if (correct) {
+      // Remove the question from the wrong answers list
+      setTimeout(() => {
+        removeFromWrongAnswers(question.id)
+      }, 3000)
+    }
+  }
 
   return (
     <Container maxWidth="md">
@@ -16,6 +25,7 @@ const WrongRoute: React.FC = () => {
             <Grid item xs={12} key={question.id}>
               <Question
                 question={question}
+                onChosen={onChosen}
               />
               <Divider sx={{ marginBottom: 15 }} />
             </Grid>

@@ -9,7 +9,7 @@ import { useWrongAnswers } from '../../hooks/wrong';
 
 interface QuestionProps {
   question: Question;
-  onChoose?: (question: Question) => void;
+  onChosen?: (question: Question, correct: boolean) => void;
 }
 
 const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
@@ -27,12 +27,13 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
 
   const handleChoose = (option: string) => {
     if (chosenOption) return;
+    const isCorrect = option === correctAnswer;
     setChosenOption(option);
-    if (props.onChoose) {
-      props.onChoose(question);
+    if (props.onChosen) {
+      props.onChosen(question, isCorrect);
     }
-    if (correctAnswer !== option) {
-      addToWrongAnswers(question)
+    if (!isCorrect) {
+      addToWrongAnswers(question.id)
     };
   };
 
