@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Root from "./routes/layout";
+import Layout from "./routes/layout";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './error-page';
 import './global.css';
@@ -8,13 +8,15 @@ import QuizRoute from './routes/quiz';
 import AllQuestionsRoute from './routes/all';
 import BookmarkedRoute from './routes/bookmarked';
 import WrongRoute from './routes/wrong';
+import IndexRoute from './routes';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <Layout />,
     errorElement: <ErrorPage />,
     children: [
+      { index: true, element: <IndexRoute /> },
       {
         path: "quiz/:id",
         element: <QuizRoute />,

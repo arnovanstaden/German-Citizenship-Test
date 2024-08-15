@@ -4,7 +4,7 @@ import theme from '../theme';
 import { Container, CssBaseline, Grid } from '@mui/material';
 import Header from '../components/layout/Header/Header';
 
-const Root: React.FC = () => {
+const Layout: React.FC = () => {
   return (
     <>
       <ThemeProvider theme={theme}>
@@ -31,4 +31,4 @@ const Root: React.FC = () => {
   );
 };
 
-export default Root;
+export default Layout;
