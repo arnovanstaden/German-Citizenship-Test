@@ -3,11 +3,14 @@ import questionData from '../../data/de.json';
 import Question from '../../components/Question/Question';
 import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTimer';
 import { useState } from 'react';
+import { Container } from '@mui/material';
+import { useQuiz } from '../../hooks/quiz';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [chosen, setChosen] = useState(false);
+  const { handleNextQuestion } = useQuiz();
 
   if (!id || isNaN(parseInt(id))) {
     navigate('/404');
@@ -23,7 +26,7 @@ const QuizQuestionsRoute: React.FC = () => {
 
   const onDoneWaiting = () => {
     setChosen(false);
-    navigate(`/quiz/${question.id + 1}`);
+    handleNextQuestion();
   };
 
   return (
@@ -33,11 +36,13 @@ const QuizQuestionsRoute: React.FC = () => {
         onChosen={() => setChosen(true)}
       />
       {chosen && (
-        <NextQuestionTimer
-          start={chosen}
-          seconds={1.75}
-          onDone={onDoneWaiting}
-        />
+        <Container maxWidth="md">
+          <NextQuestionTimer
+            start={chosen}
+            seconds={1.75}
+            onDone={onDoneWaiting}
+          />
+        </Container>
       )}
     </>
   );

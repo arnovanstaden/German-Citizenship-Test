@@ -30,4 +30,24 @@ export interface QuizSettings {
    * The number of questions to ask
    */
   questionCount: number,
+  /**
+   * The progress of the quiz
+   */
+  progress: number,
+  /**
+   * The number of correct answers
+   */
+  correctAnswers: number,
+  /**
+   * The ids of the questions to be asked for this quiz round
+   */
+  sampleQuestionIds: number[];
+  /**
+   * The ids of the questions that have been asked
+   */
+  askedQuestions: number[];
+  /**
+   * The current question being asked
+   */
+  currentQuestion: number;
 }

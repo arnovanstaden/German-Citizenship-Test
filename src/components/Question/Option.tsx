@@ -50,6 +50,7 @@ const Option: React.FC<Props> = (props) => {
           >
             <img
               src={props.label}
+              loading='lazy'
               style={{
                 width: '40%',
                 height: 'auto',

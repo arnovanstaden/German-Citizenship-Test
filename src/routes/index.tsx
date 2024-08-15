@@ -3,7 +3,7 @@ import RootCard from '../components/RootCard/RootCard';
 
 const IndexRoute: React.FC = () => {
   return (
-    <Grid container maxWidth="xl" spacing={4}>
+    <Grid container maxWidth="xl" spacing={4} marginTop={5}>
       <Grid item xs={12} md={6}>
         <RootCard
           href='/all'

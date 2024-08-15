@@ -1,16 +1,14 @@
 import { Button, Divider, Grid, TextField, Typography } from '@mui/material';
-import { useQuizSettings } from '../../hooks/quizSettings';
+import { useQuiz } from '../../hooks/quiz';
+import { useState } from 'react';
 
 const QuizIndexRoute: React.FC = () => {
-  const { quizSettings, updateQuizSettings } = useQuizSettings();
+  const [amount, setAmount] = useState<number>(300);
+  const { quizSettings, startQuiz } = useQuiz();
   const wrongAmount = quizSettings.questionCount < 1 || quizSettings.questionCount > 300;
 
   const handleUpdateAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
-    updateQuizSettings('questionCount', isNaN(parseInt(e.target.value)) ? '' as unknown as number : parseInt(e.target.value));
-  };
-
-  const handleStartQuiz = () => {
-
+    setAmount(isNaN(parseInt(e.target.value)) ? 0 : parseInt(e.target.value));
   };
 
   return (
@@ -18,7 +16,7 @@ const QuizIndexRoute: React.FC = () => {
       <Typography variant="h5" fontWeight={500} marginBottom={6}>
         Quiz-Einstellungen
       </Typography>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} >
         <Grid item xs={12} sm={9}>
           <Typography
             variant="h6"
@@ -33,7 +31,7 @@ const QuizIndexRoute: React.FC = () => {
             fullWidth
             error={wrongAmount}
             type="number"
-            value={quizSettings.questionCount}
+            value={amount}
             onChange={handleUpdateAmount}
             inputProps={{
               min: 1,
@@ -56,7 +54,7 @@ const QuizIndexRoute: React.FC = () => {
           variant="contained"
           color="warning"
           disabled={wrongAmount}
-          onClick={handleStartQuiz}
+          onClick={() => startQuiz(amount)}
         >
           Quiz starten
         </Button>
