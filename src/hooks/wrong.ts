@@ -5,6 +5,7 @@ const localStorageKey = 'DE_EBT_wrongAnswers';
 interface UseWrongAnswers {
   addToWrongAnswers: (ids: number[]) => void;
   removeFromWrongAnswers: (id: number) => void;
+  clearAllWrongAnswers: () => void;
   wrongAnswers: number[];
 }
 
@@ -34,9 +35,15 @@ export const useWrongAnswers = (): UseWrongAnswers => {
     });
   };
 
+  const clearAllWrongAnswers = () => {
+    setWrongAnswers([]);
+    localStorage.removeItem(localStorageKey);
+  };
+
   return {
     addToWrongAnswers,
     removeFromWrongAnswers,
+    clearAllWrongAnswers,
     wrongAnswers
   };
 };
