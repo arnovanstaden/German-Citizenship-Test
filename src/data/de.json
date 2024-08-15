@@ -1888,7 +1888,7 @@
   },
   {
     "id": 158,
-    "question": "Das \"Dritte Reich\" war eine …",
+    "question": "Das 'Dritte Reich' war eine …",
     "options": [
       "Diktatur.",
       "Demokratie.",
@@ -1984,7 +1984,7 @@
   },
   {
     "id": 166,
-    "question": "Bei welchen Demonstrationen in Deutschland riefen die Menschen \"Wir sind das Volk\"?",
+    "question": "Bei welchen Demonstrationen in Deutschland riefen die Menschen 'Wir sind das Volk'?",
     "options": [
       "beim Arbeiteraufstand 1953 in der DDR",
       "bei den Demonstrationen 1968 in der Bundesrepublik Deutschland",
@@ -1996,7 +1996,7 @@
   },
   {
     "id": 167,
-    "question": "Welche Länder wurden nach dem Zweiten Weltkrieg in Deutschland als \"Alliierte Besatzungsmächte\" bezeichnet?",
+    "question": "Welche Länder wurden nach dem Zweiten Weltkrieg in Deutschland als 'Alliierte Besatzungsmächte' bezeichnet?",
     "options": [
       "Sowjetunion, Großbritannien, Polen, Schweden",
       "Frankreich, Sowjetunion, Italien, Japan",
@@ -2008,7 +2008,7 @@
   },
   {
     "id": 168,
-    "question": "Welches Land war keine \"Alliierte Besatzungsmacht\" in Deutschland?",
+    "question": "Welches Land war keine 'Alliierte Besatzungsmacht' in Deutschland?",
     "options": [
       "USA",
       "Sowjetunion",
@@ -2106,10 +2106,10 @@
     "id": 176,
     "question": "Wie waren die Besatzungszonen Deutschlands nach 1945 verteilt?",
     "options": [
-      "1: Frankreich, 2: Sowjetunion, 3: USA, 4: Großbritannien",
-      "1: Sowjetunion, 2: USA, 3: Frankreich, 4: Großbritannien",
-      "1: Frankreich, 2: USA, 3: Sowjetunion, 4: Großbritannien",
-      "1: USA, 2: Sowjetunion, 3: Großbritannien, 4: Frankreich"
+      "1=Großbritannien, 2=Sowjetunion, 3=Frankreich, 4=USA",
+      "1=Sowjetunion, 2=Großbritannien, 3=USA, 4=Frankreich",
+      "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
+      "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich"
     ],
     "answer": "",
     "images": false
@@ -2128,12 +2128,12 @@
   },
   {
     "id": 178,
-    "question": "Vom Juni 1948 bis zum Mai 1949 wurden die Bürger und Bürgerinnen von West-Berlin durch eine Luftbrücke versorgt. Welcher Umstand war dafür verantwortlich?",
+    "question": "Vom Juni 1948 bis zum Mai 1949 wurden die Bürgerinnen und Bürger von West-Berlin durch eine Luftbrücke versorgt. Welcher Umstand war dafür verantwortlich?",
     "options": [
       "Für Frankreich war eine Versorgung der West-Berliner Bevölkerung mit dem Flugzeug kostengünstiger.",
-      "Die amerikanischen Soldaten/innen hatten beim Landtransport Angst vor Überfällen.",
+      "Die amerikanischen Soldatinnen und Soldaten hatten beim Landtransport Angst vor Überfällen.",
       "Für Großbritannien war die Versorgung über die Luftbrücke schneller.",
-      "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landweg."
+      "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege."
     ],
     "answer": "",
     "images": false
@@ -2164,240 +2164,240 @@
   },
   {
     "id": 181,
-    "question": "Bei welcher Demonstration in Deutschland riefen die Menschen \"Wir sind das Volk\"?",
+    "question": "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
     "options": [
-      "beim Arbeiteraufstand 1953 in der DDR",
-      "bei den Demonstrationen 1968 in der Bundesrepublik Deutschland",
-      "bei den Anti-Atomkraft-Demonstrationen 1985 in der Bundesrepublik Deutschland",
-      "bei den Montagsdemonstrationen 1989 in der DDR"
+      "Er hat sich den ehemaligen Alliierten unterworfen.",
+      "Er bat Polen und die polnischen Juden um Vergebung.",
+      "Er zeigte seine Demut vor dem Warschauer Pakt.",
+      "Er sprach ein Gebet am Grab des Unbekannten Soldaten."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 182,
-    "question": "Wie endete der Zweite Weltkrieg in Europa?",
+    "question": "Wie heißt das jüdische Gebetshaus?",
     "options": [
-      "mit dem Tod Adolf Hitlers",
-      "durch die bedingungslose Kapitulation Deutschlands",
-      "mit dem Rückzug der Deutschen aus den besetzten Gebieten",
-      "durch eine Revolution in Deutschland"
+      "Basilika",
+      "Moschee",
+      "Synagoge",
+      "Kirche"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 183,
-    "question": "Der erste Bundeskanzler der Bundesrepublik Deutschland war …",
+    "question": "Wann war in der Bundesrepublik Deutschland das 'Wirtschaftswunder'?",
     "options": [
-      "Ludwig Erhard.",
-      "Willy Brandt.",
-      "Konrad Adenauer.",
-      "Gerhard Schröder."
+      "40er Jahre",
+      "50er Jahre",
+      "70er Jahre",
+      "80er Jahre"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 184,
-    "question": "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
+    "question": "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
     "options": [
-      "das Verbot von Parteien",
-      "das Recht zur freien Entfaltung der Persönlichkeit",
-      "Pressefreiheit",
-      "den Schutz der Menschenwürde"
+      "eine Resolution der Vereinten Nationen",
+      "ein Beschluss des Zionistenkongresses",
+      "ein Vorschlag der Bundesregierung",
+      "ein Vorschlag der UdSSR"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 185,
-    "question": "Was bedeutete im Jahr 1933 die Machtübernahme der Nationalsozialisten in Deutschland?",
+    "question": "Wofür stand der Ausdruck 'Eiserner Vorhang'? Für die Abschottung …",
     "options": [
-      "Das Parlament wird von den Nationalsozialisten abgeschafft.",
-      "Adolf Hitler wird Präsident des Reichstags.",
-      "Die Gewerkschaften werden für die Nationalsozialisten abgeschafft.",
-      "Das Parlament wird von den Nationalsozialisten abgeschafft."
+      "des Warschauer Pakts gegen den Westen",
+      "Norddeutschlands gegen Süddeutschland",
+      "Nazi-Deutschlands gegen die Alliierten",
+      "Europas gegen die USA"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 186,
-    "question": "Was war im Zweiten Weltkrieg ein Zeichen der Nazis für die \"Vernichtung von Menschen\"?",
+    "question": "Im Jahr 1953 gab es in der DDR einen Aufstand, an den lange Zeit in der Bundesrepublik Deutschland ein Feiertag erinnerte. Wann war das?",
     "options": [
-      "Der \"Davidstern\", das \"Hakenkreuz\", das „SS-Zeichen\", das \"Reichsadler\"",
-      "Die \"Hakenkreuzfahne\", das \"Kriegsverdienstkreuz\", die \"SS-Uniform\", die \"Reichsadlerfahne\"",
-      "Der \"Davidstern\", das \"Hakenkreuz\", das „SS-Zeichen\", das \"Kriegsverdienstkreuz\"",
-      "Der\"„Davidstern\", das \"Hakenkreuz\", die „SS-Uniform\", das \"Reichsadlerzeichen\""
+      "1. Mai",
+      "17. Juni",
+      "20. Juli",
+      "9. November"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 187,
-    "question": "Was war am 8. Mai 1945?",
+    "question": "Welcher deutsche Staat hatte eine schwarz-rot-goldene Flagge mit Hammer, Zirkel und Ährenkranz?",
     "options": [
-      "Tod Adolf Hitlers",
-      "Beginn des Berliner Mauerbaus",
-      "Wahl von Konrad Adenauer zum Bundeskanzler",
-      "Ende des Zweiten Weltkriegs in Europa"
+      "Preußen",
+      "Bundesrepublik Deutschland",
+      "Drittes Reich",
+      "DDR"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 188,
-    "question": "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+    "question": "In welchem Jahr wurde die Mauer in Berlin gebaut?",
     "options": [
-      "München",
-      "Berlin",
-      "Dresden",
-      "Frankfurt/Oder"
+      "1953",
+      "1956",
+      "1959",
+      "1961"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 189,
-    "question": "Vom Juni 1948 bis zum Mai 1949 wurden die Bürger und Bürgerinnen von West-Berlin durch eine Luftbrücke versorgt. Welcher Umstand war dafür verantwortlich?",
+    "question": "Wann baute die DDR die Mauer in Berlin?",
     "options": [
-      "Für Frankreich war eine Versorgung der West-Berliner Bevölkerung mit dem Flugzeug kostengünstiger.",
-      "Die amerikanischen Soldaten/innen hatten beim Landtransport Angst vor Überfällen.",
-      "Für Großbritannien war die Versorgung über die Luftbrücke schneller.",
-      "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landweg."
+      "1919",
+      "1933",
+      "1961",
+      "1990"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 190,
-    "question": "Welcher Krieg dauerte von 1939 bis 1945?",
+    "question": "Was bedeutet die Abkürzung DDR?",
     "options": [
-      "der Erste Weltkrieg",
-      "der Zweite Weltkrieg",
-      "der Vietnamkrieg",
-      "der Golfkrieg"
+      "Dritter Deutscher Rundfunk",
+      "Die Deutsche Republik",
+      "Dritte Deutsche Republik",
+      "Deutsche Demokratische Republik"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 191,
-    "question": "Wer baute die Berliner Mauer?",
+    "question": "Wann wurde die Mauer in Berlin für alle geöffnet?",
     "options": [
-      "die Bundesrepublik Deutschland",
-      "die DDR",
-      "die USA",
-      "die Sowjetunion"
+      "1987",
+      "1989",
+      "1992",
+      "1995"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 192,
-    "question": "Was war am 8. Mai 1945?",
+    "question": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
     "options": [
-      "Tod Adolf Hitlers",
-      "Beginn des Berliner Mauerbaus",
-      "Wahl von Konrad Adenauer zum Bundeskanzler",
-      "Ende des Zweiten Weltkriegs in Europa"
+      "Brandenburg",
+      "Bayern",
+      "Saarland",
+      "Hessen"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 193,
-    "question": "Was passierte am 9. November 1938 in Deutschland?",
+    "question": "Von 1961 bis 1989 war Berlin …",
     "options": [
-      "Mit dem Angriff auf Polen beginnt der Zweite Weltkrieg.",
-      "Die Nationalsozialisten verlieren eine Wahl und lösen den Reichstag auf.",
-      "Jüdische Geschäfte und Synagogen werden durch Nationalsozialisten und ihre Anhänger zerstört.",
-      "Hitler wird Reichspräsident und lässt alle Parteien verbieten."
+      "ohne Bürgermeister.",
+      "ein eigener Staat.",
+      "durch eine Mauer geteilt.",
+      "nur mit dem Flugzeug erreichbar."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 194,
-    "question": "Wie hieß der erste Bundeskanzler der Bundesrepublik Deutschland?",
+    "question": "Am 3. Oktober feiert man in Deutschland den Tag der Deutschen …",
     "options": [
-      "Konrad Adenauer",
-      "Kurt Georg Kiesinger",
-      "Helmut Schmidt",
-      "Willy Brandt"
+      "Einheit.",
+      "Nation.",
+      "Bundesländer.",
+      "Städte."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 195,
-    "question": "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+    "question": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
     "options": [
-      "München",
-      "Berlin",
-      "Dresden",
-      "Frankfurt/Oder"
+      "Hessen",
+      "Sachsen-Anhalt",
+      "Nordrhein-Westfalen",
+      "Saarland"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 196,
-    "question": "In welchem Jahr wurde Hitler Reichskanzler?",
+    "question": "Warum nennt man die Zeit im Herbst 1989 in der DDR 'Die Wende'? In dieser Zeit veränderte sich die DDR politisch …",
     "options": [
-      "1923",
-      "1927",
-      "1933",
-      "1936"
+      "von einer Diktatur zur Demokratie.",
+      "von einer liberalen Marktwirtschaft zum Sozialismus.",
+      "von einer Monarchie zur Sozialdemokratie.",
+      "von einem religiösen Staat zu einem kommunistischen Staat."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 197,
-    "question": "In welchem Jahr wurde die DDR gegründet?",
+    "question": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
     "options": [
-      "1947",
-      "1949",
-      "1953",
-      "1956"
+      "Thüringen",
+      "Hessen",
+      "Bayern",
+      "Bremen"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 198,
-    "question": "Die Bundesrepublik Deutschland ist ein Gründungsmitglied …",
+    "question": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
     "options": [
-      "des Nordatlantikpakts (NATO).",
-      "der Vereinten Nationen (VN).",
-      "der Europäischen Union (EU).",
-      "des Warschauer Pakts."
+      "Bayern",
+      "Niedersachsen",
+      "Sachsen",
+      "Baden-Württemberg"
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 199,
-    "question": "Was war am 8. Mai 1945?",
+    "question": "Mit der Abkürzung 'Stasi' meinte man in der DDR …",
     "options": [
-      "Tod Adolf Hitlers",
-      "Beginn des Berliner Mauerbaus",
-      "Wahl von Konrad Adenauer zum Bundeskanzler",
-      "Ende des Zweiten Weltkriegs in Europa"
+      "das Parlament.",
+      "das Ministerium für Staatssicherheit.",
+      "eine regierende Partei.",
+      "das Ministerium für Volksbildung."
     ],
     "answer": "",
     "images": false
   },
   {
     "id": 200,
-    "question": "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+    "question": "Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR?",
     "options": [
-      "München",
-      "Berlin",
-      "Dresden",
-      "Frankfurt/Oder"
+      "Hessen",
+      "Schleswig-Holstein",
+      "Mecklenburg-Vorpommern",
+      "Saarland"
     ],
     "answer": "",
     "images": false
