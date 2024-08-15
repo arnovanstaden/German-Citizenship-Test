@@ -38,15 +38,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
   };
 
   return (
-    <Container
-      maxWidth="md"
-      sx={{
-        height: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-      }}
-    >
+    <Container maxWidth="md" sx={{ padding: 0 }}>
       <Box
         display="flex"
         alignItems="flex-start"

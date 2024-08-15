@@ -3,7 +3,6 @@ import questionData from '../../data/de.json';
 import Question from '../../components/Question/Question';
 import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTimer';
 import { useState } from 'react';
-import { Container } from '@mui/material';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
@@ -34,15 +33,11 @@ const QuizQuestionsRoute: React.FC = () => {
         onChosen={() => setChosen(true)}
       />
       {chosen && (
-        <Container
-          maxWidth="md"
-        >
-          <NextQuestionTimer
-            start={chosen}
-            seconds={1.75}
-            onDone={onDoneWaiting}
-          />
-        </Container>
+        <NextQuestionTimer
+          start={chosen}
+          seconds={1.75}
+          onDone={onDoneWaiting}
+        />
       )}
     </>
   );

@@ -7,10 +7,7 @@ const Header: React.FC = () => {
       <Link
         to="/"
         style={{
-          color: 'unset',
-          textDecoration: 'none',
           display: 'inline-block',
-          cursor: 'pointer',
         }}
       >
         <Typography variant="h5" fontWeight={600} padding={2}>

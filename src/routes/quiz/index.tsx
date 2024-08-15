@@ -1,4 +1,4 @@
-import { Button, Container, Divider, Grid, TextField, Typography } from '@mui/material';
+import { Button, Divider, Grid, TextField, Typography } from '@mui/material';
 import { useQuizSettings } from '../../hooks/quizSettings';
 
 const QuizIndexRoute: React.FC = () => {
@@ -14,7 +14,7 @@ const QuizIndexRoute: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="md">
+    <>
       <Typography variant="h5" fontWeight={500} marginBottom={6}>
         Quiz-Einstellungen
       </Typography>
@@ -61,7 +61,7 @@ const QuizIndexRoute: React.FC = () => {
           Quiz starten
         </Button>
       </Grid>
-    </Container>
+    </>
   );
 };
 

@@ -23,6 +23,12 @@ export default tseslint.config({
       { allowConstantExport: true },
     ],
     "quotes": ["error", "single"], // Enforce single quotes
-    "semi": ["error", "always"],   // Enforce semicolons
+    "semi": ["error", "always"],   // Enforce semicolons,
+    'react/react-in-jsx-scope': 'off', // Disable the rule that enforces React to be in scope
+  },
+  settings: {
+    react: {
+      version: "detect", // Detect the installed React version
+    },
   },
 })

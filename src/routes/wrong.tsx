@@ -18,22 +18,22 @@ const WrongRoute: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="md">
-      <Grid container>
-        {wrongQuestions.length > 0
-          ? wrongQuestions.map((question) => (
-            <Grid item xs={12} key={question.id}>
-              <Question
-                question={question}
-                onChosen={onChosen}
-              />
-              <Divider sx={{ marginBottom: 15 }} />
-            </Grid>
-          ))
-          : <Typography variant="h6">Keine falsch beantworteten Fragen</Typography>
-        }
-      </Grid>
-    </Container>
+    <Grid container>
+      {wrongQuestions.length > 0
+        ? wrongQuestions.map((question) => (
+          <Grid item xs={12} key={question.id}>
+            <Question
+              question={question}
+              onChosen={onChosen}
+            />
+            <Container maxWidth="md">
+              <Divider sx={{ marginY: 10 }} />
+            </Container>
+          </Grid>
+        ))
+        : <Typography variant="h6">Keine falsch beantworteten Fragen</Typography>
+      }
+    </Grid>
   );
 };
 
