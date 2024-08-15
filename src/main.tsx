@@ -4,11 +4,13 @@ import Layout from "./routes/layout";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ErrorPage from './error-page';
 import './global.css';
-import QuizRoute from './routes/quiz';
 import AllQuestionsRoute from './routes/all';
 import BookmarkedRoute from './routes/bookmarked';
 import WrongRoute from './routes/wrong';
 import IndexRoute from './routes';
+import QuizQuestionsRoute from './routes/quiz/questions';
+import QuizIndexRoute from './routes/quiz';
+import QuizScoreRoute from './routes/quiz/score';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +20,16 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <IndexRoute /> },
       {
+        path: "quiz",
+        element: <QuizIndexRoute />,
+      },
+      {
         path: "quiz/:id",
-        element: <QuizRoute />,
+        element: <QuizQuestionsRoute />,
+      },
+      {
+        path: "quiz/score",
+        element: <QuizScoreRoute />,
       },
       {
         path: "all",

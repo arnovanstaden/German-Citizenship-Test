@@ -1,11 +1,11 @@
 import { useNavigate, useParams } from 'react-router-dom';
-import questionData from '../data/de.json';
-import Question from '../components/Question/Question';
-import NextQuestionTimer from '../components/NextQuestionTimer/NextQuestionTimer';
+import questionData from '../../data/de.json';
+import Question from '../../components/Question/Question'
+import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTimer';
 import { useState } from 'react';
 import { Container } from '@mui/material';
 
-const QuizRoute: React.FC = () => {
+const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [chosen, setChosen] = useState(false);
@@ -48,4 +48,4 @@ const QuizRoute: React.FC = () => {
   )
 };
 
-export default QuizRoute;
+export default QuizQuestionsRoute;

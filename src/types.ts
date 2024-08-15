@@ -24,3 +24,10 @@ export interface Question {
   */
   questionImage?: boolean;
 }
+
+export interface QuizSettings {
+  /**
+   * The number of questions to ask
+   */
+  questionCount: number,
+}
