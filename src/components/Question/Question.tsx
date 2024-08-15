@@ -39,28 +39,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
 
   return (
     <Container maxWidth="md" sx={{ padding: 0 }}>
-      <Box
-        display="flex"
-        alignItems="flex-start"
-        justifyContent="flex-end"
-        marginBottom={2}
-      >
-        {isBookmarked(question.id)
-          ? (
-            <Tooltip title="Lesezeichen entfernen">
-              <IconButton onClick={() => handleRemoveBookmark(question.id)}>
-                <BookmarkRemoveIcon />
-              </IconButton>
-            </Tooltip>
-          )
-          : (
-            <Tooltip title="Zu Lesezeichen speichern">
-              <IconButton onClick={() => handleAddBookmark(question.id)}>
-                <BookmarkAddOutlinedIcon />
-              </IconButton>
-            </Tooltip>
-          )}
-      </Box>
+
       <Typography variant="h5">
         {`${question.id}. ${question.question}`}
       </Typography>
@@ -80,7 +59,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
           />
         </Box>
       )}
-      <Grid container spacing={2} paddingTop={5} marginBottom={4}>
+      <Grid container spacing={2} paddingTop={5} marginBottom={2}>
         {question.options.map((option) => (
           <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
             <Option
@@ -94,6 +73,27 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
           </Grid>
         ))}
       </Grid>
+      <Box
+        display="flex"
+        alignItems="flex-start"
+        justifyContent="flex-end"
+      >
+        {isBookmarked(question.id)
+          ? (
+            <Tooltip title="Lesezeichen entfernen">
+              <IconButton onClick={() => handleRemoveBookmark(question.id)}>
+                <BookmarkRemoveIcon />
+              </IconButton>
+            </Tooltip>
+          )
+          : (
+            <Tooltip title="Zu Lesezeichen speichern">
+              <IconButton onClick={() => handleAddBookmark(question.id)}>
+                <BookmarkAddOutlinedIcon />
+              </IconButton>
+            </Tooltip>
+          )}
+      </Box>
     </Container>
   );
 };

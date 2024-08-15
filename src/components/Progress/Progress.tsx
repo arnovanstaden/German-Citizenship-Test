@@ -5,7 +5,6 @@ interface ProgressProps {
   total: number;
 }
 
-
 const Progress: React.FC<ProgressProps> = ({ current, total }) => {
   const progress = (current / total) * 100;
   return (

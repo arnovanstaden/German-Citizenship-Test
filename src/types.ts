@@ -31,13 +31,9 @@ export interface QuizSettings {
    */
   questionCount: number,
   /**
-   * The progress of the quiz
+   * The ids of of correct answers
    */
-  progress: number,
-  /**
-   * The number of correct answers
-   */
-  correctAnswers: number,
+  correctAnswers: number[],
   /**
    * The ids of the questions to be asked for this quiz round
    */

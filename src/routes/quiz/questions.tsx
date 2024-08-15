@@ -5,12 +5,14 @@ import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTi
 import { useState } from 'react';
 import { Container } from '@mui/material';
 import { useQuiz } from '../../hooks/quiz';
+import QuizProgress from '../../components/QuizProgress/QuizProgress';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [chosen, setChosen] = useState(false);
-  const { handleNextQuestion } = useQuiz();
+  const [chosenCorrect, setChosenCorrect] = useState(false);
+  const { handleNextQuestion, quizSettings } = useQuiz();
 
   if (!id || isNaN(parseInt(id))) {
     navigate('/404');
@@ -24,16 +26,30 @@ const QuizQuestionsRoute: React.FC = () => {
     return null;
   };
 
+  const handleChosen = (_: unknown, correct: boolean) => {
+    setChosen(true);
+    setChosenCorrect(correct);
+  };
+
   const onDoneWaiting = () => {
+    handleNextQuestion(chosenCorrect);
     setChosen(false);
-    handleNextQuestion();
+    setChosenCorrect(false);
+  };
+
+  const progress = {
+    current: quizSettings.askedQuestions.length,
+    total: quizSettings.questionCount,
   };
 
   return (
     <>
+      <Container maxWidth="md" sx={{ marginBottom: 2 }}>
+        <QuizProgress {...progress} />
+      </Container>
       <Question
         question={question}
-        onChosen={() => setChosen(true)}
+        onChosen={handleChosen}
       />
       {chosen && (
         <Container maxWidth="md">
