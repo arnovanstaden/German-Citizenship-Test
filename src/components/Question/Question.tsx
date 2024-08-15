@@ -18,7 +18,9 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
   const { addToWrongAnswers } = useWrongAnswers();
 
   useEffect(() => {
-    setChosenOption(undefined);
+    return () => {
+      setChosenOption(undefined);
+    }
   }, [question.id]);
 
   const correctAnswer = question.answer;
@@ -29,8 +31,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
     if (props.onChoose) {
       props.onChoose(question);
     }
-    if (correctAnswer !== chosenOption) {
-      console.log(correctAnswer, chosenOption)
+    if (correctAnswer !== option) {
       addToWrongAnswers(question)
     };
   };
@@ -45,7 +46,6 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
         justifyContent: 'center',
       }}
     >
-
       <Box
         display="flex"
         alignItems="flex-start"

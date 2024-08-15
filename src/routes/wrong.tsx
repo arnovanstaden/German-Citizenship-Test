@@ -5,8 +5,8 @@ import questionData from '../data/de.json';
 
 const WrongRoute: React.FC = () => {
   const { wrongAnswers } = useWrongAnswers();
-
-  const wrongQuestions = wrongAnswers.map((questionId) => questionData.find((q) => q.id === questionId)).filter((q) => q) as Question[];
+  const sorted = wrongAnswers.sort((a, b) => a - b);
+  const wrongQuestions = sorted.map((questionId) => questionData.find((q) => q.id === questionId)).filter((q) => q) as Question[];
 
   return (
     <Container maxWidth="md">
