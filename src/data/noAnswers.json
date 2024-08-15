@@ -20,7 +20,7 @@
       "Politikunterricht teilnimmt.",
       "Sprachunterricht teilnimmt."
     ],
-    "answer": "Religionsunterricht teilnimmt.",
+    "answer": "",
     "images": false
   },
   {
@@ -32,7 +32,7 @@
       "Nur Deutsche müssen die Gesetze befolgen.",
       "Die Gerichte machen die Gesetze."
     ],
-    "answer": "Alle Einwohnerinnen/Einwohner und der Staat müssen sich an die Gesetze halten.",
+    "answer": "",
     "images": false
   },
   {
@@ -44,7 +44,7 @@
       "Meinungsfreiheit",
       "Selbstjustiz"
     ],
-    "answer": "Meinungsfreiheit",
+    "answer": "",
     "images": false
   },
   {
@@ -56,7 +56,7 @@
       "Die Wählerin/der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
       "Alle wahlberechtigten Personen müssen wählen."
     ],
-    "answer": "Die Wählerin/der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
+    "answer": "",
     "images": false
   },
   {
@@ -68,7 +68,7 @@
       "Deutsches Gesetz",
       "Grundgesetz"
     ],
-    "answer": "Grundgesetz",
+    "answer": "",
     "images": false
   },
   {
@@ -80,7 +80,7 @@
       "Arbeit",
       "Wohnung"
     ],
-    "answer": "Glaubens- und Gewissensfreiheit",
+    "answer": "",
     "images": false
   },
   {
@@ -92,7 +92,7 @@
       "Jeder Mensch darf seine Meinung sagen.",
       "Alle sind vor dem Gesetz gleich."
     ],
-    "answer": "Alle sollen gleich viel Geld haben.",
+    "answer": "",
     "images": false
   },
   {
@@ -104,7 +104,7 @@
       "Asyl",
       "Meinungsfreiheit"
     ],
-    "answer": "Asyl",
+    "answer": "",
     "images": false
   },
   {
@@ -116,7 +116,7 @@
       "die Todesstrafe",
       "die Geldstrafe"
     ],
-    "answer": "die Geldstrafe",
+    "answer": "",
     "images": false
   },
   {
@@ -128,7 +128,7 @@
       "Gesetzbuch",
       "Verfassungsvertrag"
     ],
-    "answer": "Grundgesetz",
+    "answer": "",
     "images": false
   },
   {
@@ -140,7 +140,7 @@
       "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
       "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen."
     ],
-    "answer": "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
+    "answer": "",
     "images": false
   },
   {
@@ -152,7 +152,7 @@
       "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten.",
       "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören."
     ],
-    "answer": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören.",
+    "answer": "",
     "images": false
   },
   {
@@ -164,7 +164,7 @@
       "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf.",
       "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche."
     ],
-    "answer": "meine Meinung im Internet äußern kann.",
+    "answer": "",
     "images": false
   },
   {
@@ -176,7 +176,7 @@
       "freie Berufswahl",
       "Arbeit im Ausland"
     ],
-    "answer": "Zwangsarbeit",
+    "answer": "",
     "images": false
   },
   {
@@ -188,7 +188,7 @@
       "bei Diskussionen über Religionen",
       "bei Kritik am Staat"
     ],
-    "answer": "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
+    "answer": "",
     "images": false
   },
   {
@@ -200,7 +200,7 @@
       "Versammlungsfreiheit der Einwohnerinnen und Einwohner.",
       "Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat."
     ],
-    "answer": "Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat.",
+    "answer": "",
     "images": false
   },
   {
@@ -212,7 +212,7 @@
       "Religionsfreiheit",
       "Meinungsfreiheit"
     ],
-    "answer": "die Unantastbarkeit der Menschenwürde",
+    "answer": "",
     "images": false
   },
   {
@@ -224,7 +224,7 @@
       "Man darf sich für eine andere Religion entscheiden.",
       "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen."
     ],
-    "answer": "Man darf sich seinen Wohnort selbst aussuchen.",
+    "answer": "",
     "images": false
   },
   {
@@ -236,7 +236,7 @@
       "gesetzestreu.",
       "verfassungswidrig."
     ],
-    "answer": "verfassungswidrig.",
+    "answer": "",
     "images": false
   },
   {
@@ -260,7 +260,7 @@
       "Republik",
       "Fürstentum"
     ],
-    "answer": "Republik",
+    "answer": "",
     "images": false
   },
   {
@@ -272,7 +272,7 @@
       "selbstständig mit einer eigenen Firma tätig.",
       "bei einer Firma oder Behörde beschäftigt."
     ],
-    "answer": "bei einer Firma oder Behörde beschäftigt.",
+    "answer": "",
     "images": false
   },
   {
@@ -284,7 +284,7 @@
       "16",
       "17"
     ],
-    "answer": "16",
+    "answer": "",
     "images": false
   },
   {
@@ -296,7 +296,7 @@
       "Mecklenburg-Vorpommern",
       "Sachsen-Anhalt"
     ],
-    "answer": "Elsass-Lothringen",
+    "answer": "",
     "images": false
   },
   {
@@ -308,7 +308,7 @@
       "eine kapitalistische und soziale Monarchie.",
       "ein sozialer und sozialistischer Bundesstaat."
     ],
-    "answer": "ein demokratischer und sozialer Bundesstaat.",
+    "answer": "",
     "images": false
   },
   {
@@ -320,7 +320,7 @@
       "eine Diktatur.",
       "eine Monarchie."
     ],
-    "answer": "ein Bundesstaat.",
+    "answer": "",
     "images": false
   },
   {
@@ -332,7 +332,7 @@
       "das wahlberechtigte Volk",
       "die Verwaltung"
     ],
-    "answer": "das wahlberechtigte Volk",
+    "answer": "",
     "images": false
   },
   {
@@ -344,7 +344,7 @@
       "Bär",
       "Pferd"
     ],
-    "answer": "Adler",
+    "answer": "",
     "images": false
   },
   {
@@ -356,7 +356,7 @@
       "Meinungsfreiheit",
       "verschiedene Parteien"
     ],
-    "answer": "Pressezensur",
+    "answer": "",
     "images": false
   },
   {
@@ -368,7 +368,7 @@
       "Ministerium.",
       "Fraktion."
     ],
-    "answer": "Koalition.",
+    "answer": "",
     "images": false
   },
   {
@@ -380,7 +380,7 @@
       "Presse",
       "Rechtsprechung"
     ],
-    "answer": "Presse",
+    "answer": "",
     "images": false
   },
   {
@@ -392,7 +392,7 @@
       "ist der Staat abhängig von den Religionsgemeinschaften.",
       "bilden Staat und Religionsgemeinschaften eine Einheit."
     ],
-    "answer": "sind Staat und Religionsgemeinschaften voneinander getrennt.",
+    "answer": "",
     "images": false
   },
   {
@@ -404,7 +404,7 @@
       "eine Monarchie",
       "ein Sozialstaat"
     ],
-    "answer": "eine Monarchie",
+    "answer": "",
     "images": false
   },
   {
@@ -416,7 +416,7 @@
       "Spendengeldern",
       "Vereinsbeiträgen"
     ],
-    "answer": "Sozialabgaben",
+    "answer": "",
     "images": false
   },
   {
@@ -428,7 +428,7 @@
       "die Gebäudeversicherung",
       "die Haftpflichtversicherung"
     ],
-    "answer": "die Krankenversicherung",
+    "answer": "",
     "images": false
   },
   {
@@ -440,7 +440,7 @@
       "Senatorin/Senator",
       "Ministerpräsidentin/Ministerpräsident"
     ],
-    "answer": "Ministerpräsidentin/Ministerpräsident",
+    "answer": "",
     "images": false
   },
   {
@@ -452,7 +452,7 @@
       "Staatenbund.",
       "Zentralstaat."
     ],
-    "answer": "Bundesstaat.",
+    "answer": "",
     "images": false
   },
   {
@@ -464,7 +464,7 @@
       "eine eigene Armee",
       "eine eigene Regierung"
     ],
-    "answer": "eine eigene Regierung",
+    "answer": "",
     "images": false
   },
   {
@@ -476,7 +476,7 @@
       "Freude schöner Götterfunken …",
       "Deutschland einig Vaterland …"
     ],
-    "answer": "Einigkeit und Recht und Freiheit …",
+    "answer": "",
     "images": false
   },
   {
@@ -488,7 +488,7 @@
       "um politische Demonstrationen zu verhindern",
       "um wirtschaftlichen Wettbewerb anzuregen"
     ],
-    "answer": "weil dadurch die unterschiedlichen Meinungen der Bürgerinnen und Bürger vertreten werden",
+    "answer": "",
     "images": false
   },
   {
@@ -500,7 +500,7 @@
       "die Gerichte",
       "die Polizei"
     ],
-    "answer": "das Parlament",
+    "answer": "",
     "images": false
   },
   {
@@ -512,7 +512,7 @@
       "wenn sie Kritik am Staatsoberhaupt äußert",
       "wenn ihr Programm eine neue Richtung vorschlägt"
     ],
-    "answer": "wenn sie gegen die Verfassung kämpft",
+    "answer": "",
     "images": false
   },
   {
@@ -524,7 +524,7 @@
       "Landtagsabgeordnete",
       "Bundestagsabgeordnete"
     ],
-    "answer": "Die Bundespräsidentin/den Bundespräsidenten",
+    "answer": "",
     "images": false
   },
   {
@@ -536,7 +536,7 @@
       "Hausratsversicherung",
       "Haftpflicht- und Feuerversicherung"
     ],
-    "answer": "Sozialversicherung",
+    "answer": "",
     "images": false
   },
   {
@@ -548,7 +548,7 @@
       "Er versorgt alle Einwohnerinnen und Einwohner kostenlos mit Zeitungen.",
       "Er produziert Autos und Busse."
     ],
-    "answer": "Er baut Straßen und Schulen.",
+    "answer": "",
     "images": false
   },
   {
@@ -560,7 +560,7 @@
       "Er unterstützt Museen.",
       "Er fördert Sportlerinnen und Sportler."
     ],
-    "answer": "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
+    "answer": "",
     "images": false
   },
   {
@@ -572,7 +572,7 @@
       "die Bürgerversammlung",
       "die Regierung"
     ],
-    "answer": "die Bürgerversammlung",
+    "answer": "",
     "images": false
   },
   {
@@ -584,7 +584,7 @@
       "das Familienministerium",
       "die Universitäten"
     ],
-    "answer": "die Bundesländer",
+    "answer": "",
     "images": false
   },
   {
@@ -596,7 +596,7 @@
       "gelenkte Zentralwirtschaft.",
       "Planwirtschaft."
     ],
-    "answer": "soziale Marktwirtschaft.",
+    "answer": "",
     "images": false
   },
   {
@@ -608,7 +608,7 @@
       "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
       "jemand ein Verbrechen begeht und deshalb verhaftet wird."
     ],
-    "answer": "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
+    "answer": "",
     "images": false
   },
   {
@@ -620,7 +620,7 @@
       "preußischen König aus.",
       "Bundesverfassungsgericht aus."
     ],
-    "answer": "Volke aus.",
+    "answer": "",
     "images": false
   },
   {
@@ -632,7 +632,7 @@
       "Die Bürgerinnen und Bürger entscheiden über Gesetze.",
       "Der Staat muss die Gesetze einhalten."
     ],
-    "answer": "Der Staat muss die Gesetze einhalten.",
+    "answer": "",
     "images": false
   },
   {
@@ -644,7 +644,7 @@
       "Exekutive",
       "Direktive"
     ],
-    "answer": "Direktive",
+    "answer": "",
     "images": false
   },
   {
@@ -656,7 +656,7 @@
       "das Bundesratsgebäude in Berlin",
       "das Bundeskanzleramt in Berlin"
     ],
-    "answer": "den Bundestagssitz in Berlin",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -669,7 +669,7 @@
       "Finanzamt",
       "Auswärtiges Amt"
     ],
-    "answer": "Ordnungsamt",
+    "answer": "",
     "images": false
   },
   {
@@ -681,7 +681,7 @@
       "eine ehemalige Bundeskanzlerin/ein ehemaliger Bundeskanzler",
       "eine Abgeordnete/ein Abgeordneter der stärksten Fraktion"
     ],
-    "answer": "eine Abgeordnete/ein Abgeordneter der stärksten Fraktion",
+    "answer": "",
     "images": false
   },
   {
@@ -693,7 +693,7 @@
       "die Bundesratspräsidentin/der Bundesratspräsident",
       "die Bundestagspräsidentin/der Bundestagspräsident"
     ],
-    "answer": "die Bundespräsidentin/der Bundespräsident",
+    "answer": "",
     "images": false
   },
   {
@@ -705,7 +705,7 @@
       "vor etwa 1150 Jahren",
       "vor etwa 1700 Jahren"
     ],
-    "answer": "vor etwa 1700 Jahren",
+    "answer": "",
     "images": false
   },
   {
@@ -717,7 +717,7 @@
       "Direktive.",
       "Judikative."
     ],
-    "answer": "Legislative.",
+    "answer": "",
     "images": false
   },
   {
@@ -729,7 +729,7 @@
       "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
       "Die Staatsgewalt geht vom Volke aus."
     ],
-    "answer": "Die Staatsgewalt geht vom Volke aus.",
+    "answer": "",
     "images": false
   },
   {
@@ -741,7 +741,7 @@
       "Europawahl",
       "Bundestagswahl"
     ],
-    "answer": "Landtagswahl",
+    "answer": "",
     "images": false
   },
   {
@@ -753,7 +753,7 @@
       "das Finanzamt",
       "die Ministerien"
     ],
-    "answer": "die Gerichte",
+    "answer": "",
     "images": false
   },
   {
@@ -765,7 +765,7 @@
       "16 Kantone.",
       "Bund, Länder und Kommunen."
     ],
-    "answer": "Bund, Länder und Kommunen.",
+    "answer": "",
     "images": false
   },
   {
@@ -777,7 +777,7 @@
       "die Bundeskanzlerin/den Bundeskanzler zu wählen.",
       "das Bundeskabinett zu bilden."
     ],
-    "answer": "das Bundeskabinett zu bilden.",
+    "answer": "",
     "images": false
   },
   {
@@ -789,7 +789,7 @@
       "Nürnberg und Stuttgart",
       "Worms und Speyer"
     ],
-    "answer": "Berlin und München",
+    "answer": "",
     "images": false
   },
   {
@@ -801,7 +801,7 @@
       "Wirtschaftspolitik",
       "Schulpolitik"
     ],
-    "answer": "Schulpolitik",
+    "answer": "",
     "images": false
   },
   {
@@ -813,7 +813,7 @@
       "weil es in den Bundesländern verschiedene Schulen gibt",
       "weil es nach dem Grundgesetz seine Aufgabe ist"
     ],
-    "answer": "weil es nach dem Grundgesetz seine Aufgabe ist",
+    "answer": "",
     "images": false
   },
   {
@@ -825,7 +825,7 @@
       "Gemeinden",
       "Bezirksämter"
     ],
-    "answer": "Gemeinden",
+    "answer": "",
     "images": false
   },
   {
@@ -837,7 +837,7 @@
       "Sie/Er wählt die Ministerinnen/Minister aus.",
       "Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor."
     ],
-    "answer": "Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor.",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -850,7 +850,7 @@
       "auf Schloss Bellevue, dem Amtssitz der Bundespräsidentin/des Bundespräsidenten, um Staatsgäste zu empfangen.",
       "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden."
     ],
-    "answer": "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
+    "answer": "",
     "images": false
   },
   {
@@ -862,7 +862,7 @@
       "Franziska Giffey",
       "Olaf Scholz"
     ],
-    "answer": "Olaf Scholz",
+    "answer": "",
     "images": false
   },
   {
@@ -874,7 +874,7 @@
       "FDP und SPD.",
       "Die Linke und FDP."
     ],
-    "answer": "CDU/CSU und SPD.",
+    "answer": "",
     "images": false
   },
   {
@@ -886,7 +886,7 @@
       "Bundestag",
       "Bundesgerichtshof"
     ],
-    "answer": "Bundestag",
+    "answer": "",
     "images": false
   },
   {
@@ -898,7 +898,7 @@
       "Bodo Ramelow",
       "Joachim Gauck"
     ],
-    "answer": "Frank-Walter Steinmeier",
+    "answer": "",
     "images": false
   },
   {
@@ -910,7 +910,7 @@
       "Christlicher Deutscher Umweltschutz",
       "Christlich Demokratische Union"
     ],
-    "answer": "Christlich Demokratische Union",
+    "answer": "",
     "images": false
   },
   {
@@ -922,7 +922,7 @@
       "eine deutsche Bürgerinitiative",
       "die deutsche Armee"
     ],
-    "answer": "die deutsche Armee",
+    "answer": "",
     "images": false
   },
   {
@@ -934,7 +934,7 @@
       "Sozialdemokratische Partei Deutschlands",
       "Sozialgerechte Partei Deutschlands"
     ],
-    "answer": "Sozialdemokratische Partei Deutschlands",
+    "answer": "",
     "images": false
   },
   {
@@ -946,7 +946,7 @@
       "Führende Demokratische Partei",
       "Freie Demokratische Partei"
     ],
-    "answer": "Freie Demokratische Partei",
+    "answer": "",
     "images": false
   },
   {
@@ -958,7 +958,7 @@
       "Bundesverfassungsgericht",
       "Verwaltungsgericht"
     ],
-    "answer": "Bundesverfassungsgericht",
+    "answer": "",
     "images": false
   },
   {
@@ -970,7 +970,7 @@
       "das Volk",
       "der Bundestag"
     ],
-    "answer": "der Bundestag",
+    "answer": "",
     "images": false
   },
   {
@@ -982,7 +982,7 @@
       "die Bundesratspräsidentin/der Bundesratspräsident",
       "die Bundeskanzlerin/der Bundeskanzler"
     ],
-    "answer": "die Bundeskanzlerin/der Bundeskanzler",
+    "answer": "",
     "images": false
   },
   {
@@ -994,7 +994,7 @@
       "der Bundestag",
       "die Bundesregierung"
     ],
-    "answer": "der Bundestag",
+    "answer": "",
     "images": false
   },
   {
@@ -1006,7 +1006,7 @@
       "repräsentiert das Land.",
       "überwacht die Einhaltung der Gesetze."
     ],
-    "answer": "repräsentiert das Land.",
+    "answer": "",
     "images": false
   },
   {
@@ -1018,7 +1018,7 @@
       "die Regierungsvertreter der Bundesländer",
       "die Parteimitglieder"
     ],
-    "answer": "die Regierungsvertreter der Bundesländer",
+    "answer": "",
     "images": false
   },
   {
@@ -1030,7 +1030,7 @@
       "das Bundesparlament",
       "das Bundesverfassungsgericht"
     ],
-    "answer": "die Bundesversammlung",
+    "answer": "",
     "images": false
   },
   {
@@ -1042,7 +1042,7 @@
       "die Bundesratspräsidentin/der Bundesratspräsident",
       "die Bundestagspräsidentin/der Bundestagspräsident"
     ],
-    "answer": "die Bundespräsidentin/der Bundespräsident",
+    "answer": "",
     "images": false
   },
   {
@@ -1054,7 +1054,7 @@
       "bestimmt, wer im Bundesrat sitzt.",
       "schlägt die Regierungschefinnen/Regierungschefs der Länder vor."
     ],
-    "answer": "kontrolliert die Regierung.",
+    "answer": "",
     "images": false
   },
   {
@@ -1066,7 +1066,7 @@
       "Fraktion",
       "Opposition"
     ],
-    "answer": "Fraktion",
+    "answer": "",
     "images": false
   },
   {
@@ -1078,7 +1078,7 @@
       "den Bundestag.",
       "die Bundesregierung."
     ],
-    "answer": "den Bundesrat.",
+    "answer": "",
     "images": false
   },
   {
@@ -1090,7 +1090,7 @@
       "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.",
       "leichter, wenn es sich um ein reiches Bundesland handelt."
     ],
-    "answer": "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.",
+    "answer": "",
     "images": false
   },
   {
@@ -1102,7 +1102,7 @@
       "Christlich Sozialer Unternehmerverband",
       "Christlich Soziale Union"
     ],
-    "answer": "Christlich Soziale Union",
+    "answer": "",
     "images": false
   },
   {
@@ -1114,7 +1114,7 @@
       "größer ist das Risiko, eine Koalition bilden zu müssen.",
       "mehr Sitze erhält die Partei im Parlament."
     ],
-    "answer": "mehr Sitze erhält die Partei im Parlament.",
+    "answer": "",
     "images": false
   },
   {
@@ -1126,7 +1126,7 @@
       "21",
       "23"
     ],
-    "answer": "18",
+    "answer": "",
     "images": false
   },
   {
@@ -1138,7 +1138,7 @@
       "Schweigepflicht",
       "Religionspflicht"
     ],
-    "answer": "Schulpflicht",
+    "answer": "",
     "images": false
   },
   {
@@ -1150,7 +1150,7 @@
       "gar nicht, Holocaustleugnung ist erlaubt",
       "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
     ],
-    "answer": "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
+    "answer": "",
     "images": false
   },
   {
@@ -1162,7 +1162,7 @@
       "Kindergeld",
       "Wohngeld"
     ],
-    "answer": "Sozialversicherung",
+    "answer": "",
     "images": false
   },
   {
@@ -1174,7 +1174,7 @@
       "muss die Bundespräsidentin/der Bundespräsident zuvor ihr/sein Einverständnis geben.",
       "dürfen die Wählerinnen/Wähler dieser Abgeordneten noch einmal wählen."
     ],
-    "answer": "kann die Regierung ihre Mehrheit verlieren.",
+    "answer": "",
     "images": false
   },
   {
@@ -1186,7 +1186,7 @@
       "alle Staatsangehörigen",
       "nur Arbeitgeberinnen/Arbeitgeber"
     ],
-    "answer": "Arbeitgeberinnen/Arbeitgeber und Arbeitnehmerinnen/Arbeitnehmer",
+    "answer": "",
     "images": false
   },
   {
@@ -1198,7 +1198,7 @@
       "die Arbeitslosenversicherung",
       "die Pflegeversicherung"
     ],
-    "answer": "die Lebensversicherung",
+    "answer": "",
     "images": false
   },
   {
@@ -1210,7 +1210,7 @@
       "Rentnerinnen und Rentner.",
       "Arbeitgeberinnen und Arbeitgeber."
     ],
-    "answer": "Arbeitnehmerinnen und Arbeitnehmer.",
+    "answer": "",
     "images": false
   },
   {
@@ -1222,7 +1222,7 @@
       "Vaterländischen Verdienstorden",
       "Ehrentitel \"Held der Deutschen Demokratischen Republik\""
     ],
-    "answer": "Bundesverdienstkreuz",
+    "answer": "",
     "images": false
   },
   {
@@ -1234,7 +1234,7 @@
       "von CSU, Die LINKE und Bündnis 90/Die Grünen in einer Regierung",
       "der Bundestagsfraktionen von CDU und SPD"
     ],
-    "answer": "von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung",
+    "answer": "",
     "images": false
   },
   {
@@ -1246,7 +1246,7 @@
       "Die Frau erledigt private Sachen während der Arbeitszeit.",
       "Die Frau bekommt ein Kind und ihr Chef weiß das."
     ],
-    "answer": "Die Frau bekommt ein Kind und ihr Chef weiß das.",
+    "answer": "",
     "images": false
   },
   {
@@ -1258,7 +1258,7 @@
       "Sie geben Zwischenergebnisse an die Medien weiter.",
       "Sie zählen die Stimmen nach dem Ende der Wahl."
     ],
-    "answer": "Sie zählen die Stimmen nach dem Ende der Wahl.",
+    "answer": "",
     "images": false
   },
   {
@@ -1270,7 +1270,7 @@
       "Sie geben Zwischenergebnisse an Journalisten weiter.",
       "Sie zählen die Stimmen nach dem Ende der Wahl."
     ],
-    "answer": "Sie zählen die Stimmen nach dem Ende der Wahl.",
+    "answer": "",
     "images": false
   },
   {
@@ -1282,7 +1282,7 @@
       "6 Jahre",
       "8 Jahre"
     ],
-    "answer": "4 Jahre",
+    "answer": "",
     "images": false
   },
   {
@@ -1294,7 +1294,7 @@
       "seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt.",
       "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist."
     ],
-    "answer": "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.",
+    "answer": "",
     "images": false
   },
   {
@@ -1306,7 +1306,7 @@
       "alle fünf Jahre",
       "alle sechs Jahre"
     ],
-    "answer": "alle vier Jahre",
+    "answer": "",
     "images": false
   },
   {
@@ -1318,7 +1318,7 @@
       "4 Jahre",
       "5 Jahre"
     ],
-    "answer": "4 Jahre",
+    "answer": "",
     "images": false
   },
   {
@@ -1330,7 +1330,7 @@
       "eine Diskussion über die Politik Israels",
       "der öffentliche Aufruf zur Vernichtung Israels"
     ],
-    "answer": "der öffentliche Aufruf zur Vernichtung Israels",
+    "answer": "",
     "images": false
   },
   {
@@ -1342,7 +1342,7 @@
       "berufsbezogen.",
       "geschlechtsabhängig."
     ],
-    "answer": "geheim.",
+    "answer": "",
     "images": false
   },
   {
@@ -1354,7 +1354,7 @@
       "die meisten Stimmen bei den Arbeiterinnen/Arbeitern bekommen hat.",
       "die meisten Erststimmen für ihre Kanzlerkandidatin/ihren Kanzlerkandidaten erhalten hat."
     ],
-    "answer": "die meisten Stimmen bekommt.",
+    "answer": "",
     "images": false
   },
   {
@@ -1366,7 +1366,7 @@
       "ein Zwang.",
       "eine Last."
     ],
-    "answer": "ein Recht.",
+    "answer": "",
     "images": false
   },
   {
@@ -1378,7 +1378,7 @@
       "Man kann wählen.",
       "Man muss zur Auszählung der Stimmen gehen."
     ],
-    "answer": "Man kann wählen.",
+    "answer": "",
     "images": false
   },
   {
@@ -1390,7 +1390,7 @@
       "aktiver Wahlkampf.",
       "aktives Wahlrecht."
     ],
-    "answer": "aktives Wahlrecht.",
+    "answer": "",
     "images": false
   },
   {
@@ -1402,7 +1402,7 @@
       "5%",
       "6%"
     ],
-    "answer": "5%",
+    "answer": "",
     "images": false
   },
   {
@@ -1414,7 +1414,7 @@
       "nur religiöse Menschen",
       "alle Menschen"
     ],
-    "answer": "alle Menschen",
+    "answer": "",
     "images": false
   },
   {
@@ -1426,7 +1426,7 @@
       "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
       "Ich kann frei entscheiden, wo ich wählen gehen möchte."
     ],
-    "answer": "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+    "answer": "",
     "images": false
   },
   {
@@ -1438,7 +1438,7 @@
       "Mehrheits- und Verhältniswahlrecht.",
       "allgemeines Männerwahlrecht."
     ],
-    "answer": "Mehrheits- und Verhältniswahlrecht.",
+    "answer": "",
     "images": false
   },
   {
@@ -1450,7 +1450,7 @@
       "Basiswert.",
       "Richtlinie."
     ],
-    "answer": "5%-Hürde.",
+    "answer": "",
     "images": false
   },
   {
@@ -1462,7 +1462,7 @@
       "geschlossen, gleich, sicher.",
       "sicher, offen, freiwillig."
     ],
-    "answer": "frei, gleich, geheim.",
+    "answer": "",
     "images": false
   },
   {
@@ -1474,7 +1474,7 @@
       "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
       "Anwesenheitskontrolle im Bundesrat für Abstimmungen"
     ],
-    "answer": "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
+    "answer": "",
     "images": false
   },
   {
@@ -1486,7 +1486,7 @@
       "des Parlaments für Deutschland.",
       "der Bundespräsidentin/des Bundespräsidenten."
     ],
-    "answer": "des Parlaments für Deutschland.",
+    "answer": "",
     "images": false
   },
   {
@@ -1498,7 +1498,7 @@
       "im Land bestehende Gesetze beizubehalten.",
       "den Armen mehr Macht zu geben."
     ],
-    "answer": "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
+    "answer": "",
     "images": false
   },
   {
@@ -1510,7 +1510,7 @@
       "eine Benachrichtigung von der Bundesversammlung",
       "eine Benachrichtigung vom Pfarramt"
     ],
-    "answer": "eine Wahlbenachrichtigung von der Gemeinde",
+    "answer": "",
     "images": false
   },
   {
@@ -1522,7 +1522,7 @@
       "viele kleine Parteien die Regierungsbildung erschweren.",
       "die kleinen Parteien nicht so viel Geld haben, um die Politikerinnen und Politiker zu bezahlen."
     ],
-    "answer": "viele kleine Parteien die Regierungsbildung erschweren.",
+    "answer": "",
     "images": false
   },
   {
@@ -1534,7 +1534,7 @@
       "Botschafterinnen/Botschafter.",
       "Ministerpräsidentinnen/Ministerpräsidenten."
     ],
-    "answer": "Abgeordnete.",
+    "answer": "",
     "images": false
   },
   {
@@ -1546,7 +1546,7 @@
       "der Bundestag.",
       "die Bundespräsidentin/der Bundespräsident."
     ],
-    "answer": "der Bundestag.",
+    "answer": "",
     "images": false
   },
   {
@@ -1558,7 +1558,7 @@
       "3",
       "4"
     ],
-    "answer": "1",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -1571,7 +1571,7 @@
       "das Oberhaupt einer Gemeinde.",
       "die/der Vorsitzende einer Partei."
     ],
-    "answer": "das Oberhaupt einer Gemeinde.",
+    "answer": "",
     "images": false
   },
   {
@@ -1583,7 +1583,7 @@
       "Sie arbeiten in der Bundesregierung.",
       "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld."
     ],
-    "answer": "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
+    "answer": "",
     "images": false
   },
   {
@@ -1595,7 +1595,7 @@
       "Man kann am Wahltag telefonisch seine Stimme abgeben.",
       "Kinder ab dem Alter von 14 Jahren dürfen wählen."
     ],
-    "answer": "Man kann durch Briefwahl seine Stimme abgeben.",
+    "answer": "",
     "images": false
   },
   {
@@ -1607,7 +1607,7 @@
       "Ich wende mich an das Finanzamt, weil ich als Steuerzahlerin/Steuerzahler ein Recht auf die Buslinie habe.",
       "Ich schreibe einen Brief an das Forstamt der Gemeinde."
     ],
-    "answer": "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
+    "answer": "",
     "images": false
   },
   {
@@ -1619,7 +1619,7 @@
       "Selbstständige",
       "Arbeitnehmerinnen und Arbeitnehmer"
     ],
-    "answer": "Arbeitnehmerinnen und Arbeitnehmer",
+    "answer": "",
     "images": false
   },
   {
@@ -1631,7 +1631,7 @@
       "Problemen mit den Nachbarinnen/Nachbarn.",
       "Schwierigkeiten nach einem Verkehrsunfall."
     ],
-    "answer": "ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef.",
+    "answer": "",
     "images": false
   },
   {
@@ -1643,7 +1643,7 @@
       "das Arbeitsgericht",
       "das Amtsgericht"
     ],
-    "answer": "das Arbeitsgericht",
+    "answer": "",
     "images": false
   },
   {
@@ -1655,7 +1655,7 @@
       "Kündigungsschutzklage erheben",
       "die Arbeitgeberin/den Arbeitgeber bei der Polizei anzeigen"
     ],
-    "answer": "Kündigungsschutzklage erheben",
+    "answer": "",
     "images": false
   },
   {
@@ -1667,7 +1667,7 @@
       "eine andere Meinung als die der Regierung vertritt.",
       "sein Auto falsch geparkt hat und es abgeschleppt wird."
     ],
-    "answer": "eine Straftat begangen hat und angeklagt wird.",
+    "answer": "",
     "images": false
   },
   {
@@ -1679,7 +1679,7 @@
       "stellt Urkunden aus.",
       "verteidigt die Angeklagte/den Angeklagten."
     ],
-    "answer": "entscheidet mit Richterinnen/Richtern über Schuld und Strafe.",
+    "answer": "",
     "images": false
   },
   {
@@ -1691,7 +1691,7 @@
       "eine Schöffin/ein Schöffe",
       "eine Staatsanwältin/ein Staatsanwalt"
     ],
-    "answer": "eine Rechtsanwältin/ein Rechtsanwalt",
+    "answer": "",
     "images": false
   },
   {
@@ -1703,7 +1703,7 @@
       "ändert Gesetze.",
       "betreut Jugendliche vor Gericht."
     ],
-    "answer": "arbeitet an einem Gericht und spricht Urteile.",
+    "answer": "",
     "images": false
   },
   {
@@ -1715,7 +1715,7 @@
       "Operative.",
       "Legislative."
     ],
-    "answer": "Judikative.",
+    "answer": "",
     "images": false
   },
   {
@@ -1727,7 +1727,7 @@
       "planenden Gewalt.",
       "gesetzgebenden Gewalt."
     ],
-    "answer": "rechtsprechenden Gewalt.",
+    "answer": "",
     "images": false
   },
   {
@@ -1739,7 +1739,7 @@
       "Presse",
       "Legislative"
     ],
-    "answer": "Judikative",
+    "answer": "",
     "images": false
   },
   {
@@ -1751,7 +1751,7 @@
       "Protokoll",
       "Prozess"
     ],
-    "answer": "Prozess",
+    "answer": "",
     "images": false
   },
   {
@@ -1763,7 +1763,7 @@
       "Pläne erstellen",
       "Gesetze erlassen"
     ],
-    "answer": "Recht sprechen",
+    "answer": "",
     "images": false
   },
   {
@@ -1775,7 +1775,7 @@
       "die Gesetze zu beschließen",
       "die Einhaltung von Gesetzen zu überwachen"
     ],
-    "answer": "die Einhaltung von Gesetzen zu überwachen",
+    "answer": "",
     "images": false
   },
   {
@@ -1787,7 +1787,7 @@
       "den Holocaust leugnen",
       "gegen Juden Fußball spielen"
     ],
-    "answer": "den Holocaust leugnen",
+    "answer": "",
     "images": false
   },
   {
@@ -1799,7 +1799,7 @@
       "ein Mitglied eines Gemeinderats.",
       "eine Person, die Jura studiert hat."
     ],
-    "answer": "eine ehrenamtliche Richterin/ein ehrenamtlicher Richter.",
+    "answer": "",
     "images": false
   },
   {
@@ -1811,7 +1811,7 @@
       "die Bundesrepublik Deutschland",
       "die USA"
     ],
-    "answer": "die DDR",
+    "answer": "",
     "images": false
   },
   {
@@ -1823,7 +1823,7 @@
       "1933 bis 1945",
       "1945 bis 1989"
     ],
-    "answer": "1933 bis 1945",
+    "answer": "",
     "images": false
   },
   {
@@ -1835,7 +1835,7 @@
       "Wahl von Konrad Adenauer zum Bundeskanzler",
       "Ende des Zweiten Weltkriegs in Europa"
     ],
-    "answer": "Ende des Zweiten Weltkriegs in Europa",
+    "answer": "",
     "images": false
   },
   {
@@ -1847,7 +1847,7 @@
       "1949",
       "1961"
     ],
-    "answer": "1945",
+    "answer": "",
     "images": false
   },
   {
@@ -1859,7 +1859,7 @@
       "1933 bis 1945",
       "1949 bis 1963"
     ],
-    "answer": "1933 bis 1945",
+    "answer": "",
     "images": false
   },
   {
@@ -1871,7 +1871,7 @@
       "1933",
       "1936"
     ],
-    "answer": "1933",
+    "answer": "",
     "images": false
   },
   {
@@ -1883,7 +1883,7 @@
       "eine Monarchie.",
       "ein Fürstentum."
     ],
-    "answer": "eine Diktatur.",
+    "answer": "",
     "images": false
   },
   {
@@ -1895,7 +1895,7 @@
       "Monarchie.",
       "Räterepublik."
     ],
-    "answer": "Diktatur.",
+    "answer": "",
     "images": false
   },
   {
@@ -1907,7 +1907,7 @@
       "willkürliche Verhaftungen",
       "Verfolgung von Juden"
     ],
-    "answer": "freie Wahlen",
+    "answer": "",
     "images": false
   },
   {
@@ -1919,7 +1919,7 @@
       "der Vietnamkrieg",
       "der Golfkrieg"
     ],
-    "answer": "der Zweite Weltkrieg",
+    "answer": "",
     "images": false
   },
   {
@@ -1931,7 +1931,7 @@
       "der allgemeinen Religionsfreiheit",
       "der Entwicklung der Demokratie"
     ],
-    "answer": "des staatlichen Rassismus",
+    "answer": "",
     "images": false
   },
   {
@@ -1943,7 +1943,7 @@
       "den Aufbau der Wehrmacht.",
       "das Attentat auf Hitler am 20. Juli 1944."
     ],
-    "answer": "das Attentat auf Hitler am 20. Juli 1944.",
+    "answer": "",
     "images": false
   },
   {
@@ -1955,7 +1955,7 @@
       "1938",
       "1945"
     ],
-    "answer": "1938",
+    "answer": "",
     "images": false
   },
   {
@@ -1967,7 +1967,7 @@
       "Jüdische Geschäfte und Synagogen werden durch Nationalsozialisten und ihre Anhänger zerstört.",
       "Hitler wird Reichspräsident und lässt alle Parteien verbieten."
     ],
-    "answer": "Jüdische Geschäfte und Synagogen werden durch Nationalsozialisten und ihre Anhänger zerstört.",
+    "answer": "",
     "images": false
   },
   {
@@ -1979,7 +1979,7 @@
       "Helmut Schmidt",
       "Willy Brandt"
     ],
-    "answer": "Konrad Adenauer",
+    "answer": "",
     "images": false
   },
   {
@@ -1991,7 +1991,7 @@
       "bei den Anti-Atomkraft-Demonstrationen 1985 in der Bundesrepublik Deutschland",
       "bei den Montagsdemonstrationen 1989 in der DDR"
     ],
-    "answer": "bei den Montagsdemonstrationen 1989 in der DDR",
+    "answer": "",
     "images": false
   },
   {
@@ -2003,7 +2003,7 @@
       "USA, Sowjetunion, Spanien, Portugal",
       "USA, Sowjetunion, Großbritannien, Frankreich"
     ],
-    "answer": "USA, Sowjetunion, Großbritannien, Frankreich",
+    "answer": "",
     "images": false
   },
   {
@@ -2015,7 +2015,7 @@
       "Frankreich",
       "Japan"
     ],
-    "answer": "Japan",
+    "answer": "",
     "images": false
   },
   {
@@ -2027,7 +2027,7 @@
       "1949",
       "1951"
     ],
-    "answer": "1949",
+    "answer": "",
     "images": false
   },
   {
@@ -2039,7 +2039,7 @@
       "Pressefreiheit",
       "den Schutz der Menschenwürde"
     ],
-    "answer": "das Verbot von Parteien",
+    "answer": "",
     "images": false
   },
   {
@@ -2051,7 +2051,7 @@
       "richtet sich nach der Nachfrage im Ausland.",
       "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich."
     ],
-    "answer": "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich.",
+    "answer": "",
     "images": false
   },
   {
@@ -2063,7 +2063,7 @@
       "britischen Besatzungszone",
       "sowjetischen Besatzungszone"
     ],
-    "answer": "sowjetischen Besatzungszone",
+    "answer": "",
     "images": false
   },
   {
@@ -2075,7 +2075,7 @@
       "der Europäischen Union (EU).",
       "des Warschauer Pakts."
     ],
-    "answer": "der Europäischen Union (EU).",
+    "answer": "",
     "images": false
   },
   {
@@ -2087,7 +2087,7 @@
       "1953",
       "1956"
     ],
-    "answer": "1949",
+    "answer": "",
     "images": false
   },
   {
@@ -2099,7 +2099,7 @@
       "5",
       "6"
     ],
-    "answer": "4",
+    "answer": "",
     "images": false
   },
   {
@@ -2111,7 +2111,7 @@
       "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
       "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich"
     ],
-    "answer": "1=Großbritannien, 2=Sowjetunion, 3=Frankreich, 4=USA",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -2124,7 +2124,7 @@
       "Dresden",
       "Frankfurt/Oder"
     ],
-    "answer": "Berlin",
+    "answer": "",
     "images": false
   },
   {
@@ -2136,7 +2136,7 @@
       "Für Großbritannien war die Versorgung über die Luftbrücke schneller.",
       "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege."
     ],
-    "answer": "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege.",
+    "answer": "",
     "images": false
   },
   {
@@ -2148,7 +2148,7 @@
       "mit dem Rückzug der Deutschen aus den besetzten Gebieten",
       "durch eine Revolution in Deutschland"
     ],
-    "answer": "durch die bedingungslose Kapitulation Deutschlands",
+    "answer": "",
     "images": false
   },
   {
@@ -2160,7 +2160,7 @@
       "Konrad Adenauer.",
       "Gerhard Schröder."
     ],
-    "answer": "Konrad Adenauer.",
+    "answer": "",
     "images": false
   },
   {
@@ -2172,7 +2172,7 @@
       "Er zeigte seine Demut vor dem Warschauer Pakt.",
       "Er sprach ein Gebet am Grab des Unbekannten Soldaten."
     ],
-    "answer": "Er bat Polen und die polnischen Juden um Vergebung.",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -2185,7 +2185,7 @@
       "Synagoge",
       "Kirche"
     ],
-    "answer": "Synagoge",
+    "answer": "",
     "images": false
   },
   {
@@ -2197,7 +2197,7 @@
       "70er Jahre",
       "80er Jahre"
     ],
-    "answer": "50er Jahre",
+    "answer": "",
     "images": false
   },
   {
@@ -2209,7 +2209,7 @@
       "ein Vorschlag der Bundesregierung",
       "ein Vorschlag der UdSSR"
     ],
-    "answer": "eine Resolution der Vereinten Nationen",
+    "answer": "",
     "images": false
   },
   {
@@ -2221,7 +2221,7 @@
       "Nazi-Deutschlands gegen die Alliierten",
       "Europas gegen die USA"
     ],
-    "answer": "des Warschauer Pakts gegen den Westen",
+    "answer": "",
     "images": false
   },
   {
@@ -2233,7 +2233,7 @@
       "20. Juli",
       "9. November"
     ],
-    "answer": "17. Juni",
+    "answer": "",
     "images": false
   },
   {
@@ -2245,7 +2245,7 @@
       "Drittes Reich",
       "DDR"
     ],
-    "answer": "DDR",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -2258,7 +2258,7 @@
       "1959",
       "1961"
     ],
-    "answer": "1961",
+    "answer": "",
     "images": false
   },
   {
@@ -2270,7 +2270,7 @@
       "1961",
       "1990"
     ],
-    "answer": "1961",
+    "answer": "",
     "images": false
   },
   {
@@ -2282,7 +2282,7 @@
       "Dritte Deutsche Republik",
       "Deutsche Demokratische Republik"
     ],
-    "answer": "Deutsche Demokratische Republik",
+    "answer": "",
     "images": false
   },
   {
@@ -2294,7 +2294,7 @@
       "1992",
       "1995"
     ],
-    "answer": "1989",
+    "answer": "",
     "images": false
   },
   {
@@ -2306,7 +2306,7 @@
       "Saarland",
       "Hessen"
     ],
-    "answer": "Brandenburg",
+    "answer": "",
     "images": false
   },
   {
@@ -2318,7 +2318,7 @@
       "durch eine Mauer geteilt.",
       "nur mit dem Flugzeug erreichbar."
     ],
-    "answer": "durch eine Mauer geteilt.",
+    "answer": "",
     "images": false
   },
   {
@@ -2330,7 +2330,7 @@
       "Bundesländer.",
       "Städte."
     ],
-    "answer": "Einheit.",
+    "answer": "",
     "images": false
   },
   {
@@ -2342,7 +2342,7 @@
       "Nordrhein-Westfalen",
       "Saarland"
     ],
-    "answer": "Sachsen-Anhalt",
+    "answer": "",
     "images": false
   },
   {
@@ -2354,7 +2354,7 @@
       "von einer Monarchie zur Sozialdemokratie.",
       "von einem religiösen Staat zu einem kommunistischen Staat."
     ],
-    "answer": "von einer Diktatur zur Demokratie.",
+    "answer": "",
     "images": false
   },
   {
@@ -2366,7 +2366,7 @@
       "Bayern",
       "Bremen"
     ],
-    "answer": "Thüringen",
+    "answer": "",
     "images": false
   },
   {
@@ -2378,7 +2378,7 @@
       "Sachsen",
       "Baden-Württemberg"
     ],
-    "answer": "Sachsen",
+    "answer": "",
     "images": false
   },
   {
@@ -2390,7 +2390,7 @@
       "eine regierende Partei.",
       "das Ministerium für Volksbildung."
     ],
-    "answer": "das Ministerium für Staatssicherheit.",
+    "answer": "",
     "images": false
   },
   {
@@ -2402,7 +2402,7 @@
       "Mecklenburg-Vorpommern",
       "Saarland"
     ],
-    "answer": "Mecklenburg-Vorpommern",
+    "answer": "",
     "images": false
   },
   {
@@ -2414,7 +2414,7 @@
       "Bayern, Baden-Württemberg, Rheinland-Pfalz, Thüringen, Sachsen",
       "Sachsen, Thüringen, Hessen, Niedersachsen, Brandenburg"
     ],
-    "answer": "Mecklenburg-Vorpommern, Brandenburg, Sachsen, Sachsen-Anhalt, Thüringen",
+    "answer": "",
     "images": false
   },
   {
@@ -2426,7 +2426,7 @@
       "zur NATO",
       "zu den blockfreien Staaten"
     ],
-    "answer": "zum Warschauer Pakt",
+    "answer": "",
     "images": false
   },
   {
@@ -2438,7 +2438,7 @@
       "Angebot und Nachfrage",
       "Kapitalismus"
     ],
-    "answer": "Planwirtschaft",
+    "answer": "",
     "images": false
   },
   {
@@ -2450,7 +2450,7 @@
       "Die westlichen Bundesländer sind der DDR beigetreten.",
       "Die DDR hat die Bundesrepublik Deutschland besetzt."
     ],
-    "answer": "Die heutigen fünf östlichen Bundesländer sind der Bundesrepublik Deutschland beigetreten.",
+    "answer": "",
     "images": false
   },
   {
@@ -2462,7 +2462,7 @@
       "zur OPEC.",
       "zur Europäischen Verteidigungsgemeinschaft."
     ],
-    "answer": "zur Europäischen Union.",
+    "answer": "",
     "images": false
   },
   {
@@ -2474,7 +2474,7 @@
       "an Verkehrstote",
       "an bekannte jüdische Musiker"
     ],
-    "answer": "an die Opfer des Nationalsozialismus",
+    "answer": "",
     "images": false
   },
   {
@@ -2486,7 +2486,7 @@
       "im Warschauer Pakt",
       "im Europabündnis"
     ],
-    "answer": "im Warschauer Pakt",
+    "answer": "",
     "images": false
   },
   {
@@ -2498,7 +2498,7 @@
       "der Geheimdienst der DDR",
       "ein deutscher Sportverein während des Zweiten Weltkrieges"
     ],
-    "answer": "der Geheimdienst der DDR",
+    "answer": "",
     "images": false
   },
   {
@@ -2510,7 +2510,7 @@
       "/static/images/options/209/c.png",
       "/static/images/options/209/d.png"
     ],
-    "answer": "/static/images/options/209/d.png",
+    "answer": "",
     "images": true
   },
   {
@@ -2522,7 +2522,7 @@
       "der 1. SED-Parteitag",
       "der erste Besuch Fidel Castros"
     ],
-    "answer": "landesweite Streiks und ein Volksaufstand",
+    "answer": "",
     "images": false
   },
   {
@@ -2534,7 +2534,7 @@
       "Michail Gorbatschow",
       "Ludwig Erhard"
     ],
-    "answer": "Willy Brandt",
+    "answer": "",
     "images": false
   },
   {
@@ -2546,7 +2546,7 @@
       "Bundesrepublik Deutschland",
       "Bundesbezirk Deutschland"
     ],
-    "answer": "Bundesrepublik Deutschland",
+    "answer": "",
     "images": false
   },
   {
@@ -2558,7 +2558,7 @@
       "84 Millionen",
       "90 Millionen"
     ],
-    "answer": "84 Millionen",
+    "answer": "",
     "images": false
   },
   {
@@ -2570,7 +2570,7 @@
       "schwarz-rot-grün",
       "schwarz-gelb-rot"
     ],
-    "answer": "schwarz-rot-gold",
+    "answer": "",
     "images": false
   },
   {
@@ -2582,7 +2582,7 @@
       "Konrad Adenauer",
       "Helmut Schmidt"
     ],
-    "answer": "Helmut Kohl",
+    "answer": "",
     "images": false
   },
   {
@@ -2594,7 +2594,7 @@
       "der Reichsadler",
       "die Reichskrone"
     ],
-    "answer": "der Bundesadler",
+    "answer": "",
     "images": true,
     "questionImage": true
   },
@@ -2607,7 +2607,7 @@
       "1945 bis 1961",
       "1949 bis 1990"
     ],
-    "answer": "1949 bis 1990",
+    "answer": "",
     "images": false
   },
   {
@@ -2619,7 +2619,7 @@
       "6",
       "7"
     ],
-    "answer": "5",
+    "answer": "",
     "images": false
   },
   {
@@ -2631,7 +2631,7 @@
       "1971",
       "1990"
     ],
-    "answer": "1990",
+    "answer": "",
     "images": false
   },
   {
@@ -2643,7 +2643,7 @@
       "an die Wiedervereinigung Deutschlands",
       "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)"
     ],
-    "answer": "an die Opfer des Nationalsozialismus (Tag der Befreiung des Vernichtungslagers Auschwitz)",
+    "answer": "",
     "images": false
   },
   {
@@ -2655,7 +2655,7 @@
       "Deutsche können ohne Passkontrolle in jedes Land reisen.",
       "Deutsche können in jedem Land mit dem Euro bezahlen."
     ],
-    "answer": "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
+    "answer": "",
     "images": false
   },
   {
@@ -2667,7 +2667,7 @@
       "Spanien",
       "Schweiz"
     ],
-    "answer": "Schweiz",
+    "answer": "",
     "images": false
   },
   {
@@ -2679,7 +2679,7 @@
       "Polen",
       "Griechenland"
     ],
-    "answer": "Polen",
+    "answer": "",
     "images": false
   },
   {
@@ -2691,7 +2691,7 @@
       "Einheitliche Union",
       "Euro Union"
     ],
-    "answer": "Europäische Union",
+    "answer": "",
     "images": false
   },
   {
@@ -2703,7 +2703,7 @@
       "Spanien",
       "Österreich"
     ],
-    "answer": "Österreich",
+    "answer": "",
     "images": false
   },
   {
@@ -2715,7 +2715,7 @@
       "/static/images/options/226/c.png",
       "/static/images/options/226/d.png"
     ],
-    "answer": "/static/images/options/226/b.png",
+    "answer": "",
     "images": true
   },
   {
@@ -2727,7 +2727,7 @@
       "Norwegen",
       "Schweden"
     ],
-    "answer": "Dänemark",
+    "answer": "",
     "images": false
   },
   {
@@ -2739,7 +2739,7 @@
       "Deutsche Wiedervereinigung",
       "Europäische Gemeinschaft"
     ],
-    "answer": "Deutsche Wiedervereinigung",
+    "answer": "",
     "images": false
   },
   {
@@ -2751,7 +2751,7 @@
       "Norwegen",
       "Luxemburg"
     ],
-    "answer": "Luxemburg",
+    "answer": "",
     "images": false
   },
   {
@@ -2763,7 +2763,7 @@
       "7 Jahre.",
       "8 Jahre."
     ],
-    "answer": "5 Jahre.",
+    "answer": "",
     "images": false
   },
   {
@@ -2775,7 +2775,7 @@
       "Damit sind europäische Auswanderinnen und Auswanderer in den USA gemeint.",
       "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU."
     ],
-    "answer": "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.",
+    "answer": "",
     "images": false
   },
   {
@@ -2787,7 +2787,7 @@
       "die Abgeordneten des Europäischen Parlaments",
       "die europäische Verfassung"
     ],
-    "answer": "die Abgeordneten des Europäischen Parlaments",
+    "answer": "",
     "images": false
   },
   {
@@ -2799,7 +2799,7 @@
       "Griechenland",
       "Portugal"
     ],
-    "answer": "Tschechien",
+    "answer": "",
     "images": false
   },
   {
@@ -2811,7 +2811,7 @@
       "Berlin",
       "Straßburg"
     ],
-    "answer": "Straßburg",
+    "answer": "",
     "images": false
   },
   {
@@ -2823,7 +2823,7 @@
       "Frieden und Sicherheit in den Ländern der EU",
       "einheitliche Feiertage in den Ländern der EU"
     ],
-    "answer": "Frieden und Sicherheit in den Ländern der EU",
+    "answer": "",
     "images": false,
     "questionImage": true
   },
@@ -2836,7 +2836,7 @@
       "25",
       "27"
     ],
-    "answer": "27",
+    "answer": "",
     "images": false
   },
   {
@@ -2848,7 +2848,7 @@
       "Verpflichtung Deutschlands zu Reparationsleistungen",
       "Festlegung der Oder-Neiße-Linie als Ostgrenze"
     ],
-    "answer": "Gründung der Europäischen Wirtschaftsgemeinschaft (EWG)",
+    "answer": "",
     "images": false
   },
   {
@@ -2860,7 +2860,7 @@
       "Rom, Bern und Wien",
       "Bonn, Zürich und Mailand"
     ],
-    "answer": "Straßburg, Luxemburg und Brüssel",
+    "answer": "",
     "images": false
   },
   {
@@ -2872,7 +2872,7 @@
       "durch die ‘Pariser Verträge’",
       "durch die ‘Londoner Verträge’"
     ],
-    "answer": "durch die ‘Römischen Verträge’",
+    "answer": "",
     "images": false
   },
   {
@@ -2884,7 +2884,7 @@
       "2002",
       "2005"
     ],
-    "answer": "2002",
+    "answer": "",
     "images": false
   },
   {
@@ -2896,7 +2896,7 @@
       "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
       "Sie muss das Arbeitsamt um Erlaubnis bitten."
     ],
-    "answer": "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+    "answer": "",
     "images": false
   },
   {
@@ -2908,7 +2908,7 @@
       "die Eltern/die Erziehungsberechtigten",
       "die Schulen"
     ],
-    "answer": "die Eltern/die Erziehungsberechtigten",
+    "answer": "",
     "images": false
   },
   {
@@ -2920,7 +2920,7 @@
       "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
       "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen."
     ],
-    "answer": "Sie müssen die Demonstration anmelden.",
+    "answer": "",
     "images": false
   },
   {
@@ -2932,7 +2932,7 @@
       "die Prokura",
       "eine Gesellenprüfung"
     ],
-    "answer": "das Abitur",
+    "answer": "",
     "images": false
   },
   {
@@ -2944,7 +2944,7 @@
       "Sofie (35 Jahre) und Lisa (40 Jahre)",
       "Anne (13 Jahre) und Tim (25 Jahre)"
     ],
-    "answer": "Anne (13 Jahre) und Tim (25 Jahre)",
+    "answer": "",
     "images": false
   },
   {
@@ -2956,7 +2956,7 @@
       "19",
       "21"
     ],
-    "answer": "18",
+    "answer": "",
     "images": false
   },
   {
@@ -2968,7 +2968,7 @@
       "Geburtsvorbereitung",
       "Wochenbett"
     ],
-    "answer": "Mutterschutz",
+    "answer": "",
     "images": false
   },
   {
@@ -2980,7 +2980,7 @@
       "der Großeltern.",
       "der Schulen."
     ],
-    "answer": "der Eltern.",
+    "answer": "",
     "images": false
   },
   {
@@ -2992,7 +2992,7 @@
       "die Verwandten",
       "die Schulen"
     ],
-    "answer": "die Eltern",
+    "answer": "",
     "images": false
   },
   {
@@ -3004,7 +3004,7 @@
       "eine Frau ist.",
       "Mitglied einer Partei ist."
     ],
-    "answer": "gut ausgebildet ist.",
+    "answer": "",
     "images": false
   },
   {
@@ -3016,7 +3016,7 @@
       "kann man dafür nicht bestraft werden.",
       "kann man dafür bestraft werden."
     ],
-    "answer": "kann man dafür bestraft werden.",
+    "answer": "",
     "images": false
   },
   {
@@ -3028,7 +3028,7 @@
       "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
       "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist."
     ],
-    "answer": "darf man zur gleichen Zeit nur mit einer Partnerin/einem Partner verheiratet sein.",
+    "answer": "",
     "images": false
   },
   {
@@ -3040,7 +3040,7 @@
       "beim Ordnungsamt",
       "beim Gewerbeamt"
     ],
-    "answer": "beim Einwohnermeldeamt",
+    "answer": "",
     "images": false
   },
   {
@@ -3052,7 +3052,7 @@
       "Das Besuchsrecht für die Kinder gilt ein Jahr.",
       "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich."
     ],
-    "answer": "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich.",
+    "answer": "",
     "images": false
   },
   {
@@ -3064,7 +3064,7 @@
       "Jugendamt.",
       "Gesundheitsamt."
     ],
-    "answer": "Jugendamt.",
+    "answer": "",
     "images": false
   },
   {
@@ -3076,7 +3076,7 @@
       "eine Genehmigung des Einwohnermeldeamts",
       "eine Gaststättenerlaubnis von der zuständigen Behörde"
     ],
-    "answer": "eine Gaststättenerlaubnis von der zuständigen Behörde",
+    "answer": "",
     "images": false
   },
   {
@@ -3088,7 +3088,7 @@
       "einer Hauptschule.",
       "einer Privatuniversität."
     ],
-    "answer": "einem Abendgymnasium.",
+    "answer": "",
     "images": false
   },
   {
@@ -3100,7 +3100,7 @@
       "Es bezahlt das Kindergeld an die Eltern.",
       "Es kontrolliert, ob das Kind einen Kindergarten besucht."
     ],
-    "answer": "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
+    "answer": "",
     "images": false
   },
   {
@@ -3112,7 +3112,7 @@
       "Steuererklärung.",
       "Krankenversicherung."
     ],
-    "answer": "Lehrstellensuche.",
+    "answer": "",
     "images": false
   },
   {
@@ -3124,7 +3124,7 @@
       "Anspruch auf Schulgeld.",
       "Anwesenheitspflicht."
     ],
-    "answer": "Anwesenheitspflicht.",
+    "answer": "",
     "images": false
   },
   {
@@ -3136,7 +3136,7 @@
       "einer Hauptschule.",
       "einer Privatuniversität."
     ],
-    "answer": "einem Abendgymnasium.",
+    "answer": "",
     "images": false
   },
   {
@@ -3148,7 +3148,7 @@
       "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
       "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden."
     ],
-    "answer": "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
+    "answer": "",
     "images": false
   },
   {
@@ -3160,7 +3160,7 @@
       "teilen die Strafe mit ihren Eltern.",
       "werden nicht bestraft."
     ],
-    "answer": "werden bestraft.",
+    "answer": "",
     "images": false
   },
   {
@@ -3172,7 +3172,7 @@
       "beim Oktoberfest",
       "an Pfingsten"
     ],
-    "answer": "am Rosenmontag",
+    "answer": "",
     "images": false
   },
   {
@@ -3184,7 +3184,7 @@
       "zur Agentur für Arbeit",
       "zum Standesamt"
     ],
-    "answer": "zum Standesamt",
+    "answer": "",
     "images": false
   },
   {
@@ -3196,7 +3196,7 @@
       "um 0 Uhr, Mitternacht",
       "um 22 Uhr"
     ],
-    "answer": "um 22 Uhr",
+    "answer": "",
     "images": false
   },
   {
@@ -3208,7 +3208,7 @@
       "Sie können zur Polizei gehen und die Tochter anzeigen.",
       "Sie suchen einen anderen Mann für die Tochter."
     ],
-    "answer": "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
+    "answer": "",
     "images": false
   },
   {
@@ -3220,7 +3220,7 @@
       "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
       "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl."
     ],
-    "answer": "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
+    "answer": "",
     "images": false
   },
   {
@@ -3232,7 +3232,7 @@
       "einen Kindergartenplatz.",
       "einen Ferienpass."
     ],
-    "answer": "einen Kindergartenplatz.",
+    "answer": "",
     "images": false
   },
   {
@@ -3244,7 +3244,7 @@
       "zur Weiterbildung.",
       "nur für Rentnerinnen und Rentner."
     ],
-    "answer": "zur Weiterbildung.",
+    "answer": "",
     "images": false
   },
   {
@@ -3256,7 +3256,7 @@
       "sich mit Masken und Kostümen verkleiden",
       "Kürbisse vor die Tür stellen"
     ],
-    "answer": "einen Tannenbaum schmücken",
+    "answer": "",
     "images": false
   },
   {
@@ -3268,7 +3268,7 @@
       "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
       "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet."
     ],
-    "answer": "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
+    "answer": "",
     "images": false
   },
   {
@@ -3280,7 +3280,7 @@
       "zum Einwohnermeldeamt.",
       "zum Jugendamt."
     ],
-    "answer": "zum Jugendamt.",
+    "answer": "",
     "images": false
   },
   {
@@ -3292,7 +3292,7 @@
       "die Schweigepflicht",
       "die Meinungsfreiheit"
     ],
-    "answer": "das Briefgeheimnis",
+    "answer": "",
     "images": false
   },
   {
@@ -3304,7 +3304,7 @@
       "die Einwilligung der Kinder",
       "die Unterstützung einer Anwältin/eines Anwalts"
     ],
-    "answer": "die Unterstützung einer Anwältin/eines Anwalts",
+    "answer": "",
     "images": false
   },
   {
@@ -3316,7 +3316,7 @@
       "Ich drohe der Person.",
       "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren."
     ],
-    "answer": "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren.",
+    "answer": "",
     "images": false
   },
   {
@@ -3328,7 +3328,7 @@
       "keine Erfahrungen in diesem Beruf hat.",
       "Mutter ist."
     ],
-    "answer": "Mutter ist.",
+    "answer": "",
     "images": false
   },
   {
@@ -3340,7 +3340,7 @@
       "zu hohe Gehaltsvorstellungen hat.",
       "kein Englisch spricht."
     ],
-    "answer": "im Rollstuhl sitzt.",
+    "answer": "",
     "images": false
   },
   {
@@ -3352,7 +3352,7 @@
       "Regeln, an die sich alle Bewohnerinnen und Bewohner halten müssen.",
       "die Adresse des nächsten Ordnungsamtes."
     ],
-    "answer": "Regeln, an die sich alle Bewohnerinnen und Bewohner halten müssen.",
+    "answer": "",
     "images": false
   },
   {
@@ -3364,7 +3364,7 @@
       "Einspruch einlegen.",
       "warten, bis ein anderer Bescheid kommt."
     ],
-    "answer": "Einspruch einlegen.",
+    "answer": "",
     "images": false
   },
   {
@@ -3376,7 +3376,7 @@
       "Versammlungsfreiheit",
       "Freizügigkeit"
     ],
-    "answer": "Gleichbehandlung",
+    "answer": "",
     "images": false
   },
   {
@@ -3388,7 +3388,7 @@
       "Bibliotheksaufsicht",
       "Lehrerin/Lehrer"
     ],
-    "answer": "Wahlhelferin/Wahlhelfer",
+    "answer": "",
     "images": false
   },
   {
@@ -3400,7 +3400,7 @@
       "Ich schicke die Rechnung an die Behörde zurück.",
       "Ich gehe mit der Rechnung zum Finanzamt."
     ],
-    "answer": "Ich lege Widerspruch bei der Behörde ein.",
+    "answer": "",
     "images": false
   },
   {
@@ -3412,7 +3412,7 @@
       "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
       "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert."
     ],
-    "answer": "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
+    "answer": "",
     "images": false
   },
   {
@@ -3424,7 +3424,7 @@
       "Beiträge zur Renten- und Krankenversicherung",
       "Umsatzsteuer"
     ],
-    "answer": "Umsatzsteuer",
+    "answer": "",
     "images": false
   },
   {
@@ -3436,7 +3436,7 @@
       "die Betriebsgruppe",
       "das Betriebsmanagement"
     ],
-    "answer": "der Betriebsrat",
+    "answer": "",
     "images": false
   },
   {
@@ -3448,7 +3448,7 @@
       "die Kündigungsfrist",
       "die Versicherungspflicht"
     ],
-    "answer": "die Kündigungsfrist",
+    "answer": "",
     "images": false
   },
   {
@@ -3460,7 +3460,7 @@
       "aus dem Grundgesetz der Bundesrepublik Deutschland",
       "aus der christlichen Tradition"
     ],
-    "answer": "aus den nationalsozialistischen Verbrechen gegen Juden",
+    "answer": "",
     "images": false
   },
   {
@@ -3472,7 +3472,7 @@
       "er eine dunkle Haut hat.",
       "er keine Erfahrungen im Beruf hat."
     ],
-    "answer": "er eine dunkle Haut hat.",
+    "answer": "",
     "images": false
   },
   {
@@ -3484,7 +3484,7 @@
       "das Gerät ungefragt austauschen",
       "die Garantie verlängern"
     ],
-    "answer": "den Fernseher reklamieren",
+    "answer": "",
     "images": false
   },
   {
@@ -3496,7 +3496,7 @@
       "man mehr Steuern zahlen muss, wenn man nicht zu einer Kirche gehört.",
       "die Kirche für die Steuererklärung verantwortlich ist."
     ],
-    "answer": "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft ist.",
+    "answer": "",
     "images": false
   },
   {
@@ -3508,7 +3508,7 @@
       "Jeder kann glauben, was er möchte.",
       "Der Staatentscheidet, an welchen Gott die Menschen glauben."
     ],
-    "answer": "Jeder kann glauben, was er möchte.",
+    "answer": "",
     "images": false
   },
   {
@@ -3520,7 +3520,7 @@
       "Eier bemalen",
       "Raketen in die Luft schießen"
     ],
-    "answer": "Eier bemalen",
+    "answer": "",
     "images": false
   },
   {
@@ -3532,7 +3532,7 @@
       "internationaler Trauertag.",
       "bayerischer Brauch."
     ],
-    "answer": "christlicher Feiertag.",
+    "answer": "",
     "images": false
   },
   {
@@ -3544,7 +3544,7 @@
       "der Buddhismus",
       "der Islam"
     ],
-    "answer": "das Christentum",
+    "answer": "",
     "images": false
   },
   {
@@ -3556,7 +3556,7 @@
       "die Adventszeit.",
       "Allerheiligen."
     ],
-    "answer": "die Adventszeit.",
+    "answer": "",
     "images": false
   },
   {
@@ -3568,7 +3568,7 @@
       "Marokko",
       "Türkei"
     ],
-    "answer": "Türkei",
+    "answer": "",
     "images": false
   },
   {
@@ -3580,7 +3580,7 @@
       "Chile, Ungarn, Simbabwe.",
       "Nordkorea, Mexiko, Ägypten."
     ],
-    "answer": "Vietnam, Polen, Mosambik.",
+    "answer": "",
     "images": false
   },
   {
@@ -3592,7 +3592,7 @@
       "Zeitarbeiterinnen/Zeitarbeiter.",
       "Schichtarbeiterinnen/Schichtarbeiter."
     ],
-    "answer": "Gastarbeiterinnen/Gastarbeiter.",
+    "answer": "",
     "images": false
   },
   {
@@ -3604,7 +3604,7 @@
       "Portugal",
       "Türkei"
     ],
-    "answer": "Italien",
+    "answer": "",
     "images": false
   }
 ]

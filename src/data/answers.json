@@ -1,1182 +1,202 @@
 [
   {
-    "id": 2,
-    "answer": "Religionsunterricht teilnimmt."
-  },
-  {
-    "id": 3,
-    "answer": "Alle Einwohnerinnen/Einwohner und der Staat müssen sich an die Gesetze halten."
-  },
-  {
-    "id": 4,
-    "answer": "Meinungsfreiheit"
-  },
-  {
-    "id": 5,
-    "answer": "Die Wählerin/der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben."
-  },
-  {
-    "id": 6,
-    "answer": "Grundgesetz"
-  },
-  {
-    "id": 7,
-    "answer": "Glaubens- und Gewissensfreiheit"
-  },
-  {
-    "id": 8,
-    "answer": "Alle sollen gleich viel Geld haben."
-  },
-  {
-    "id": 9,
-    "answer": "Asyl"
-  },
-  {
-    "id": 10,
-    "answer": "die Geldstrafe"
-  },
-  {
-    "id": 11,
-    "answer": "Grundgesetz"
-  },
-  {
-    "id": 12,
-    "answer": "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden."
-  },
-  {
-    "id": 13,
-    "answer": "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören."
-  },
-  {
-    "id": 14,
-    "answer": "meine Meinung im Internet äußern kann."
-  },
-  {
-    "id": 15,
-    "answer": "Zwangsarbeit"
-  },
-  {
-    "id": 16,
-    "answer": "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen"
-  },
-  {
-    "id": 17,
-    "answer": "Ungleichbehandlung der Bürgerinnen und Bürger durch den Staat."
-  },
-  {
-    "id": 18,
-    "answer": "die Unantastbarkeit der Menschenwürde"
-  },
-  {
-    "id": 19,
-    "answer": "Man darf sich seinen Wohnort selbst aussuchen."
-  },
-  {
-    "id": 20,
-    "answer": "verfassungswidrig."
-  },
-  {
-    "id": 22,
-    "answer": "Republik"
-  },
-  {
-    "id": 23,
-    "answer": "bei einer Firma oder Behörde beschäftigt."
-  },
-  {
-    "id": 24,
-    "answer": "16"
-  },
-  {
-    "id": 25,
-    "answer": "Elsass-Lothringen"
-  },
-  {
-    "id": 26,
-    "answer": "ein demokratischer und sozialer Bundesstaat."
-  },
-  {
-    "id": 27,
-    "answer": "ein Bundesstaat."
-  },
-  {
-    "id": 28,
-    "answer": "das wahlberechtigte Volk"
-  },
-  {
-    "id": 29,
-    "answer": "Adler"
-  },
-  {
-    "id": 30,
-    "answer": "Pressezensur"
-  },
-  {
-    "id": 31,
-    "answer": "Koalition."
-  },
-  {
-    "id": 32,
-    "answer": "Presse"
-  },
-  {
-    "id": 33,
-    "answer": "sind Staat und Religionsgemeinschaften voneinander getrennt."
-  },
-  {
-    "id": 34,
-    "answer": "eine Monarchie"
-  },
-  {
-    "id": 35,
-    "answer": "Sozialabgaben"
-  },
-  {
-    "id": 36,
-    "answer": "die Krankenversicherung"
-  },
-  {
-    "id": 37,
-    "answer": "Ministerpräsidentin/Ministerpräsident"
-  },
-  {
-    "id": 38,
-    "answer": "Bundesstaat."
-  },
-  {
-    "id": 39,
-    "answer": "eine eigene Regierung"
-  },
-  {
-    "id": 40,
-    "answer": "Einigkeit und Recht und Freiheit …"
-  },
-  {
-    "id": 41,
-    "answer": "weil dadurch die unterschiedlichen Meinungen der Bürgerinnen und Bürger vertreten werden"
-  },
-  {
-    "id": 42,
-    "answer": "das Parlament"
-  },
-  {
-    "id": 43,
-    "answer": "wenn sie gegen die Verfassung kämpft"
-  },
-  {
-    "id": 44,
-    "answer": "Die Bundespräsidentin/den Bundespräsidenten"
-  },
-  {
-    "id": 45,
-    "answer": "Sozialversicherung"
-  },
-  {
-    "id": 46,
-    "answer": "Er baut Straßen und Schulen."
-  },
-  {
-    "id": 47,
-    "answer": "Er bezahlt für alle Staatsangehörigen Urlaubsreisen."
-  },
-  {
-    "id": 48,
-    "answer": "die Bürgerversammlung"
-  },
-  {
-    "id": 49,
-    "answer": "die Bundesländer"
-  },
-  {
-    "id": 50,
-    "answer": "soziale Marktwirtschaft."
-  },
-  {
-    "id": 51,
-    "answer": "Menschen von einer Privatpolizei ohne Grund verhaftet werden."
-  },
-  {
-    "id": 52,
-    "answer": "Volke aus."
-  },
-  {
-    "id": 53,
-    "answer": "Der Staat muss die Gesetze einhalten."
-  },
-  {
-    "id": 54,
-    "answer": "Direktive"
-  },
-  {
-    "id": 56,
-    "answer": "Ordnungsamt"
-  },
-  {
-    "id": 57,
-    "answer": "eine Abgeordnete/ein Abgeordneter der stärksten Fraktion"
-  },
-  {
-    "id": 58,
-    "answer": "die Bundespräsidentin/der Bundespräsident"
-  },
-  {
-    "id": 59,
-    "answer": "vor etwa 1700 Jahren"
-  },
-  {
-    "id": 60,
-    "answer": "Legislative."
-  },
-  {
-    "id": 61,
-    "answer": "Die Staatsgewalt geht vom Volke aus."
-  },
-  {
-    "id": 62,
-    "answer": "Landtagswahl"
-  },
-  {
-    "id": 63,
-    "answer": "die Gerichte"
-  },
-  {
-    "id": 64,
-    "answer": "Bund, Länder und Kommunen."
-  },
-  {
-    "id": 65,
-    "answer": "das Bundeskabinett zu bilden."
-  },
-  {
-    "id": 66,
-    "answer": "Berlin und München"
-  },
-  {
-    "id": 67,
-    "answer": "Schulpolitik"
-  },
-  {
-    "id": 68,
-    "answer": "weil es nach dem Grundgesetz seine Aufgabe ist"
-  },
-  {
-    "id": 69,
-    "answer": "Gemeinden"
-  },
-  {
-    "id": 70,
-    "answer": "Sie/Er schlägt die Kanzlerin/den Kanzler zur Wahl vor."
-  },
-  {
-    "id": 71,
-    "answer": "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden."
-  },
-  {
-    "id": 72,
-    "answer": "Olaf Scholz"
-  },
-  {
-    "id": 73,
-    "answer": "CDU/CSU und SPD."
-  },
-  {
-    "id": 74,
-    "answer": "Bundestag"
-  },
-  {
-    "id": 75,
-    "answer": "Frank-Walter Steinmeier"
-  },
-  {
-    "id": 76,
-    "answer": "Christlich Demokratische Union"
-  },
-  {
-    "id": 77,
-    "answer": "die deutsche Armee"
-  },
-  {
-    "id": 78,
-    "answer": "Sozialdemokratische Partei Deutschlands"
-  },
-  {
-    "id": 79,
-    "answer": "Freie Demokratische Partei"
-  },
-  {
-    "id": 80,
-    "answer": "Bundesverfassungsgericht"
-  },
-  {
-    "id": 81,
-    "answer": "der Bundestag"
-  },
-  {
-    "id": 82,
-    "answer": "die Bundeskanzlerin/der Bundeskanzler"
-  },
-  {
-    "id": 83,
-    "answer": "der Bundestag"
-  },
-  {
-    "id": 84,
-    "answer": "repräsentiert das Land."
-  },
-  {
-    "id": 85,
-    "answer": "die Regierungsvertreter der Bundesländer"
-  },
-  {
-    "id": 86,
-    "answer": "die Bundesversammlung"
-  },
-  {
-    "id": 87,
-    "answer": "die Bundespräsidentin/der Bundespräsident"
-  },
-  {
-    "id": 88,
-    "answer": "kontrolliert die Regierung."
-  },
-  {
-    "id": 89,
-    "answer": "Fraktion"
-  },
-  {
-    "id": 90,
-    "answer": "den Bundesrat."
-  },
-  {
-    "id": 91,
-    "answer": "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird."
-  },
-  {
-    "id": 92,
-    "answer": "Christlich Soziale Union"
-  },
-  {
-    "id": 93,
-    "answer": "mehr Sitze erhält die Partei im Parlament."
-  },
-  {
-    "id": 94,
-    "answer": "18"
-  },
-  {
-    "id": 95,
-    "answer": "Schulpflicht"
-  },
-  {
-    "id": 96,
-    "answer": "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
-  },
-  {
-    "id": 97,
-    "answer": "Sozialversicherung"
-  },
-  {
-    "id": 98,
-    "answer": "kann die Regierung ihre Mehrheit verlieren."
-  },
-  {
-    "id": 99,
-    "answer": "Arbeitgeberinnen/Arbeitgeber und Arbeitnehmerinnen/Arbeitnehmer"
-  },
-  {
-    "id": 100,
-    "answer": "die Lebensversicherung"
-  },
-  {
-    "id": 101,
-    "answer": "Arbeitnehmerinnen und Arbeitnehmer."
-  },
-  {
-    "id": 102,
-    "answer": "Bundesverdienstkreuz"
-  },
-  {
-    "id": 103,
-    "answer": "von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung"
-  },
-  {
-    "id": 104,
-    "answer": "Die Frau bekommt ein Kind und ihr Chef weiß das."
-  },
-  {
-    "id": 105,
-    "answer": "Sie zählen die Stimmen nach dem Ende der Wahl."
-  },
-  {
-    "id": 106,
-    "answer": "Sie zählen die Stimmen nach dem Ende der Wahl."
-  },
-  {
-    "id": 107,
-    "answer": "4 Jahre"
-  },
-  {
-    "id": 108,
-    "answer": "Bürgerin/Bürger der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist."
-  },
-  {
-    "id": 109,
-    "answer": "alle vier Jahre"
-  },
-  {
-    "id": 110,
-    "answer": "4 Jahre"
-  },
-  {
-    "id": 111,
-    "answer": "der öffentliche Aufruf zur Vernichtung Israels"
-  },
-  {
-    "id": 112,
-    "answer": "geheim."
-  },
-  {
-    "id": 113,
-    "answer": "die meisten Stimmen bekommt."
-  },
-  {
-    "id": 114,
-    "answer": "ein Recht."
-  },
-  {
-    "id": 115,
-    "answer": "Man kann wählen."
-  },
-  {
-    "id": 116,
-    "answer": "aktives Wahlrecht."
-  },
-  {
-    "id": 117,
-    "answer": "5%"
-  },
-  {
-    "id": 118,
-    "answer": "alle Menschen"
-  },
-  {
-    "id": 119,
-    "answer": "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte."
-  },
-  {
-    "id": 120,
-    "answer": "Mehrheits- und Verhältniswahlrecht."
-  },
-  {
-    "id": 121,
-    "answer": "5%-Hürde."
-  },
-  {
-    "id": 122,
-    "answer": "frei, gleich, geheim."
-  },
-  {
-    "id": 123,
-    "answer": "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen"
-  },
-  {
-    "id": 124,
-    "answer": "des Parlaments für Deutschland."
-  },
-  {
-    "id": 125,
-    "answer": "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen."
-  },
-  {
-    "id": 126,
-    "answer": "eine Wahlbenachrichtigung von der Gemeinde"
-  },
-  {
-    "id": 127,
-    "answer": "viele kleine Parteien die Regierungsbildung erschweren."
-  },
-  {
-    "id": 128,
-    "answer": "Abgeordnete."
-  },
-  {
-    "id": 129,
-    "answer": "der Bundestag."
-  },
-  {
-    "id": 131,
-    "answer": "das Oberhaupt einer Gemeinde."
-  },
-  {
-    "id": 132,
-    "answer": "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden."
-  },
-  {
-    "id": 133,
-    "answer": "Man kann durch Briefwahl seine Stimme abgeben."
-  },
-  {
-    "id": 134,
-    "answer": "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative."
-  },
-  {
-    "id": 135,
-    "answer": "Arbeitnehmerinnen und Arbeitnehmer"
-  },
-  {
-    "id": 136,
-    "answer": "ungerechtfertigter Kündigung durch Ihre Chefin/Ihren Chef."
-  },
-  {
-    "id": 137,
-    "answer": "das Arbeitsgericht"
-  },
-  {
-    "id": 138,
-    "answer": "Kündigungsschutzklage erheben"
-  },
-  {
-    "id": 139,
-    "answer": "eine Straftat begangen hat und angeklagt wird."
-  },
-  {
-    "id": 140,
-    "answer": "entscheidet mit Richterinnen/Richtern über Schuld und Strafe."
-  },
-  {
-    "id": 141,
-    "answer": "eine Rechtsanwältin/ein Rechtsanwalt"
-  },
-  {
-    "id": 142,
-    "answer": "arbeitet an einem Gericht und spricht Urteile."
-  },
-  {
-    "id": 143,
-    "answer": "Judikative."
-  },
-  {
-    "id": 144,
-    "answer": "rechtsprechenden Gewalt."
-  },
-  {
-    "id": 145,
-    "answer": "Judikative"
-  },
-  {
-    "id": 146,
-    "answer": "Prozess"
-  },
-  {
-    "id": 147,
-    "answer": "Recht sprechen"
-  },
-  {
-    "id": 148,
-    "answer": "die Einhaltung von Gesetzen zu überwachen"
-  },
-  {
-    "id": 149,
-    "answer": "den Holocaust leugnen"
-  },
-  {
-    "id": 150,
-    "answer": "eine ehrenamtliche Richterin/ein ehrenamtlicher Richter."
-  },
-  {
-    "id": 151,
-    "answer": "die DDR"
-  },
-  {
-    "id": 152,
-    "answer": "1933 bis 1945"
-  },
-  {
-    "id": 153,
-    "answer": "Ende des Zweiten Weltkriegs in Europa"
-  },
-  {
-    "id": 154,
-    "answer": "1945"
-  },
-  {
-    "id": 155,
-    "answer": "1933 bis 1945"
-  },
-  {
-    "id": 156,
-    "answer": "1933"
-  },
-  {
-    "id": 157,
-    "answer": "eine Diktatur."
-  },
-  {
-    "id": 158,
-    "answer": "Diktatur."
-  },
-  {
-    "id": 159,
-    "answer": "freie Wahlen"
-  },
-  {
-    "id": 160,
-    "answer": "der Zweite Weltkrieg"
-  },
-  {
-    "id": 161,
-    "answer": "des staatlichen Rassismus"
-  },
-  {
-    "id": 162,
-    "answer": "das Attentat auf Hitler am 20. Juli 1944."
-  },
-  {
-    "id": 163,
-    "answer": "1938"
-  },
-  {
-    "id": 164,
-    "answer": "Jüdische Geschäfte und Synagogen werden durch Nationalsozialisten und ihre Anhänger zerstört."
-  },
-  {
-    "id": 165,
-    "answer": "Konrad Adenauer"
-  },
-  {
-    "id": 166,
-    "answer": "bei den Montagsdemonstrationen 1989 in der DDR"
-  },
-  {
-    "id": 167,
-    "answer": "USA, Sowjetunion, Großbritannien, Frankreich"
-  },
-  {
-    "id": 168,
-    "answer": "Japan"
-  },
-  {
-    "id": 169,
-    "answer": "1949"
-  },
-  {
-    "id": 170,
-    "answer": "das Verbot von Parteien"
-  },
-  {
-    "id": 171,
-    "answer": "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich."
-  },
-  {
-    "id": 172,
-    "answer": "sowjetischen Besatzungszone"
-  },
-  {
-    "id": 173,
-    "answer": "der Europäischen Union (EU)."
-  },
-  {
-    "id": 174,
-    "answer": "1949"
-  },
-  {
-    "id": 175,
-    "answer": "4"
-  },
-  {
-    "id": 177,
-    "answer": "Berlin"
-  },
-  {
-    "id": 178,
-    "answer": "Die Sowjetunion unterbrach den gesamten Verkehr auf dem Landwege."
-  },
-  {
-    "id": 179,
-    "answer": "durch die bedingungslose Kapitulation Deutschlands"
-  },
-  {
-    "id": 180,
-    "answer": "Konrad Adenauer."
-  },
-  {
-    "id": 181,
-    "answer": "Er bat Polen und die polnischen Juden um Vergebung."
-  },
-  {
-    "id": 182,
-    "answer": "Synagoge"
-  },
-  {
-    "id": 183,
-    "answer": "50er Jahre"
-  },
-  {
-    "id": 184,
-    "answer": "eine Resolution der Vereinten Nationen"
-  },
-  {
-    "id": 185,
-    "answer": "des Warschauer Pakts gegen den Westen"
-  },
-  {
-    "id": 186,
-    "answer": "17. Juni"
-  },
-  {
-    "id": 187,
-    "answer": "DDR"
-  },
-  {
-    "id": 188,
-    "answer": "1961"
-  },
-  {
-    "id": 189,
-    "answer": "1961"
-  },
-  {
-    "id": 190,
-    "answer": "ein führender Politiker der DDR."
-  },
-  {
-    "id": 191,
-    "answer": "DDR"
-  },
-  {
-    "id": 192,
-    "answer": "Westdeutschland und die DDR wurden gegründet."
-  },
-  {
-    "id": 193,
-    "answer": "1949"
-  },
-  {
-    "id": 194,
-    "answer": "der Bau der Berliner Mauer"
-  },
-  {
-    "id": 195,
-    "answer": "der sowjetischen Besatzungszone"
-  },
-  {
-    "id": 196,
-    "answer": "eine Demokratie."
-  },
-  {
-    "id": 197,
-    "answer": "Wiedervereinigung"
-  },
-  {
-    "id": 198,
-    "answer": "DDR"
-  },
-  {
-    "id": 199,
-    "answer": "Öffnung der Berliner Mauer"
-  },
-  {
-    "id": 200,
-    "answer": "Berlin"
-  },
-  {
-    "id": 201,
-    "answer": "9. November 1989"
-  },
-  {
-    "id": 202,
-    "answer": "1953"
-  },
-  {
-    "id": 203,
-    "answer": "Ostdeutschland und Westdeutschland"
-  },
-  {
-    "id": 204,
-    "answer": "die Deutsche Demokratische Republik (DDR) und die Bundesrepublik Deutschland (BRD)"
-  },
-  {
-    "id": 205,
-    "answer": "die Stasi"
-  },
-  {
-    "id": 206,
-    "answer": "eine Diktatur."
-  },
-  {
-    "id": 207,
-    "answer": "die Planwirtschaft"
-  },
-  {
-    "id": 208,
-    "answer": "Kommunistische Partei"
-  },
-  {
-    "id": 209,
-    "answer": "Zentralverwaltungswirtschaft"
-  },
-  {
-    "id": 210,
-    "answer": "die Deutsche Mark"
-  },
-  {
-    "id": 211,
-    "answer": "die Montagsdemonstrationen"
-  },
-  {
-    "id": 212,
-    "answer": "West-Berlin"
-  },
-  {
-    "id": 213,
-    "answer": "Ost-Berlin"
-  },
-  {
-    "id": 214,
-    "answer": "Sozialistische Einheitspartei Deutschlands (SED)"
-  },
-  {
-    "id": 215,
-    "answer": "Öffnung der innerdeutschen Grenze"
-  },
-  {
-    "id": 216,
-    "answer": "eine zentrale staatliche Verwaltung."
-  },
-  {
-    "id": 217,
-    "answer": "1989"
-  },
-  {
-    "id": 218,
-    "answer": "Sozialistische Einheitspartei Deutschlands (SED)"
-  },
-  {
-    "id": 219,
-    "answer": "Kommunismus"
-  },
-  {
-    "id": 220,
-    "answer": "ein kommunistischer Staat."
-  },
-  {
-    "id": 221,
-    "answer": "die Deutsche Demokratische Republik"
-  },
-  {
-    "id": 222,
-    "answer": "ein Arbeiter- und Bauernstaat"
-  },
-  {
-    "id": 223,
-    "answer": "Westdeutschland"
-  },
-  {
-    "id": 224,
-    "answer": "die NATO"
-  },
-  {
-    "id": 225,
-    "answer": "Brandenburg"
-  },
-  {
-    "id": 226,
-    "answer": "DDR"
-  },
-  {
-    "id": 227,
-    "answer": "Kommunistische Partei"
-  },
-  {
-    "id": 228,
-    "answer": "Kommunismus"
-  },
-  {
-    "id": 229,
-    "answer": "Westdeutschland"
-  },
-  {
-    "id": 230,
-    "answer": "Westdeutschland"
-  },
-  {
-    "id": 231,
-    "answer": "die Deutsche Demokratische Republik"
-  },
-  {
-    "id": 232,
-    "answer": "eine zentrale staatliche Verwaltung."
-  },
-  {
-    "id": 233,
-    "answer": "Öffnung der Berliner Mauer"
-  },
-  {
-    "id": 234,
-    "answer": "West-Berlin"
-  },
-  {
-    "id": 235,
-    "answer": "DDR"
-  },
-  {
-    "id": 236,
-    "answer": "Westdeutschland"
-  },
-  {
-    "id": 237,
-    "answer": "die NATO"
-  },
-  {
-    "id": 238,
-    "answer": "West-Berlin"
-  },
-  {
-    "id": 239,
-    "answer": "Kommunismus"
-  },
-  {
-    "id": 240,
-    "answer": "die Deutsche Demokratische Republik"
-  },
-  {
-    "id": 241,
-    "answer": "Brandenburg"
-  },
-  {
-    "id": 242,
-    "answer": "1953"
-  },
-  {
-    "id": 243,
-    "answer": "Kommunistische Partei"
-  },
-  {
-    "id": 244,
-    "answer": "Sozialistische Einheitspartei Deutschlands (SED)"
-  },
-  {
-    "id": 245,
-    "answer": "Brandenburg"
-  },
-  {
-    "id": 246,
-    "answer": "Ost-Berlin"
-  },
-  {
-    "id": 247,
-    "answer": "Ostdeutschland und Westdeutschland"
-  },
-  {
-    "id": 248,
-    "answer": "Ost-Berlin"
-  },
-  {
-    "id": 249,
-    "answer": "die NATO"
-  },
-  {
-    "id": 250,
-    "answer": "Brandenburg"
-  },
-  {
     "id": 251,
-    "answer": "DDR"
+    "answer": "kann man dafür bestraft werden."
   },
   {
     "id": 252,
-    "answer": "die NATO"
+    "answer": "darf man zur gleichen Zeit nur mit einer Partnerin/einem Partner verheiratet sein."
   },
   {
     "id": 253,
-    "answer": "eine zentrale staatliche Verwaltung."
+    "answer": "beim Einwohnermeldeamt"
   },
   {
     "id": 254,
-    "answer": "die NATO"
+    "answer": "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich."
   },
   {
     "id": 255,
-    "answer": "Öffnung der innerdeutschen Grenze"
+    "answer": "Jugendamt."
   },
   {
     "id": 256,
-    "answer": "Ost-Berlin"
+    "answer": "eine Gaststättenerlaubnis von der zuständigen Behörde"
   },
   {
     "id": 257,
-    "answer": "Kommunistische Partei"
+    "answer": "einem Abendgymnasium."
   },
   {
     "id": 258,
-    "answer": "Kommunismus"
+    "answer": "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen."
   },
   {
     "id": 259,
-    "answer": "West-Berlin"
+    "answer": "Lehrstellensuche."
   },
   {
     "id": 260,
-    "answer": "die NATO"
+    "answer": "Anwesenheitspflicht."
   },
   {
     "id": 261,
-    "answer": "die Deutsche Demokratische Republik"
+    "answer": "einem Abendgymnasium."
   },
   {
     "id": 262,
-    "answer": "Westdeutschland"
+    "answer": "Niemand darf z.B. wegen einer Behinderung benachteiligt werden."
   },
   {
     "id": 263,
-    "answer": "Westdeutschland"
+    "answer": "werden bestraft."
   },
   {
     "id": 264,
-    "answer": "Öffnung der Berliner Mauer"
+    "answer": "am Rosenmontag"
   },
   {
     "id": 265,
-    "answer": "die Stasi"
+    "answer": "zum Standesamt"
   },
   {
     "id": 266,
-    "answer": "Ostdeutschland und Westdeutschland"
+    "answer": "um 22 Uhr"
   },
   {
     "id": 267,
-    "answer": "Sozialistische Einheitspartei Deutschlands (SED)"
+    "answer": "Sie müssen die Entscheidung der volljährigen Tochter respektieren."
   },
   {
     "id": 268,
-    "answer": "eine Diktatur."
+    "answer": "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl."
   },
   {
     "id": 269,
-    "answer": "die Stasi"
+    "answer": "einen Kindergartenplatz."
   },
   {
     "id": 270,
-    "answer": "eine zentrale staatliche Verwaltung."
+    "answer": "zur Weiterbildung."
   },
   {
     "id": 271,
-    "answer": "Kommunistische Partei"
+    "answer": "einen Tannenbaum schmücken"
   },
   {
     "id": 272,
-    "answer": "Westdeutschland"
+    "answer": "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet."
   },
   {
     "id": 273,
-    "answer": "Öffnung der innerdeutschen Grenze"
+    "answer": "zum Jugendamt."
   },
   {
     "id": 274,
-    "answer": "eine zentrale staatliche Verwaltung."
+    "answer": "das Briefgeheimnis"
   },
   {
     "id": 275,
-    "answer": "die NATO"
+    "answer": "die Unterstützung einer Anwältin/eines Anwalts"
   },
   {
     "id": 276,
-    "answer": "West-Berlin"
+    "answer": "Ich kann mich bei der Behördenleiterin/beim Behördenleiter beschweren."
   },
   {
     "id": 277,
-    "answer": "Sozialistische Einheitspartei Deutschlands (SED)"
+    "answer": "Mutter ist."
   },
   {
     "id": 278,
-    "answer": "Westdeutschland"
+    "answer": "im Rollstuhl sitzt."
   },
   {
     "id": 279,
-    "answer": "Kommunismus"
+    "answer": "Regeln, an die sich alle Bewohnerinnen und Bewohner halten müssen."
   },
   {
     "id": 280,
-    "answer": "die Stasi"
+    "answer": "Einspruch einlegen."
   },
   {
     "id": 281,
-    "answer": "Öffnung der Berliner Mauer"
+    "answer": "Gleichbehandlung"
   },
   {
     "id": 282,
-    "answer": "Sozialistische Einheitspartei Deutschlands (SED)"
+    "answer": "Wahlhelferin/Wahlhelfer"
   },
   {
     "id": 283,
-    "answer": "eine Diktatur."
+    "answer": "Ich lege Widerspruch bei der Behörde ein."
   },
   {
     "id": 284,
-    "answer": "Ostdeutschland und Westdeutschland"
+    "answer": "Erwachsene müssen auch nach der Ausbildung immer weiter lernen."
   },
   {
     "id": 285,
-    "answer": "eine zentrale staatliche Verwaltung."
+    "answer": "Umsatzsteuer"
   },
   {
     "id": 286,
-    "answer": "Ost-Berlin"
+    "answer": "der Betriebsrat"
   },
   {
     "id": 287,
-    "answer": "Brandenburg"
+    "answer": "die Kündigungsfrist"
   },
   {
     "id": 288,
-    "answer": "die NATO"
+    "answer": "aus den nationalsozialistischen Verbrechen gegen Juden"
   },
   {
     "id": 289,
-    "answer": "die Deutsche Demokratische Republik"
+    "answer": "er eine dunkle Haut hat."
   },
   {
     "id": 290,
-    "answer": "die NATO"
+    "answer": "den Fernseher reklamieren"
   },
   {
     "id": 291,
-    "answer": "Kommunistische Partei"
+    "answer": "es eine Kirchensteuer gibt, die an die Einkommen- und Lohnsteuer geknüpft ist."
   },
   {
     "id": 292,
-    "answer": "West-Berlin"
+    "answer": "Jeder kann glauben, was er möchte."
   },
   {
     "id": 293,
-    "answer": "Westdeutschland"
+    "answer": "Eier bemalen"
   },
   {
     "id": 294,
-    "answer": "Öffnung der innerdeutschen Grenze"
+    "answer": "christlicher Feiertag."
   },
   {
     "id": 295,
-    "answer": "eine zentrale staatliche Verwaltung."
+    "answer": "das Christentum"
   },
   {
     "id": 296,
-    "answer": "West-Berlin"
+    "answer": "die Adventszeit."
   },
   {
     "id": 297,
-    "answer": "die NATO"
+    "answer": "Türkei"
   },
   {
     "id": 298,
-    "answer": "Ost-Berlin"
+    "answer": "Vietnam, Polen, Mosambik."
   },
   {
     "id": 299,
-    "answer": "die Deutsche Demokratische Republik"
+    "answer": "Gastarbeiterinnen/Gastarbeiter."
   },
   {
     "id": 300,
-    "answer": "Westdeutschland"
+    "answer": "Italien"
   }
 ]
