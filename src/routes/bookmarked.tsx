@@ -14,7 +14,9 @@ const BookmarkedRoute: React.FC = () => {
         {bookmarkedQuestions.length > 0
           ? bookmarkedQuestions.map((question) => (
             <Grid item xs={12} key={question.id}>
-              <Question {...question} />
+              <Question
+                question={question}
+              />
               <Divider sx={{ marginBottom: 15 }} />
             </Grid>
           ))

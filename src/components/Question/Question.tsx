@@ -1,28 +1,32 @@
 import { Box, Container, Grid, IconButton, Tooltip, Typography } from '@mui/material';
 import type { Question } from '../../types';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Option from './Option';
-import { useNavigate } from 'react-router-dom';
-import NextQuestionTimer from '../NextQuestionTimer/NextQuestionTimer';
 import BookmarkAddOutlinedIcon from '@mui/icons-material/BookmarkAddOutlined';
 import BookmarkRemoveIcon from '@mui/icons-material/BookmarkRemove';
 import { useBookmarks } from '../../hooks/bookmarks';
 
-const Question: React.FC<Question> = (question) => {
+interface QuestionProps {
+  question: Question;
+  onChoose?: (question: Question) => void;
+}
+
+const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
   const [answer, setAnswer] = useState<string | undefined>(undefined);
-  const navigate = useNavigate();
   const { isBookmarked, handleAddBookmark, handleRemoveBookmark } = useBookmarks();
 
-  const onFinishWait = () => {
-    navigate(`/quiz/${question.id + 1}`);
+  useEffect(() => {
     setAnswer(undefined);
-  }
+  }, [question]);
 
   const correctAnswer = question.answer;
 
   const handleChoose = (option: string) => {
     if (answer) return;
     setAnswer(option);
+    if (props.onChoose) {
+      props.onChoose(question);
+    }
   };
 
   return (
@@ -91,7 +95,6 @@ const Question: React.FC<Question> = (question) => {
           </Grid>
         ))}
       </Grid>
-      {answer && <NextQuestionTimer start={!!answer} seconds={1.75} onDone={onFinishWait} />}
     </Container>
   );
 };
