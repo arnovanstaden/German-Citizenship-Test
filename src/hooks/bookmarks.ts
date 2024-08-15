@@ -7,11 +7,14 @@ interface UseBookmarks {
   handleRemoveBookmark: (questionId: number) => void;
 }
 
+
+const localStorageKey = 'DE_EBT_bookmarks';
+
 export const useBookmarks = (): UseBookmarks => {
   const [bookmarks, setBookmarks] = useState<number[]>([]);
 
   useEffect(() => {
-    const savedBookmarks = localStorage.getItem('DE_EBT_bookmarks');
+    const savedBookmarks = localStorage.getItem(localStorageKey);
     if (savedBookmarks) {
       setBookmarks(JSON.parse(savedBookmarks));
     }

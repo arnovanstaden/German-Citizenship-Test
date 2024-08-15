@@ -5,6 +5,7 @@ import Option from './Option';
 import BookmarkAddOutlinedIcon from '@mui/icons-material/BookmarkAddOutlined';
 import BookmarkRemoveIcon from '@mui/icons-material/BookmarkRemove';
 import { useBookmarks } from '../../hooks/bookmarks';
+import { useWrongAnswers } from '../../hooks/wrong';
 
 interface QuestionProps {
   question: Question;
@@ -12,21 +13,26 @@ interface QuestionProps {
 }
 
 const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
-  const [answer, setAnswer] = useState<string | undefined>(undefined);
+  const [chosenOption, setChosenOption] = useState<string | undefined>(undefined);
   const { isBookmarked, handleAddBookmark, handleRemoveBookmark } = useBookmarks();
+  const { addToWrongAnswers } = useWrongAnswers();
 
   useEffect(() => {
-    setAnswer(undefined);
-  }, [question]);
+    setChosenOption(undefined);
+  }, [question.id]);
 
   const correctAnswer = question.answer;
 
   const handleChoose = (option: string) => {
-    if (answer) return;
-    setAnswer(option);
+    if (chosenOption) return;
+    setChosenOption(option);
     if (props.onChoose) {
       props.onChoose(question);
     }
+    if (correctAnswer !== chosenOption) {
+      console.log(correctAnswer, chosenOption)
+      addToWrongAnswers(question)
+    };
   };
 
   return (
@@ -86,11 +92,11 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
           <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
             <Option
               onSelect={() => handleChoose(option)}
-              disabled={!!answer && option !== correctAnswer && answer !== option}
-              checked={answer === option || (option === correctAnswer && !!answer)}
+              disabled={!!chosenOption && option !== correctAnswer && chosenOption !== option}
+              checked={chosenOption === option || (option === correctAnswer && !!chosenOption)}
               label={option}
               image={question.images}
-              correct={!!answer && correctAnswer === option}
+              correct={!!chosenOption && correctAnswer === option}
             />
           </Grid>
         ))}
