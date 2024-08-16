@@ -2595,7 +2595,7 @@
       "die Reichskrone"
     ],
     "answer": "der Bundesadler",
-    "images": true,
+    "images": false,
     "questionImage": true
   },
   {
