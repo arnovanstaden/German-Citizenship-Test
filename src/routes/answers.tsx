@@ -10,9 +10,10 @@ const AllAnswersRoute: React.FC = () => {
         <React.Fragment key={question.id}>
           <Question
             question={question}
+            withAnswerOnly
           />
           <Container maxWidth="md">
-            <Divider sx={{ marginY: 10 }} />
+            <Divider sx={{ marginY: 5 }} />
           </Container>
         </React.Fragment>
       ))}

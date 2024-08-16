@@ -10,6 +10,7 @@ import { useWrongAnswers } from '../../hooks/wrong';
 interface QuestionProps {
   question: Question;
   onChosen?: (question: Question, correct: boolean) => void;
+  withAnswerOnly?: boolean
 }
 
 const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
@@ -40,9 +41,36 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
   return (
     <Container maxWidth="md" sx={{ padding: 0 }}>
 
-      <Typography variant="h5">
-        {`${question.id}. ${question.question}`}
-      </Typography>
+      <Grid container>
+        <Grid item sm={11} xs={12}>
+          <Typography variant="h5">
+            {`${question.id}. ${question.question}`}
+          </Typography>
+        </Grid>
+        <Grid item sm={1} xs={12}>
+          <Box
+            display="flex"
+            alignItems="flex-start"
+            justifyContent="flex-end"
+          >
+            {isBookmarked(question.id)
+              ? (
+                <Tooltip title="Lesezeichen entfernen">
+                  <IconButton onClick={() => handleRemoveBookmark(question.id)}>
+                    <BookmarkRemoveIcon />
+                  </IconButton>
+                </Tooltip>
+              )
+              : (
+                <Tooltip title="Zu Lesezeichen speichern">
+                  <IconButton onClick={() => handleAddBookmark(question.id)}>
+                    <BookmarkAddOutlinedIcon />
+                  </IconButton>
+                </Tooltip>
+              )}
+          </Box>
+        </Grid>
+      </Grid>
       {question.questionImage && (
         <Box
           sx={{
@@ -60,40 +88,32 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
         </Box>
       )}
       <Grid container spacing={2} paddingTop={5} marginBottom={2}>
-        {question.options.map((option) => (
-          <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
+        {!props.withAnswerOnly ? (
+          question.options.map((option) => (
+            <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
+              <Option
+                onSelect={() => handleChoose(option)}
+                disabled={!!chosenOption && option !== correctAnswer && chosenOption !== option}
+                checked={chosenOption === option || (option === correctAnswer && !!chosenOption)}
+                label={option}
+                image={question.images}
+                correct={!!chosenOption && correctAnswer === option}
+              />
+            </Grid>
+          ))
+        ) : (
+          <Grid item md={question.images ? 6 : 12} xs={12}>
             <Option
-              onSelect={() => handleChoose(option)}
-              disabled={!!chosenOption && option !== correctAnswer && chosenOption !== option}
-              checked={chosenOption === option || (option === correctAnswer && !!chosenOption)}
-              label={option}
+              onSelect={() => { }}
+              disabled={false}
+              checked={true}
+              label={question.answer}
               image={question.images}
-              correct={!!chosenOption && correctAnswer === option}
+              correct={true}
             />
           </Grid>
-        ))}
+        )}
       </Grid>
-      <Box
-        display="flex"
-        alignItems="flex-start"
-        justifyContent="flex-end"
-      >
-        {isBookmarked(question.id)
-          ? (
-            <Tooltip title="Lesezeichen entfernen">
-              <IconButton onClick={() => handleRemoveBookmark(question.id)}>
-                <BookmarkRemoveIcon />
-              </IconButton>
-            </Tooltip>
-          )
-          : (
-            <Tooltip title="Zu Lesezeichen speichern">
-              <IconButton onClick={() => handleAddBookmark(question.id)}>
-                <BookmarkAddOutlinedIcon />
-              </IconButton>
-            </Tooltip>
-          )}
-      </Box>
     </Container>
   );
 };
