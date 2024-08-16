@@ -60,13 +60,10 @@ export const useQuiz = (): UseQuizSettings => {
       return;
     }
 
-    // Navigate to /quiz settings if no id is provided
-    if (!quizSettings.quizStarted && location.pathname !== '/quiz') {
+    if (quizSettings.quizStarted === false && location.pathname !== '/quiz') {
       navigate('/quiz');
       return;
     }
-
-
   }, [addToWrongAnswers, location.pathname, navigate, quizSettings, quizEnded]);
 
   const startQuiz = (questionAmount: number) => {

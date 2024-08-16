@@ -7,12 +7,15 @@ import { Container, Grid, IconButton, Tooltip } from '@mui/material';
 import { useQuiz } from '../../hooks/quiz';
 import QuizProgress from '../../components/QuizProgress/QuizProgress';
 import { Close } from '@mui/icons-material';
+import ConfirmationModal from '../../components/ConfirmationModal/ConfirmationModal';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [chosen, setChosen] = useState(false);
   const [chosenCorrect, setChosenCorrect] = useState(false);
+  const [showContinueQuizModal, setShowContinueQuizModal] = useState(false);
+
   const { handleNextQuestion, quizSettings, exitQuiz } = useQuiz();
 
   if (!id || isNaN(parseInt(id))) {
@@ -52,7 +55,7 @@ const QuizQuestionsRoute: React.FC = () => {
           </Grid>
           <Grid item xs={2} sm={1} justifyContent="flex-end" display="flex">
             <Tooltip title="Quiz beenden">
-              <IconButton onClick={exitQuiz}>
+              <IconButton onClick={() => setShowContinueQuizModal(true)}>
                 <Close />
               </IconButton>
             </Tooltip>
@@ -72,6 +75,20 @@ const QuizQuestionsRoute: React.FC = () => {
           />
         </Container>
       )}
+      <ConfirmationModal
+        title='Quiz beenden'
+        description='Willst du dein aktuelles Quiz beenden? Alle Fortschritte gehen verloren.'
+        open={showContinueQuizModal}
+        onClose={() => setShowContinueQuizModal(false)}
+        continueButton={{
+          label: 'Quiz beenden',
+          onClick: () => {
+            setShowContinueQuizModal(false);
+            exitQuiz();
+          },
+          colour: 'error',
+        }}
+      />
     </>
   );
 };
