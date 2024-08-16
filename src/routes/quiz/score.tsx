@@ -1,15 +1,17 @@
 import { useNavigate } from 'react-router-dom';
 import { useQuiz } from '../../hooks/quiz';
 import { Button } from '@mui/material';
+import { useEffect } from 'react';
 
 const QuizScoreRoute: React.FC = () => {
   const { resetQuizSettings, quizEnded } = useQuiz();
   const navigate = useNavigate();
 
-  if (quizEnded) {
-    navigate('/quiz');
-    return null;
-  }
+  useEffect(() => {
+    if (!quizEnded) {
+      navigate('/quiz');
+    }
+  }, [quizEnded, navigate]);
 
   return (
     <div>
