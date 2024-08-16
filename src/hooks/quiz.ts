@@ -8,10 +8,9 @@ const localStorageKey = 'DE_EBT_quizSettings_v1';
 
 interface UseQuizSettings {
   quizSettings: QuizSettings;
-  resetQuizSettings: () => void;
   startQuiz: (questionAmount: number) => void;
   handleNextQuestion: (currentCorrect: boolean) => void;
-  exitQuiz: () => void;
+  exitQuiz: (navigateTo?: string) => void;
   quizEnded: boolean;
 }
 
@@ -37,8 +36,6 @@ export const useQuiz = (): UseQuizSettings => {
   const [quizSettings, setQuizSettings] = useState<QuizSettings>(initializeQuizSettings());
 
   const quizEnded = quizSettings.askedQuestions.length === quizSettings.questionCount;
-
-  const resetQuizSettings = () => setQuizSettings(defaultQuizSettings);
 
   useEffect(() => {
 
@@ -72,21 +69,25 @@ export const useQuiz = (): UseQuizSettings => {
     const selectedQuestionIds = shuffledQuestionIds.slice(0, questionAmount);
     const firstQuestion = selectedQuestionIds[0];
 
-    setQuizSettings((prev) => ({
-      ...prev,
+    setQuizSettings({
+      ...defaultQuizSettings,
       questionCount: questionAmount,
       sampleQuestionIds: selectedQuestionIds,
-      progress: 1,
       correctAnswers: [],
       currentQuestion: firstQuestion,
       quizStarted: true,
-    }));
+    });
   };
 
-  const exitQuiz = () => {
+  const exitQuiz = (navigateTo?: string) => {
     const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
     addToWrongAnswers(wrongAnswers);
-    resetQuizSettings();
+    setQuizSettings(defaultQuizSettings);
+    localStorage.setItem(localStorageKey, JSON.stringify(defaultQuizSettings));
+
+    if (navigateTo) {
+      navigate(navigateTo);
+    }
   };
 
   const handleNextQuestion = (currentCorrect: boolean) => {
@@ -106,7 +107,6 @@ export const useQuiz = (): UseQuizSettings => {
 
   return {
     quizSettings,
-    resetQuizSettings,
     startQuiz,
     handleNextQuestion,
     exitQuiz,

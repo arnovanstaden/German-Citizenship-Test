@@ -84,7 +84,7 @@ const QuizQuestionsRoute: React.FC = () => {
           label: 'Quiz beenden',
           onClick: () => {
             setShowContinueQuizModal(false);
-            exitQuiz();
+            exitQuiz('/quiz');
           },
           colour: 'error',
         }}
