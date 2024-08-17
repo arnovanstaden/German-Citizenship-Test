@@ -1,4 +1,4 @@
-import { Button, Divider, Grid, TextField, Typography } from '@mui/material';
+import { Button, Divider, FormControlLabel, Grid, Radio, RadioGroup, Typography } from '@mui/material';
 import { useContext, useState } from 'react';
 import { QuizContext } from '../../context/quiz';
 
@@ -6,24 +6,13 @@ const QuizIndexRoute: React.FC = () => {
   const [amount, setAmount] = useState<number | ''>(300);
   const { startQuiz } = useContext(QuizContext);
 
-  const handleUpdateAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
-    let value = e.target.value;
-    if (value.startsWith('0')) {
-      value = value.substring(0);
-    };
-
-    setAmount(isNaN(parseInt(e.target.value)) ? '' : parseInt(e.target.value));
-  };
-
-  const cannotProceed = !amount ? false : (amount < 1 || amount > 300);
-
   return (
     <>
       <Typography variant="h5" fontWeight={500} marginBottom={6}>
         Quiz-Einstellungen
       </Typography>
       <Grid container spacing={2} >
-        <Grid item xs={12} sm={9}>
+        <Grid item xs={12} sm={8}>
           <Typography
             variant="h6"
             fontWeight={500}
@@ -31,20 +20,26 @@ const QuizIndexRoute: React.FC = () => {
             Anzahl der Fragen
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={3} display="flex" justifyContent="flex-end">
-          <TextField
-            color="warning"
-            fullWidth
-            error={cannotProceed}
-            type="number"
+
+        <Grid item xs={12} sm={4} display="flex" justifyContent="flex-end">
+          <RadioGroup
+            aria-labelledby="demo-radio-buttons-group-label"
+            name="radio-buttons-group"
+            onChange={(e) => setAmount(parseInt(e.target.value))}
             value={amount}
-            onChange={handleUpdateAmount}
-            inputProps={{
-              min: 1,
-              max: 300,
-            }}
-            helperText={cannotProceed ? 'Die Anzahl der Fragen muss zwischen 1 und 300 liegen' : 'Ein Wert zwischen 1 und 300'}
-          />
+          >
+            <Grid container >
+              {[5, 10, 25, 50, 100, 150, 300].map((amount) => (
+                <Grid item xs={amount === 300 ? 12 : 4} key={amount}>
+                  <FormControlLabel
+                    value={amount}
+                    control={<Radio color="warning" />}
+                    label={amount === 300 ? '300 (Alle Fragen)' : amount}
+                  />
+                </Grid>
+              ))}
+            </Grid>
+          </RadioGroup>
         </Grid>
       </Grid>
 
@@ -59,7 +54,6 @@ const QuizIndexRoute: React.FC = () => {
         <Button
           variant="contained"
           color="warning"
-          disabled={cannotProceed}
           onClick={() => startQuiz(amount || 300)}
         >
           Quiz starten
