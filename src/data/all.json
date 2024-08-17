@@ -243,12 +243,12 @@
     "id": 21,
     "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
     "options": [
-      "/static/images/options/21/a.png",
-      "/static/images/options/21/b.png",
-      "/static/images/options/21/c.png",
-      "/static/images/options/21/d.png"
+      "/static/images/options/21/a",
+      "/static/images/options/21/b",
+      "/static/images/options/21/c",
+      "/static/images/options/21/d"
     ],
-    "answer": "/static/images/options/21/a.png",
+    "answer": "/static/images/options/21/a",
     "images": true
   },
   {
@@ -2505,12 +2505,12 @@
     "id": 209,
     "question": "Welches war das Wappen der Deutschen Demokratischen Republik?",
     "options": [
-      "/static/images/options/209/a.png",
-      "/static/images/options/209/b.png",
-      "/static/images/options/209/c.png",
-      "/static/images/options/209/d.png"
+      "/static/images/options/209/a",
+      "/static/images/options/209/b",
+      "/static/images/options/209/c",
+      "/static/images/options/209/d"
     ],
-    "answer": "/static/images/options/209/d.png",
+    "answer": "/static/images/options/209/d",
     "images": true
   },
   {
@@ -2710,12 +2710,12 @@
     "id": 226,
     "question": "Welche ist die Flagge der Europäischen Union?",
     "options": [
-      "/static/images/options/226/a.png",
-      "/static/images/options/226/b.png",
-      "/static/images/options/226/c.png",
-      "/static/images/options/226/d.png"
+      "/static/images/options/226/a",
+      "/static/images/options/226/b",
+      "/static/images/options/226/c",
+      "/static/images/options/226/d"
     ],
-    "answer": "/static/images/options/226/b.png",
+    "answer": "/static/images/options/226/b",
     "images": true
   },
   {

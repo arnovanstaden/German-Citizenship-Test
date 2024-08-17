@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Welches Wappen gehört zum Bundesland Baden-Württemberg?",
+    "options": [
+      "/static/images/states/baden-wuerttemberg/1/a.webp",
+      "/static/images/states/baden-wuerttemberg/1/b.webp",
+      "/static/images/states/baden-wuerttemberg/1/c.webp",
+      "/static/images/states/baden-wuerttemberg/1/d.webp"
+    ],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 2,
+    "question": "Welches ist ein Landkreis in Baden-Württemberg?",
+    "options": [
+      "Mecklenburgische Seenplatte",
+      "Neckar-Odenwald-Kreis",
+      "Nordfriesland",
+      "Altötting"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 3,
+    "question": "Für wie viele Jahre wird der Landtag in Baden-Württemberg gewählt?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 4,
+    "question": "Ab welchem Alter darf man in Baden-Württemberg bei Kommunalwahlen wählen?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 5,
+    "question": "Welche Farben hat die Landesflagge von Baden-Württemberg?",
+    "options": [
+      "blau-weiß-rot",
+      "schwarz-gold",
+      "weiß-blau",
+      "grün-weiß-rot"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 6,
+    "question": "Wo können Sie sich in Baden-Württemberg über politische Themen informieren?",
+    "options": [
+      "beim Ordnungsamt der Gemeinde",
+      "bei der Verbraucherzentrale",
+      "bei der Landeszentrale für politische Bildung",
+      "bei den Kirchen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 7,
+    "question": "Die Landeshauptstadt von Baden-Württemberg heißt …",
+    "options": [
+      "Heidelberg",
+      "Stuttgart",
+      "Karlsruhe",
+      "Mannheim"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 8,
+    "question": "Welches Bundesland ist Baden-Württemberg?",
+    "options": [
+      "/static/images/states/baden-wuerttemberg/8/a.webp",
+      "/static/images/states/baden-wuerttemberg/8/b.webp",
+      "/static/images/states/baden-wuerttemberg/8/c.webp",
+      "/static/images/states/baden-wuerttemberg/8/d.webp"
+    ],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 9,
+    "question": "Wie nennt man die Regierungschefin/den Regierungschef in Baden-Württemberg?",
+    "options": [
+      "Erste Ministerin/Erster Minister",
+      "Premierministerin/Premierminister",
+      "Bürgermeisterin/Bürgermeister",
+      "Ministerpräsidentin/Ministerpräsident"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 10,
+    "question": "Welche Ministerin/welchen Minister hat Baden-Württemberg nicht?",
+    "options": [
+      "Finanzministerin/Finanzminister",
+      "Justizministerin/Justizminister",
+      "Innenministerin/Innenminister",
+      "Außenministerin/Außenminister"
+    ],
+    "answer": "",
+    "images": false
+  }
+]

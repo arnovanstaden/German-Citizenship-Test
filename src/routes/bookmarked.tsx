@@ -1,4 +1,4 @@
-import questionData from '../data/de.json';
+import questionData from '../data/all.json';
 import Question from '../components/Question/Question';
 import { Container, Divider, Grid, Typography } from '@mui/material';
 import { useBookmarks } from '../hooks/bookmarks';

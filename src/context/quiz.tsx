@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from 'react';
 import { QuizSettings } from '../types';
-import allQuestionData from '../data/de.json';
+import allQuestionData from '../data/all.json';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useWrongAnswers } from '../hooks/wrong';
 

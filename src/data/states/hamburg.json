@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
+    "options": [
+      "/static/images/states/hamburg/1/a.webp",
+      "/static/images/states/hamburg/1/b.webp",
+      "/static/images/states/hamburg/1/c.webp",
+      "/static/images/states/hamburg/1/d.webp"
+    ],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 2,
+    "question": "Welches ist ein Bezirk von Hamburg?",
+    "options": [
+      "Altona",
+      "Hemelingen",
+      "Pankow",
+      "Mecklenburgische Seenplatte"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 3,
+    "question": "Für wie viele Jahre wird das Landesparlament in Hamburg gewählt?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 4,
+    "question": "Ab welchem Alter darf man in Hamburg bei Kommunalwahlen (Wahl der Bezirksversammlungen) wählen?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 5,
+    "question": "Welche Farben hat die Landesflagge von Hamburg?",
+    "options": [
+      "blau-weiß-rot",
+      "weiß-rot",
+      "grün-weiß-rot",
+      "schwarz-gelb"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 6,
+    "question": "Wo können Sie sich in Hamburg über politische Themen informieren?",
+    "options": [
+      "beim Ordnungsamt der Gemeinde",
+      "bei der Verbraucherzentrale",
+      "bei den Kirchen",
+      "bei der Landeszentrale für politische Bildung"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 7,
+    "question": "Welches Bundesland ist ein Stadtstaat?",
+    "options": [
+      "Hamburg",
+      "Sachsen",
+      "Bayern",
+      "Thüringen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 8,
+    "question": "Welches Bundesland ist Hamburg?",
+    "options": [
+      "/static/images/states/hamburg/8/a.webp",
+      "/static/images/states/hamburg/8/b.webp",
+      "/static/images/states/hamburg/8/c.webp",
+      "/static/images/states/hamburg/8/d.webp"
+    ],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 9,
+    "question": "Wie nennt man die Regierungschefin/den Regierungschef des Stadtstaates Hamburg?",
+    "options": [
+      "Ministerpräsidentin/Ministerpräsident",
+      "Erste Bürgermeisterin/Erster Bürgermeister",
+      "Regierende Senatorin/Regierender Senator",
+      "Oberbürgermeisterin/Oberbürgermeister"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 10,
+    "question": "Welche Senatorin/welchen Senator hat Hamburg nicht?",
+    "options": [
+      "Justizsenatorin/Justizsenator",
+      "Senatorin/Senator für Außenbeziehungen",
+      "Finanzsenatorin/Finanzsenator",
+      "Innensenatorin/Innensenator"
+    ],
+    "answer": "",
+    "images": false
+  }
+]

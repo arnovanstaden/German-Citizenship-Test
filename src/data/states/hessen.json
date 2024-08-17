@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "Welches Wappen gehört zum Bundesland Hessen?",
+    "options": [
+      "/static/images/states/hessen/1/a.webp",
+      "/static/images/states/hessen/1/b.webp",
+      "/static/images/states/hessen/1/c.webp",
+      "/static/images/states/hessen/1/d.webp"
+    ],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 2,
+    "question": "Welches ist ein Landkreis in Hessen?",
+    "options": [
+      "Ammerland",
+      "Altötting",
+      "Prignitz",
+      "Main-Taunus-Kreis"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 3,
+    "question": "Für wie viele Jahre wird der Landtag in Hessen gewählt?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 4,
+    "question": "Ab welchem Alter darf man in Hessen bei Kommunalwahlen wählen?",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 5,
+    "question": "Welche Farben hat die Landesflagge von Hessen?",
+    "options": [
+      "blau-weiß-rot",
+      "rot-weiß",
+      "schwarz-gold",
+      "grün-weiß-rot"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 6,
+    "question": "Wo können Sie sich in Hessen über politische Themen informieren?",
+    "options": [
+      "bei der Landeszentrale für politische Bildung",
+      "bei der Verbraucherzentrale",
+      "beim Ordnungsamt der Gemeinde",
+      "bei den Kirchen"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 7,
+    "question": "Die Landeshauptstadt von Hessen heißt …",
+    "options": [
+      "Kassel",
+      "Darmstadt",
+      "Frankfurt",
+      "Wiesbaden"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 8,
+    "question": "Welches Bundesland ist Hessen?",
+    "options": [
+      "/static/images/states/hessen/8/a.webp",
+      "/static/images/states/hessen/8/b.webp",
+      "/static/images/states/hessen/8/c.webp",
+      "/static/images/states/hessen/8/d.webp"
+    ],
+    "answer": "",
+    "images": true
+  },
+  {
+    "id": 9,
+    "question": "Wie nennt man die Regierungschefin/den Regierungschef in Hessen?",
+    "options": [
+      "Erste Ministerin/Erster Minister",
+      "Premierministerin/Premierminister",
+      "Bürgermeisterin/Bürgermeister",
+      "Ministerpräsidentin/Ministerpräsident"
+    ],
+    "answer": "",
+    "images": false
+  },
+  {
+    "id": 10,
+    "question": "Welche Ministerin/welchen Minister hat Hessen nicht?",
+    "options": [
+      "Justizministerin/Justizminister",
+      "Außenministerin/Außenminister",
+      "Finanzministerin/Finanzminister",
+      "Innenministerin/Innenminister"
+    ],
+    "answer": "",
+    "images": false
+  }
+]

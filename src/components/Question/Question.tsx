@@ -81,7 +81,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
           }}
         >
           <img
-            src={`/static/images/questions/${question.id}.png`}
+            src={`/static/images/questions/${question.id}`}
             style={{ width: '75%', height: 'auto' }}
           />
         </Box>

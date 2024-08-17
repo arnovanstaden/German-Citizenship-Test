@@ -1,7 +1,7 @@
 import Question from '../components/Question/Question';
 import { Box, Button, Container, Divider, Grid, Typography } from '@mui/material';
 import { useWrongAnswers } from '../hooks/wrong';
-import questionData from '../data/de.json';
+import questionData from '../data/all.json';
 
 const WrongRoute: React.FC = () => {
   const { wrongAnswers, removeFromWrongAnswers, clearAllWrongAnswers } = useWrongAnswers();
