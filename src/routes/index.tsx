@@ -30,6 +30,14 @@ const IndexRoute: React.FC = () => {
       </Grid>
       <Grid item xs={12} md={6}>
         <RootCard
+          href='/states'
+          title='Bundesländer'
+          description='Beantworte spezifische Fragen zu deinem Bundesland'
+          image='/static/images/indexCards/6.webp'
+        />
+      </Grid>
+      <Grid item xs={12} md={6}>
+        <RootCard
           href='/bookmarked'
           title='Lesezeichen Fragen'
           description='Hier findest du alle Fragen, die du mit einem Lesezeichen versehen hast.'

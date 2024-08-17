@@ -37,6 +37,10 @@ const router = createBrowserRouter([
         element: <AllQuestionsRoute />,
       },
       {
+        path: 'states',
+        element: <AllQuestionsRoute />,
+      },
+      {
         path: 'answers',
         element: <AllAnswersRoute />,
       },
