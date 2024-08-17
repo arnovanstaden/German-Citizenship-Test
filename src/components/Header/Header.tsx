@@ -2,20 +2,19 @@ import { Box, Container, IconButton, Typography } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 import styles from './styles.module.scss';
 import { Home } from '@mui/icons-material';
-import { useQuiz } from '../../hooks/quiz';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import ConfirmationModal from '../ConfirmationModal/ConfirmationModal';
+import { QuizContext } from '../../context/quiz';
 
 const Header: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const { quizSettings, quizEnded, exitQuiz } = useQuiz();
+  const { quizSettings, quizEnded, exitQuiz } = useContext(QuizContext);
   const [showContinueQuizModal, setShowContinueQuizModal] = useState(false);
+  const quizInProgress = quizSettings.quizStarted && quizEnded === false;
 
   const handleHomeClick = () => {
-    const quizInProgress = quizSettings.quizStarted && quizEnded === false;
-
     if (quizInProgress) {
       setShowContinueQuizModal(true);
     } else {

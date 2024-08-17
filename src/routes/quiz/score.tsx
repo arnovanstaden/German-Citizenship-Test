@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
-import { useQuiz } from '../../hooks/quiz';
 import { Button, Container } from '@mui/material';
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import ScoreCircle from '../../components/ScoreCircle/ScoreCircle';
+import { QuizContext } from '../../context/quiz';
 
 const QuizScoreRoute: React.FC = () => {
-  const { quizEnded, quizSettings, startQuiz, exitQuiz } = useQuiz();
+  const { quizEnded, quizSettings, startQuiz, exitQuiz } = useContext(QuizContext);
   const navigate = useNavigate();
 
   useEffect(() => {

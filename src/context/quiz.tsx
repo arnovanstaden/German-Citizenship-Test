@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import { QuizSettings } from '../types';
 import allQuestionData from '../data/de.json';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useWrongAnswers } from './wrong';
+import { useWrongAnswers } from '../hooks/wrong';
 
 const localStorageKey = 'DE_EBT_quizSettings_v1';
 
-interface UseQuizSettings {
+
+interface QuizContext {
   quizSettings: QuizSettings;
   startQuiz: (questionAmount: number) => void;
   handleNextQuestion: (currentCorrect: boolean) => void;
@@ -23,7 +24,9 @@ const defaultQuizSettings: QuizSettings = {
   quizStarted: false,
 };
 
-export const useQuiz = (): UseQuizSettings => {
+export const QuizContext = createContext<QuizContext>({} as QuizContext);
+
+const QuizContextProviderWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const { addToWrongAnswers } = useWrongAnswers();
@@ -52,13 +55,9 @@ export const useQuiz = (): UseQuizSettings => {
       return;
     }
 
+    // Handle open quiz that has not ended
     if (!quizEnded && quizSettings.currentQuestion && location.pathname !== `/quiz/${quizSettings.currentQuestion}`) {
       navigate(`/quiz/${quizSettings.currentQuestion}`);
-      return;
-    }
-
-    if (quizSettings.quizStarted === false && location.pathname !== '/quiz') {
-      navigate('/quiz');
       return;
     }
   }, [addToWrongAnswers, location.pathname, navigate, quizSettings, quizEnded]);
@@ -93,23 +92,30 @@ export const useQuiz = (): UseQuizSettings => {
   const handleNextQuestion = (currentCorrect: boolean) => {
     setQuizSettings((prev) => {
       const nextQuestion = prev.sampleQuestionIds.filter((id) => !prev.askedQuestions.includes(id) && id !== prev.currentQuestion)[0];
-      const quizEnded = !nextQuestion;
 
       return {
         ...prev,
         askedQuestions: [...new Set([...prev.askedQuestions, prev.currentQuestion])],
         correctAnswers: currentCorrect ? [...new Set([...prev.correctAnswers, prev.currentQuestion])] : prev.correctAnswers,
         currentQuestion: nextQuestion || 0,
-        quizEnded,
       };
     });
   };
 
-  return {
-    quizSettings,
-    startQuiz,
-    handleNextQuestion,
-    exitQuiz,
-    quizEnded
-  };
+  return (
+    <QuizContext.Provider
+      value={{
+        quizSettings,
+        startQuiz,
+        handleNextQuestion,
+        exitQuiz,
+        quizEnded
+      }}
+    >
+      {children}
+    </QuizContext.Provider>
+
+  );
 };
+
+export default QuizContextProviderWrapper;

@@ -2,21 +2,18 @@ import { useNavigate, useParams } from 'react-router-dom';
 import questionData from '../../data/de.json';
 import Question from '../../components/Question/Question';
 import NextQuestionTimer from '../../components/NextQuestionTimer/NextQuestionTimer';
-import { useState } from 'react';
-import { Container, Grid, IconButton, Tooltip } from '@mui/material';
-import { useQuiz } from '../../hooks/quiz';
+import { useContext, useState } from 'react';
+import { Container } from '@mui/material';
 import QuizProgress from '../../components/QuizProgress/QuizProgress';
-import ConfirmationModal from '../../components/ConfirmationModal/ConfirmationModal';
-import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
+import { QuizContext } from '../../context/quiz';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [chosen, setChosen] = useState(false);
   const [chosenCorrect, setChosenCorrect] = useState(false);
-  const [showContinueQuizModal, setShowContinueQuizModal] = useState(false);
 
-  const { handleNextQuestion, quizSettings, exitQuiz } = useQuiz();
+  const { handleNextQuestion, quizSettings } = useContext(QuizContext);
 
   if (!id || isNaN(parseInt(id))) {
     navigate('/404');
@@ -49,18 +46,7 @@ const QuizQuestionsRoute: React.FC = () => {
   return (
     <>
       <Container maxWidth="md" sx={{ marginBottom: 2 }}>
-        <Grid container spacing={2} alignItems="center">
-          <Grid item xs={10} sm={11}>
-            <QuizProgress {...progress} />
-          </Grid>
-          <Grid item xs={2} sm={1} justifyContent="flex-end" display="flex">
-            <Tooltip title="Quiz beenden">
-              <IconButton onClick={() => setShowContinueQuizModal(true)}>
-                <ExitToAppOutlinedIcon />
-              </IconButton>
-            </Tooltip>
-          </Grid>
-        </Grid>
+        <QuizProgress {...progress} />
       </Container>
       <Question
         question={question}
@@ -75,20 +61,6 @@ const QuizQuestionsRoute: React.FC = () => {
           />
         </Container>
       )}
-      <ConfirmationModal
-        title='Quiz beenden'
-        description='Willst du dein aktuelles Quiz beenden? Alle Fortschritte gehen verloren.'
-        open={showContinueQuizModal}
-        onClose={() => setShowContinueQuizModal(false)}
-        continueButton={{
-          label: 'Quiz beenden',
-          onClick: () => {
-            setShowContinueQuizModal(false);
-            exitQuiz('/quiz');
-          },
-          colour: 'error',
-        }}
-      />
     </>
   );
 };

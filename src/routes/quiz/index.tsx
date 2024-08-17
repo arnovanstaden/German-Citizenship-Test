@@ -1,11 +1,10 @@
 import { Button, Divider, Grid, TextField, Typography } from '@mui/material';
-import { useQuiz } from '../../hooks/quiz';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { QuizContext } from '../../context/quiz';
 
 const QuizIndexRoute: React.FC = () => {
   const [amount, setAmount] = useState<number | ''>(300);
-  const { startQuiz } = useQuiz();
-
+  const { startQuiz } = useContext(QuizContext);
 
   const handleUpdateAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
     let value = e.target.value;
