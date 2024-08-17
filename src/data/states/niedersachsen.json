@@ -87,13 +87,14 @@
     "id": 8,
     "question": "Welches Bundesland ist Niedersachsen?",
     "options": [
-      "/static/images/states/niedersachsen/8/a.webp",
-      "/static/images/states/niedersachsen/8/b.webp",
-      "/static/images/states/niedersachsen/8/c.webp",
-      "/static/images/states/niedersachsen/8/d.webp"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
     "answer": "",
-    "images": true
+    "images": false,
+    "questionImage": true
   },
   {
     "id": 9,
