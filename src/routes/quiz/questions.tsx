@@ -6,8 +6,8 @@ import { useState } from 'react';
 import { Container, Grid, IconButton, Tooltip } from '@mui/material';
 import { useQuiz } from '../../hooks/quiz';
 import QuizProgress from '../../components/QuizProgress/QuizProgress';
-import { Close } from '@mui/icons-material';
 import ConfirmationModal from '../../components/ConfirmationModal/ConfirmationModal';
+import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 
 const QuizQuestionsRoute: React.FC = () => {
   const { id } = useParams();
@@ -56,7 +56,7 @@ const QuizQuestionsRoute: React.FC = () => {
           <Grid item xs={2} sm={1} justifyContent="flex-end" display="flex">
             <Tooltip title="Quiz beenden">
               <IconButton onClick={() => setShowContinueQuizModal(true)}>
-                <Close />
+                <ExitToAppOutlinedIcon />
               </IconButton>
             </Tooltip>
           </Grid>

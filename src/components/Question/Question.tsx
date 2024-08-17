@@ -40,7 +40,6 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
 
   return (
     <Container maxWidth="md" sx={{ padding: 0 }}>
-
       <Grid container>
         <Grid item sm={11} xs={12}>
           <Typography variant="h5">
