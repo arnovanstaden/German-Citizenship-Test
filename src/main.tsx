@@ -12,6 +12,8 @@ import QuizQuestionsRoute from './routes/quiz/questions';
 import QuizIndexRoute from './routes/quiz';
 import QuizScoreRoute from './routes/quiz/score';
 import AllAnswersRoute from './routes/answers';
+import StateIndexRoute from './routes/states';
+import SpecificStateRoute from './routes/states/state';
 
 const router = createBrowserRouter([
   {
@@ -38,7 +40,11 @@ const router = createBrowserRouter([
       },
       {
         path: 'states',
-        element: <AllQuestionsRoute />,
+        element: <StateIndexRoute />,
+      },
+      {
+        path: 'states/:state',
+        element: <SpecificStateRoute />,
       },
       {
         path: 'answers',

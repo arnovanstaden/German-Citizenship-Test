@@ -7,6 +7,7 @@ interface Props {
   checked: boolean;
   disabled: boolean;
   correct?: boolean;
+  state?: string;
 }
 
 const Option: React.FC<Props> = (props) => {

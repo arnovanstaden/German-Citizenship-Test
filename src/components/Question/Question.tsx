@@ -10,7 +10,8 @@ import { useWrongAnswers } from '../../hooks/wrong';
 interface QuestionProps {
   question: Question;
   onChosen?: (question: Question, correct: boolean) => void;
-  withAnswerOnly?: boolean
+  withAnswerOnly?: boolean;
+  state?: string;
 }
 
 const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
@@ -81,7 +82,11 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
           }}
         >
           <img
-            src={`/static/images/questions/${question.id}.webp`}
+            src={
+              props.state
+                ? `/static/images/states/${props.state}/${question.id}.webp`
+                : `/static/images/questions/${question.id}.webp`
+            }
             style={{ width: '75%', height: 'auto' }}
           />
         </Box>
