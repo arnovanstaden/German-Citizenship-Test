@@ -8,7 +8,7 @@
       "/static/images/states/bayern/1/c.webp",
       "/static/images/states/bayern/1/d.webp"
     ],
-    "answer": "",
+    "answer": "/static/images/states/bayern/1/b.webp",
     "images": true
   },
   {
@@ -92,7 +92,7 @@
       "3",
       "4"
     ],
-    "answer": "",
+    "answer": "3",
     "images": false,
     "questionImage": true
   },

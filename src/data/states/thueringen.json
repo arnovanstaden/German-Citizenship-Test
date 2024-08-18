@@ -8,7 +8,7 @@
       "/static/images/states/thueringen/1/c.webp",
       "/static/images/states/thueringen/1/d.webp"
     ],
-    "answer": "",
+    "answer": "/static/images/states/thueringen/1/d.webp",
     "images": true
   },
   {
@@ -92,7 +92,7 @@
       "3",
       "4"
     ],
-    "answer": "",
+    "answer": "3",
     "images": false,
     "questionImage": true
   },

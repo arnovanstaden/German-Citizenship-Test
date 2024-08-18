@@ -8,7 +8,7 @@
       "/static/images/states/saarland/1/c.webp",
       "/static/images/states/saarland/1/d.webp"
     ],
-    "answer": "",
+    "answer": "/static/images/states/saarland/1/c.webp",
     "images": true
   },
   {
@@ -92,7 +92,7 @@
       "3",
       "4"
     ],
-    "answer": "",
+    "answer": "1",
     "images": false,
     "questionImage": true
   },
