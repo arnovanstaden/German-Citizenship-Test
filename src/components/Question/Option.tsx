@@ -43,16 +43,15 @@ const Option: React.FC<Props> = (props) => {
               justifyContent: 'center',
               margin: '16px 0',
               width: '100%',
+              height: '100%'
             }}
           >
             <img
               src={props.label}
               loading='lazy'
               style={{
-                width: '40%',
-                height: 'auto',
-                maxWidth: '200px',
-                maxHeight: '200px',
+                maxWidth: '180px',
+                maxHeight: '180px',
               }}
             />
           </Box>
