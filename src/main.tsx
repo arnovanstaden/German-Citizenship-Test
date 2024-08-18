@@ -2,7 +2,6 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import Layout from './routes/layout';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import ErrorPage from './error-page';
 import './global.css';
 import AllQuestionsRoute from './routes/all';
 import BookmarkedRoute from './routes/bookmarked';
@@ -14,12 +13,12 @@ import QuizScoreRoute from './routes/quiz/score';
 import AllAnswersRoute from './routes/answers';
 import StateIndexRoute from './routes/states';
 import SpecificStateRoute from './routes/states/state';
+import Error404 from './components/Error404/Error404';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
-    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <IndexRoute /> },
       {
@@ -57,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: 'wrong',
         element: <WrongRoute />,
+      },
+      {
+        path: '*',
+        element: <Error404 />,
       },
     ],
   },

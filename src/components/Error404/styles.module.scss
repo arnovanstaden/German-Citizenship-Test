@@ -1,0 +1,16 @@
+.Error404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 120px);
+  gap: 24px;
+  flex-direction: column;
+  text-align: center;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+}
