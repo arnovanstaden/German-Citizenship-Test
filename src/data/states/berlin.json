@@ -20,7 +20,7 @@
       "Pankow",
       "Mecklenburgische Seenplatte"
     ],
-    "answer": "",
+    "answer": "Pankow",
     "images": false
   },
   {
@@ -32,7 +32,7 @@
       "5",
       "6"
     ],
-    "answer": "",
+    "answer": "5",
     "images": false
   },
   {
@@ -44,7 +44,7 @@
       "18",
       "20"
     ],
-    "answer": "",
+    "answer": "16",
     "images": false
   },
   {
@@ -56,7 +56,7 @@
       "grün-weiß-rot",
       "schwarz-gold"
     ],
-    "answer": "",
+    "answer": "weiß-rot",
     "images": false
   },
   {
@@ -68,7 +68,7 @@
       "bei der Verbraucherzentrale",
       "bei der Landeszentrale für politische Bildung"
     ],
-    "answer": "",
+    "answer": "bei der Landeszentrale für politische Bildung",
     "images": false
   },
   {
@@ -80,7 +80,7 @@
       "Brandenburg",
       "Hessen"
     ],
-    "answer": "",
+    "answer": "Berlin",
     "images": false
   },
   {
@@ -105,7 +105,7 @@
       "Präsidentin/Präsident des Senates",
       "Regierende Bürgermeisterin/Regierender Bürgermeister"
     ],
-    "answer": "",
+    "answer": "Regierende Bürgermeisterin/Regierender Bürgermeister",
     "images": false
   },
   {
@@ -117,7 +117,7 @@
       "Senatorin/Senator für Außenbeziehungen",
       "Justizsenatorin/Justizsenator"
     ],
-    "answer": "",
+    "answer": "Senatorin/Senator für Außenbeziehungen",
     "images": false
   }
 ]
