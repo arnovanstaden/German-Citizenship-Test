@@ -30,6 +30,44 @@ export default defineConfig({
           },
         ],
       },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }) => request.mode === 'navigate',
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'pages-cache',
+              expiration: {
+                maxEntries: 50,
+                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+              },
+            },
+          },
+          {
+            urlPattern: /.*\.(?:png|jpg|jpeg|svg|gif|webp)/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'image-cache',
+              expiration: {
+                maxEntries: 60,
+                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+              },
+            },
+          },
+          {
+            urlPattern: /.*\.(?:css|js|html)/,
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'static-resources-cache',
+              expiration: {
+                maxEntries: 100,
+                maxAgeSeconds: 30 * 24 * 60 * 60, // 30 days
+              },
+            },
+          },
+        ],
+      },
     }),
   ],
   server: {
