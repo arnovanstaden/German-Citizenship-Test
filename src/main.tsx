@@ -15,6 +15,14 @@ import StateIndexRoute from './routes/states';
 import SpecificStateRoute from './routes/states/state';
 import Error404 from './components/Error404/Error404';
 
+if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch((registrationError) => {
+      console.log('SW registration failed: ', registrationError);
+    });
+  });
+}
+
 const router = createBrowserRouter([
   {
     path: '/',
