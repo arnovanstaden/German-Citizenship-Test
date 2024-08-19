@@ -9,9 +9,10 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
+        id: 'Einbürgerungstest',
         name: 'Einbürgerungstest',
         short_name: 'Einbürgerungstest',
-        description: 'YBereite dich auf den deutschen Einbürgerungstest vor. Übe mit über 300 Fragen, nimm an Quizzen teil und lerne die Bundesländer kennen.',
+        description: 'Bereite dich auf den deutschen Einbürgerungstest vor. Übe mit über 300 Fragen, nimm an Quizzen teil und lerne die Bundesländer kennen.',
         theme_color: '#121212',
         background_color: '#121212',
         display: 'standalone',
@@ -29,6 +30,20 @@ export default defineConfig({
             type: 'image/png',
           },
         ],
+        screenshots: [
+          {
+            src: '/static/images/meta/screenshots/narrow.png',
+            sizes: '480x320',
+            type: 'image/png',
+            form_factor: 'narrow'
+          },
+          {
+            src: '/static/images/meta/screenshots/wide.png',
+            sizes: '480x320',
+            type: 'image/png',
+            form_factor: 'wide'
+          }
+        ]
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
