@@ -1,7 +1,13 @@
 import { Grid } from '@mui/material';
 import RootCard from '../components/RootCard/RootCard';
+import { usePageMeta } from '../hooks/pageTitle';
 
 const IndexRoute: React.FC = () => {
+  usePageMeta({
+    title: 'Einbürgerungstest',
+    description: 'Bereite dich auf den deutschen Einbürgerungstest vor. Übe mit über 300 Fragen, nimm an Quizzen teil und lerne die Bundesländer kennen.',
+  });
+
   return (
     <Grid container maxWidth="xl" spacing={4}>
       <Grid item xs={12} md={6}>

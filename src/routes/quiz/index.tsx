@@ -1,10 +1,16 @@
 import { Button, Divider, FormControlLabel, Grid, Radio, RadioGroup, Typography } from '@mui/material';
 import { useContext, useState } from 'react';
 import { QuizContext } from '../../context/quiz';
+import { usePageMeta } from '../../hooks/pageTitle';
 
 const QuizIndexRoute: React.FC = () => {
-  const [amount, setAmount] = useState<number | ''>(300);
+  const [amount, setAmount] = useState<number>(300);
   const { startQuiz } = useContext(QuizContext);
+
+  usePageMeta({
+    title: 'Quiz | Einbürgerungstest',
+    description: 'Starten Sie ein Quiz mit zufälligen Fragen zum Einbürgerungstest. Testen Sie Ihr Wissen und bereiten Sie sich auf die Prüfung vor.',
+  });
 
   return (
     <>

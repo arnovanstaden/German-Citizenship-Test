@@ -1,6 +1,7 @@
 import { FormControlLabel, Grid, Radio, RadioGroup, Typography } from '@mui/material';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { usePageMeta } from '../../hooks/pageTitle';
 
 
 const states: { [key: string]: string } = {
@@ -24,6 +25,11 @@ const states: { [key: string]: string } = {
 
 const StateIndexRoute: React.FC = () => {
   const navigate = useNavigate();
+
+  usePageMeta({
+    title: 'Bundesländer | Einbürgerungstest',
+    description: 'Lernen Sie die Bundesländer Deutschlands kennen und bereiten Sie sich auf den spezifischen Teil des Einbürgerungstests vor.',
+  });
 
   return (
     <>
