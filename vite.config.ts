@@ -32,15 +32,15 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: '/static/images/meta/screenshots/narrow.png',
-            sizes: '480x320',
-            type: 'image/png',
+            src: '/static/images/meta/screenshots/narrow.webp',
+            sizes: '516x1117',
+            type: 'image/webp',
             form_factor: 'narrow'
           },
           {
-            src: '/static/images/meta/screenshots/wide.png',
-            sizes: '480x320',
-            type: 'image/png',
+            src: '/static/images/meta/screenshots/wide.webp',
+            sizes: '1226x958',
+            type: 'image/webp',
             form_factor: 'wide'
           }
         ]
