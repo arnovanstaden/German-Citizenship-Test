@@ -14,5 +14,5 @@ export const usePageMeta = ({ title, description }: UsePageMetaProps) => {
 
     const metaDescription = document.querySelector('meta[name="description"]');
     metaDescription?.setAttribute('content', description);
-  }, [location, title]);
+  }, [location, title, description]);
 };

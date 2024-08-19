@@ -60,7 +60,7 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /.*\.(?:png|jpg|jpeg|svg|gif|webp)/,
+            urlPattern: /^\/static\/.*\.(?:png|jpg|jpeg|svg|gif|webp)$/,
             handler: 'CacheFirst',
             options: {
               cacheName: 'image-cache',
