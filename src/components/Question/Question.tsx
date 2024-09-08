@@ -17,8 +17,18 @@ interface QuestionProps {
 
 const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
   const [chosenOption, setChosenOption] = useState<string | undefined>(undefined);
+  const [shuffledOptions, setShuffledOptions] = useState(question.options);
   const { isBookmarked, handleAddBookmark, handleRemoveBookmark } = useBookmarks();
   const { addToWrongAnswers } = useWrongAnswers();
+
+  useEffect(() => {
+    if (props.shuffleOptions) {
+      const shuffled = [...question.options].sort(() => Math.random() - 0.5);
+      setShuffledOptions(shuffled);
+    } else {
+      setShuffledOptions(question.options);
+    }
+  }, [question, props.shuffleOptions]);
 
   useEffect(() => {
     return () => {
@@ -39,8 +49,6 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
       addToWrongAnswers([question.id]);
     };
   };
-
-  const options = props.shuffleOptions ? question.options.sort(() => Math.random() - 0.5) : question.options;
 
   return (
     <Container maxWidth="md" sx={{ padding: 0 }}>
@@ -96,7 +104,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
       )}
       <Grid container spacing={2} paddingTop={5} marginBottom={2}>
         {!props.withAnswerOnly ? (
-          options.map((option) => (
+          shuffledOptions.map((option) => (
             <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
               <Option
                 onSelect={() => handleChoose(option)}
