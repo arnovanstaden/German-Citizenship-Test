@@ -12,6 +12,7 @@ interface QuestionProps {
   onChosen?: (question: Question, correct: boolean) => void;
   withAnswerOnly?: boolean;
   state?: string;
+  shuffleOptions?: boolean;
 }
 
 const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
@@ -38,6 +39,8 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
       addToWrongAnswers([question.id]);
     };
   };
+
+  const options = props.shuffleOptions ? question.options.sort(() => Math.random() - 0.5) : question.options;
 
   return (
     <Container maxWidth="md" sx={{ padding: 0 }}>
@@ -93,7 +96,7 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
       )}
       <Grid container spacing={2} paddingTop={5} marginBottom={2}>
         {!props.withAnswerOnly ? (
-          question.options.map((option) => (
+          options.map((option) => (
             <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
               <Option
                 onSelect={() => handleChoose(option)}

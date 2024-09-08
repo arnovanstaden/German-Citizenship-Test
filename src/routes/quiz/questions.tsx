@@ -51,6 +51,7 @@ const QuizQuestionsRoute: React.FC = () => {
       <Question
         question={question}
         onChosen={handleChosen}
+        shuffleOptions
       />
       {chosen && (
         <Container maxWidth="md">
