@@ -2111,7 +2111,7 @@
       "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
       "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich"
     ],
-    "answer": "1=Großbritannien, 2=Sowjetunion, 3=Frankreich, 4=USA",
+    "answer": "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
     "images": false,
     "questionImage": true
   },
@@ -2510,7 +2510,7 @@
       "/static/images/options/209/c.webp",
       "/static/images/options/209/d.webp"
     ],
-    "answer": "/static/images/options/209/d.webp",
+    "answer": "/static/images/options/209/c.webp",
     "images": true
   },
   {
