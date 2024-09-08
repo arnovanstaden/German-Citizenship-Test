@@ -8,7 +8,7 @@
       "/static/images/states/berlin/1/c.webp",
       "/static/images/states/berlin/1/d.webp"
     ],
-    "answer": "/static/images/states/berlin/1/b.webp",
+    "answer": "/static/images/states/berlin/1/d.webp",
     "images": true
   },
   {
@@ -92,7 +92,7 @@
       "3",
       "4"
     ],
-    "answer": "2",
+    "answer": "4",
     "images": false,
     "questionImage": true
   },
