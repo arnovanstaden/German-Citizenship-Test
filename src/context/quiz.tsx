@@ -2,7 +2,6 @@ import { createContext, useEffect, useState } from 'react';
 import { QuizSettings } from '../types';
 import allQuestionData from '../data/all.json';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useWrongAnswers } from '../hooks/wrong';
 
 const localStorageKey = 'DE_EBT_quizSettings_v1';
 
@@ -29,7 +28,6 @@ export const QuizContext = createContext<QuizContext>({} as QuizContext);
 const QuizContextProviderWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { addToWrongAnswers } = useWrongAnswers();
 
   const initializeQuizSettings = (): QuizSettings => {
     const savedSettings = localStorage.getItem(localStorageKey);
@@ -49,8 +47,6 @@ const QuizContextProviderWrapper: React.FC<{ children: React.ReactNode }> = ({ c
 
     // Handle quiz end
     if (quizEnded && location.pathname !== '/quiz/score') {
-      const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
-      addToWrongAnswers(wrongAnswers);
       navigate('/quiz/score');
       return;
     }
@@ -60,7 +56,7 @@ const QuizContextProviderWrapper: React.FC<{ children: React.ReactNode }> = ({ c
       navigate(`/quiz/${quizSettings.currentQuestion}`);
       return;
     }
-  }, [addToWrongAnswers, location.pathname, navigate, quizSettings, quizEnded]);
+  }, [location.pathname, navigate, quizSettings, quizEnded]);
 
   const startQuiz = (questionAmount: number) => {
     const sampleQuestionIds = allQuestionData.map((question) => question.id);
@@ -79,8 +75,6 @@ const QuizContextProviderWrapper: React.FC<{ children: React.ReactNode }> = ({ c
   };
 
   const exitQuiz = (navigateTo?: string) => {
-    const wrongAnswers = quizSettings.sampleQuestionIds.filter((id) => !quizSettings.correctAnswers.includes(id));
-    addToWrongAnswers(wrongAnswers);
     setQuizSettings(defaultQuizSettings);
     localStorage.setItem(localStorageKey, JSON.stringify(defaultQuizSettings));
 
