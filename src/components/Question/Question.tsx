@@ -117,16 +117,18 @@ const Question: React.FC<QuestionProps> = ({ question, ...props }) => {
             </Grid>
           ))
         ) : (
-          <Grid item md={question.images ? 6 : 12} xs={12}>
-            <Option
-              onSelect={() => { }}
-              disabled={false}
-              checked={true}
-              label={question.answer}
-              image={question.images}
-              correct={true}
-            />
-          </Grid>
+          question.options.map((option) => (
+            <Grid item md={question.images ? 6 : 12} xs={12} key={option}>
+              <Option
+                onSelect={() => { }}
+                disabled={false}
+                checked={option === question.answer}
+                label={option}
+                image={question.images}
+                correct={option === question.answer ? true : undefined}
+              />
+            </Grid>
+          ))
         )}
       </Grid>
     </Container>
